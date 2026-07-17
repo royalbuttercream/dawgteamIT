@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; }
+  a { color: inherit; text-decoration: none; }
+  * { box-sizing: border-box; }
+  @media (max-width: 900px) {
+    .desktop-nav, .desktop-only { display: none !important; }
+  }
+  @media (min-width: 901px) {
+    .mobile-only { display: none !important; }
+  }
+  .nav-item-wrap:hover .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+</style>
+</helmet>
+
+<div style="font-family: 'Libre Franklin', sans-serif; background: oklch(0.985 0.004 90); color: oklch(0.22 0.02 300); min-height: 100vh;">
+
+  <!-- HEADER -->
+  <header style="position: sticky; top: 0; z-index: 50; background: {{ headerBg }}; box-shadow: {{ headerShadow }}; transition: background 0.2s, box-shadow 0.2s;">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 84px;">
+      <a href="#home" style="display: flex; align-items: center; gap: 14px;">
+        <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png" alt="Omega Psi Phi crest" style="width: 52px; height: 52px; object-fit: contain; flex-shrink: 0;" />
+        <div style="display: flex; flex-direction: column; line-height: 1.15;">
+          <span style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 19px; color: white;">Lambda Xi Chapter</span>
+          <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: oklch(0.82 0.11 85);">The RoK Hard Ques &middot; Est. 1977</span>
+        </div>
+      </a>
+
+      <nav style="display: flex; align-items: center; gap: 2px;" class="desktop-nav">
+        <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="7">
+          <div style="position: relative;" class="nav-item-wrap">
+            <a href="{{ item.href }}" style="display: flex; align-items: center; gap: 5px; padding: 10px 14px; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.92); border-radius: 6px;" style-hover="background: rgba(255,255,255,0.1); color: white;">
+              {{ item.label }}
+              <sc-if value="{{ item.hasSub }}"><span style="font-size: 9px; opacity: 0.7;">&#9660;</span></sc-if>
+            </a>
+            <sc-if value="{{ item.hasSub }}">
+              <div class="submenu" style="position: absolute; top: 100%; left: 0; min-width: 220px; background: oklch(0.24 0.05 300); border-radius: 8px; box-shadow: 0 12px 32px rgba(0,0,0,0.28); padding: 6px; opacity: 0; visibility: hidden; transform: translateY(4px); transition: opacity 0.15s, transform 0.15s;">
+                <sc-for list="{{ item.submenu }}" as="sub" hint-placeholder-count="3">
+                  <a href="{{ sub.href }}" style="display: block; padding: 10px 12px; font-size: 13.5px; font-weight: 500; color: rgba(255,255,255,0.85); border-radius: 5px;" style-hover="background: oklch(0.3 0.07 300); color: white;">{{ sub.label }}</a>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <a href="https://msp.oppf.org/" class="desktop-only" style="background: oklch(0.7 0.14 85); color: oklch(0.2 0.04 300); padding: 10px 20px; border-radius: 999px; font-size: 13.5px; font-weight: 700; letter-spacing: 0.02em;" style-hover="background: oklch(0.76 0.15 85);">Seeking</a>
+        <button onClick="{{ toggleMobileMenu }}" class="mobile-only" style="background: none; border: none; color: white; font-size: 22px; padding: 6px; cursor: pointer;">{{ mobileMenuIcon }}</button>
+      </div>
+    </div>
+
+    <sc-if value="{{ mobileMenuOpen }}" hint-placeholder-val="{{ false }}">
+      <div class="mobile-only" style="background: oklch(0.2 0.045 300); padding: 8px 16px 20px;">
+        <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="7">
+          <div>
+            <a href="{{ item.href }}" style="display: block; padding: 12px 8px; font-size: 15px; font-weight: 600; color: white; border-bottom: 1px solid rgba(255,255,255,0.08);">{{ item.label }}</a>
+            <sc-if value="{{ item.hasSub }}">
+              <div style="padding-left: 16px;">
+                <sc-for list="{{ item.submenu }}" as="sub" hint-placeholder-count="3">
+                  <a href="{{ sub.href }}" style="display: block; padding: 9px 8px; font-size: 13.5px; color: rgba(255,255,255,0.75);">{{ sub.label }}</a>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+        <a href="https://msp.oppf.org/" style="display: block; margin-top: 14px; text-align: center; background: oklch(0.7 0.14 85); color: oklch(0.2 0.04 300); padding: 12px; border-radius: 999px; font-size: 14px; font-weight: 700;">Seeking</a>
+      </div>
+    </sc-if>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" style="position: relative; background: linear-gradient(160deg, oklch(0.24 0.06 300), oklch(0.16 0.05 300)); color: white; padding: 96px 24px 84px; text-align: center; overflow: hidden;">
+    <div style="position: absolute; inset: 0; opacity: 0.5; background-image: radial-gradient(circle at 20% 20%, oklch(0.7 0.14 85 / 0.12), transparent 40%), radial-gradient(circle at 80% 70%, oklch(0.7 0.14 85 / 0.1), transparent 45%);"></div>
+    <div style="position: relative; max-width: 780px; margin: 0 auto;">
+      <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png" alt="Omega Psi Phi crest" style="width: 92px; height: 92px; object-fit: contain; margin: 0 auto 28px;" />
+      <p style="font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: oklch(0.82 0.11 85); font-weight: 600; margin: 0 0 18px;">Omega Psi Phi Fraternity, Inc. &middot; Lambda Xi Chapter</p>
+      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(34px, 5vw, 56px); font-weight: 700; line-height: 1.1; margin: 0 0 20px;">Friendship Is Essential to the Soul</h1>
+      <p style="font-size: 17px; line-height: 1.6; color: rgba(255,255,255,0.78); max-width: 560px; margin: 0 auto 36px;">The RoK Hard Ques &mdash; serving active-duty service members, civilians, and communities across the Korean Peninsula since 1977.</p>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="#legacy" style="background: oklch(0.7 0.14 85); color: oklch(0.2 0.04 300); padding: 14px 30px; border-radius: 999px; font-weight: 700; font-size: 14.5px;" style-hover="background: oklch(0.76 0.15 85);">Our Legacy</a>
+        <a href="#contact" style="background: transparent; border: 1.5px solid rgba(255,255,255,0.4); color: white; padding: 14px 30px; border-radius: 999px; font-weight: 700; font-size: 14.5px;" style-hover="background: rgba(255,255,255,0.08); border-color: white;">Get Involved</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BASILEUS MESSAGE -->
+  <section id="legacy" style="padding: 88px 24px; background: white;">
+    <div style="max-width: 880px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 40px;">
+      <div style="text-align: center;">
+        <p style="font-size: 12.5px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.5 0.1 300); font-weight: 700; margin: 0 0 10px;">Leadership</p>
+        <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(28px, 3.5vw, 38px); font-weight: 700; margin: 0; color: oklch(0.22 0.05 300);">Message from the Basileus</h2>
+      </div>
+      <div style="background: oklch(0.985 0.004 90); border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 44px 40px;">
+        <p style="font-size: 16.5px; line-height: 1.8; color: oklch(0.32 0.02 300); margin: 0 0 18px;">Greetings, on behalf of the Brothers of the Lambda Xi Chapter, welcome and thank you for visiting our official website. I am honored to serve as Basileus for the 2025&ndash;2026 Omega Year, guided by our theme: &ldquo;Exceeding Our Founders&rsquo; Expectations.&rdquo;</p>
+        <p style="font-size: 16.5px; line-height: 1.8; color: oklch(0.32 0.02 300); margin: 0 0 18px;">Our Founders established Omega Psi Phi Fraternity, Inc. on the principles of Manhood, Scholarship, Perseverance, and Uplift &mdash; values that continue to shape our work and define our purpose.</p>
+        <p style="font-size: 16.5px; line-height: 1.8; color: oklch(0.32 0.02 300); margin: 0 0 30px;">Lambda Xi is composed of active duty service members and civilians residing across various regions of the Korean Peninsula, united in friendship and committed to advancing the mission of Omega. As one of Omega&rsquo;s international chapters, we proudly serve the Korean Peninsula.</p>
+        <div style="border-left: 3px solid oklch(0.7 0.14 85); padding-left: 22px;">
+          <p style="font-style: italic; font-size: 15.5px; margin: 0 0 10px; color: oklch(0.4 0.02 300);">In Friendship and Service,</p>
+          <p style="font-weight: 700; font-size: 16px; margin: 0; color: oklch(0.22 0.05 300);">Bro. Eugene Gibbs</p>
+          <p style="font-size: 14px; margin: 4px 0 0; color: oklch(0.5 0.02 300);">Basileus, Lambda Xi Chapter</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section id="events" style="padding: 88px 24px; background: oklch(0.985 0.004 90);">
+    <div style="max-width: 1080px; margin: 0 auto;">
+      <div style="text-align: center; margin-bottom: 48px;">
+        <p style="font-size: 12.5px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.5 0.1 300); font-weight: 700; margin: 0 0 10px;">What&rsquo;s Next</p>
+        <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(28px, 3.5vw, 38px); font-weight: 700; margin: 0; color: oklch(0.22 0.05 300);">Upcoming Events</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+        <sc-for list="{{ events }}" as="event" hint-placeholder-count="1">
+          <a href="{{ event.href }}" style="display: block; background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 32px 28px; transition: box-shadow 0.15s, transform 0.15s;" style-hover="box-shadow: 0 12px 28px rgba(0,0,0,0.08); transform: translateY(-2px);">
+            <div style="width: 44px; height: 44px; border-radius: 10px; background: oklch(0.94 0.03 300); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+              <div style="width: 18px; height: 18px; border: 2px solid oklch(0.4 0.1 300); border-radius: 4px;"></div>
+            </div>
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 700; margin: 0 0 8px; color: oklch(0.22 0.05 300);">{{ event.title }}</h3>
+            <p style="font-size: 14px; color: oklch(0.5 0.02 300); margin: 0; font-weight: 500;">{{ event.date }}</p>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" style="padding: 88px 24px; background: white;">
+    <div style="max-width: 1080px; margin: 0 auto;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <p style="font-size: 12.5px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.5 0.1 300); font-weight: 700; margin: 0 0 10px;">Chapter Moments</p>
+        <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(28px, 3.5vw, 38px); font-weight: 700; margin: 0; color: oklch(0.22 0.05 300);">Gallery</h2>
+      </div>
+      <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 36px;">
+        <sc-for list="{{ galleryYears }}" as="year" hint-placeholder-count="6">
+          <button onClick="{{ selectYear }}" data-year="{{ year.label }}" style="border: 1.5px solid {{ year.border }}; background: {{ year.bg }}; color: {{ year.color }}; padding: 9px 22px; border-radius: 999px; font-weight: 700; font-size: 13.5px; cursor: pointer;">{{ year.label }}</button>
+        </sc-for>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
+        <sc-for list="{{ galleryPlaceholders }}" as="ph" hint-placeholder-count="4">
+          <div style="aspect-ratio: 1; border-radius: 12px; background: repeating-linear-gradient(45deg, oklch(0.94 0.01 90), oklch(0.94 0.01 90) 10px, oklch(0.91 0.01 90) 10px, oklch(0.91 0.01 90) 20px); display: flex; align-items: center; justify-content: center; text-align: center; padding: 16px;">
+            <span style="font-family: monospace; font-size: 12px; color: oklch(0.5 0.02 90);">{{ ph }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERS TEASER -->
+  <section id="members" style="padding: 88px 24px; background: oklch(0.985 0.004 90);">
+    <div style="max-width: 720px; margin: 0 auto; text-align: center;">
+      <p style="font-size: 12.5px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.5 0.1 300); font-weight: 700; margin: 0 0 10px;">The Brotherhood</p>
+      <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(28px, 3.5vw, 38px); font-weight: 700; margin: 0 0 18px; color: oklch(0.22 0.05 300);">Executive Officers &amp; Members</h2>
+      <p style="font-size: 16px; line-height: 1.7; color: oklch(0.4 0.02 300); margin: 0 0 30px;">Meet the brothers leading Lambda Xi&rsquo;s work across the Korean Peninsula &mdash; from executive officers to our full roster of members.</p>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="executive-officers.dc.html" style="background: oklch(0.3 0.08 300); color: white; padding: 13px 26px; border-radius: 999px; font-weight: 700; font-size: 14px;" style-hover="background: oklch(0.24 0.06 300);">Executive Officers</a>
+        <a href="lineage.dc.html" style="background: transparent; border: 1.5px solid oklch(0.75 0.02 300); color: oklch(0.3 0.02 300); padding: 13px 26px; border-radius: 999px; font-weight: 700; font-size: 14px;" style-hover="background: oklch(0.94 0.01 90);">Lineage</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="padding: 76px 24px; background: linear-gradient(135deg, oklch(0.24 0.06 300), oklch(0.16 0.05 300)); color: white; text-align: center;">
+    <div style="max-width: 560px; margin: 0 auto;">
+      <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(26px, 3vw, 32px); font-weight: 700; margin: 0 0 14px;">Stay Connected</h2>
+      <p style="font-size: 15.5px; color: rgba(255,255,255,0.75); margin: 0 0 28px;">Get updates on chapter events, service initiatives, and news across the Peninsula.</p>
+      <form style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;" onSubmit="{{ preventSubmit }}">
+        <input type="email" placeholder="Enter your email" style="flex: 1; min-width: 220px; padding: 13px 18px; border-radius: 999px; border: none; font-size: 14.5px; outline: none;" />
+        <button type="submit" style="background: oklch(0.7 0.14 85); color: oklch(0.2 0.04 300); padding: 13px 28px; border-radius: 999px; font-weight: 700; font-size: 14.5px; border: none; cursor: pointer;" style-hover="background: oklch(0.76 0.15 85);">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" style="background: oklch(0.14 0.04 300); color: rgba(255,255,255,0.8); padding: 60px 24px 32px;">
+    <div style="max-width: 1080px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 32px; margin-bottom: 40px;">
+        <div>
+          <h3 style="color: white; font-size: 14px; font-weight: 700; margin: 0 0 14px; letter-spacing: 0.02em;">Legacy</h3>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <a href="history-of-omega-psi-phi.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">History of Omega Psi Phi</a>
+            <a href="history-of-lambda-xi.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">History of Lambda Xi</a>
+            <a href="past-basilei.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Past Basilei</a>
+          </div>
+        </div>
+        <div>
+          <h3 style="color: white; font-size: 14px; font-weight: 700; margin: 0 0 14px; letter-spacing: 0.02em;">Programs</h3>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <a href="mandated-programs.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Mandated Programs</a>
+            <a href="scholarships.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Scholarships</a>
+          </div>
+        </div>
+        <div>
+          <h3 style="color: white; font-size: 14px; font-weight: 700; margin: 0 0 14px; letter-spacing: 0.02em;">Chapter</h3>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <a href="#events" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Events</a>
+            <a href="#gallery" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Gallery</a>
+            <a href="news.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">News</a>
+          </div>
+        </div>
+        <div>
+          <h3 style="color: white; font-size: 14px; font-weight: 700; margin: 0 0 14px; letter-spacing: 0.02em;">Contact</h3>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <a href="https://maps.google.com/maps?q=36.95861337189751,127.0427376735077" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Find Us</a>
+            <a href="contact-us.dc.html" style="font-size: 13.5px;" style-hover="color: oklch(0.75 0.12 85);">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px; text-align: center; font-size: 12.5px; color: rgba(255,255,255,0.5);">
+        <p style="margin: 0 0 6px;">&copy; Lambda Xi Chapter, Omega Psi Phi Fraternity, Inc. &mdash; Established 1977</p>
+        <p style="margin: 0;">RoK Hard Since 1977</p>
+      </div>
+    </div>
+  </footer>
+
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = {
+    scrolled: false,
+    mobileMenuOpen: false,
+    selectedYear: '2025',
+  };
+
+  componentDidMount() {
+    this._onScroll = () => this.setState({ scrolled: window.scrollY > 40 });
+    window.addEventListener('scroll', this._onScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+  }
+
+  renderVals() {
+    const navItems = [
+      { label: 'Home', href: '#home', hasSub: false },
+      { label: 'Our Legacy', href: '#legacy', hasSub: true, submenu: [
+        { label: 'History of Omega Psi Phi', href: 'history-of-omega-psi-phi.dc.html' },
+        { label: 'History of Lambda Xi', href: 'history-of-lambda-xi.dc.html' },
+        { label: 'Executive Officers', href: 'executive-officers.dc.html' },
+        { label: 'Past Basilei', href: 'past-basilei.dc.html' },
+        { label: 'Lineage', href: 'lineage.dc.html' },
+      ]},
+      { label: 'Programs', href: 'mandated-programs.dc.html', hasSub: true, submenu: [
+        { label: 'Mandated Programs', href: 'mandated-programs.dc.html' },
+        { label: 'Scholarships', href: 'scholarships.dc.html' },
+      ]},
+      { label: 'Events', href: '#events', hasSub: false },
+      { label: 'Gallery', href: '#gallery', hasSub: false },
+      { label: 'News', href: 'news.dc.html', hasSub: false },
+      { label: 'Contact', href: '#contact', hasSub: false },
+    ];
+
+    const events = [
+      { title: '50th Anniversary Gala', date: 'Date TBA', href: '50th-anniversary-gala.dc.html' },
+    ];
+
+    const galleryYears = ['2025', '2024', '2023', '2022', '2021', '2017-2020'].map(label => {
+      const active = label === this.state.selectedYear;
+      return {
+        label,
+        border: active ? 'oklch(0.3 0.08 300)' : 'oklch(0.88 0.01 90)',
+        bg: active ? 'oklch(0.3 0.08 300)' : 'white',
+        color: active ? 'white' : 'oklch(0.35 0.02 300)',
+      };
+    });
+    const galleryPlaceholders = [1, 2, 3, 4].map(i => `photo ${i} — ${this.state.selectedYear}`);
+
+    return {
+      navItems,
+      events,
+      galleryYears,
+      galleryPlaceholders,
+      headerBg: this.state.scrolled ? 'oklch(0.16 0.05 300)' : 'oklch(0.2 0.06 300)',
+      headerShadow: this.state.scrolled ? '0 4px 18px rgba(0,0,0,0.18)' : 'none',
+      mobileMenuOpen: this.state.mobileMenuOpen,
+      mobileMenuIcon: this.state.mobileMenuOpen ? '\u2715' : '\u2630',
+      toggleMobileMenu: () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen })),
+      selectYear: (e) => this.setState({ selectedYear: e.currentTarget.dataset.year }),
+      preventSubmit: (e) => e.preventDefault(),
+    };
+  }
+}
+
+</script>
+</body>
+</html>

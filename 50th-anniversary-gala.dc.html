@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; }
+  a { color: inherit; text-decoration: none; }
+  * { box-sizing: border-box; }
+  @media (max-width: 900px) { .desktop-nav, .desktop-only { display: none !important; } }
+  @media (min-width: 901px) { .mobile-only { display: none !important; } }
+  .nav-item-wrap:hover .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+</style>
+</helmet>
+
+<div style="font-family: 'Libre Franklin', sans-serif; background: oklch(0.985 0.004 90); color: oklch(0.22 0.02 300); min-height: 100vh;">
+
+  <header style="position: sticky; top: 0; z-index: 50; background: oklch(0.2 0.06 300);">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 84px;">
+      <a href="Lambda Xi Homepage.dc.html" style="display: flex; align-items: center; gap: 14px;">
+        <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png" alt="Omega Psi Phi crest" style="width: 52px; height: 52px; object-fit: contain; flex-shrink: 0;" />
+        <div style="display: flex; flex-direction: column; line-height: 1.15;">
+          <span style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 19px; color: white;">Lambda Xi Chapter</span>
+          <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: oklch(0.82 0.11 85);">The RoK Hard Ques &middot; Est. 1977</span>
+        </div>
+      </a>
+      <nav style="display: flex; align-items: center; gap: 2px;" class="desktop-nav">
+        <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="7">
+          <div style="position: relative;" class="nav-item-wrap">
+            <a href="{{ item.href }}" style="display: flex; align-items: center; gap: 5px; padding: 10px 14px; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.92); border-radius: 6px;" style-hover="background: rgba(255,255,255,0.1); color: white;">
+              {{ item.label }}
+              <sc-if value="{{ item.hasSub }}"><span style="font-size: 9px; opacity: 0.7;">&#9660;</span></sc-if>
+            </a>
+            <sc-if value="{{ item.hasSub }}">
+              <div class="submenu" style="position: absolute; top: 100%; left: 0; min-width: 220px; background: oklch(0.24 0.05 300); border-radius: 8px; box-shadow: 0 12px 32px rgba(0,0,0,0.28); padding: 6px; opacity: 0; visibility: hidden; transform: translateY(4px); transition: opacity 0.15s, transform 0.15s;">
+                <sc-for list="{{ item.submenu }}" as="sub" hint-placeholder-count="3">
+                  <a href="{{ sub.href }}" style="display: block; padding: 10px 12px; font-size: 13.5px; font-weight: 500; color: rgba(255,255,255,0.85); border-radius: 5px;" style-hover="background: oklch(0.3 0.07 300); color: white;">{{ sub.label }}</a>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <a href="https://msp.oppf.org/" class="desktop-only" style="background: oklch(0.7 0.14 85); color: oklch(0.2 0.04 300); padding: 10px 20px; border-radius: 999px; font-size: 13.5px; font-weight: 700;">Seeking</a>
+        <button onClick="{{ toggleMobileMenu }}" class="mobile-only" style="background: none; border: none; color: white; font-size: 22px; padding: 6px; cursor: pointer;">{{ mobileMenuIcon }}</button>
+      </div>
+    </div>
+    <sc-if value="{{ mobileMenuOpen }}" hint-placeholder-val="{{ false }}">
+      <div class="mobile-only" style="background: oklch(0.2 0.045 300); padding: 8px 16px 20px;">
+        <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="7">
+          <div>
+            <a href="{{ item.href }}" style="display: block; padding: 12px 8px; font-size: 15px; font-weight: 600; color: white; border-bottom: 1px solid rgba(255,255,255,0.08);">{{ item.label }}</a>
+            <sc-if value="{{ item.hasSub }}">
+              <div style="padding-left: 16px;">
+                <sc-for list="{{ item.submenu }}" as="sub" hint-placeholder-count="3">
+                  <a href="{{ sub.href }}" style="display: block; padding: 9px 8px; font-size: 13.5px; color: rgba(255,255,255,0.75);">{{ sub.label }}</a>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </sc-if>
+  </header>
+
+  <section style="padding: 64px 24px 24px; text-align: center; background: linear-gradient(160deg, oklch(0.24 0.06 300), oklch(0.16 0.05 300)); color: white;">
+    <p style="font-size: 12.5px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.82 0.11 85); font-weight: 700; margin: 0 0 12px;">Upcoming Event</p>
+    <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0;">50th Anniversary Gala</h1>
+  </section>
+
+  <section style="padding: 64px 24px 96px;">
+    <div style="max-width: 640px; margin: 0 auto; background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 44px 40px; text-align: center;">
+      <div style="display: inline-flex; align-items: center; gap: 10px; background: oklch(0.94 0.03 300); padding: 10px 20px; border-radius: 999px; margin-bottom: 24px;">
+        <div style="width: 16px; height: 16px; border: 2px solid oklch(0.4 0.1 300); border-radius: 4px;"></div>
+        <span style="font-size: 14px; font-weight: 700; color: oklch(0.35 0.08 300);">Date: TBA</span>
+      </div>
+      <p style="font-size: 16.5px; line-height: 1.8; color: oklch(0.4 0.02 300); margin: 0 0 30px;">Join the Brothers of Lambda Xi as we celebrate five decades of friendship, service, and leadership on the Korean Peninsula &mdash; commemorating our 1977 charter as the first Black Greek Letter Organization activated on the Korean Peninsula.</p>
+      <a href="contact-us.dc.html" style="display: inline-block; background: oklch(0.7 0.14 85); color: oklch(0.2 0.04 300); padding: 14px 32px; border-radius: 999px; font-weight: 700; font-size: 14.5px;" style-hover="background: oklch(0.76 0.15 85);">Get Updates</a>
+    </div>
+  </section>
+
+  <footer style="background: oklch(0.14 0.04 300); color: rgba(255,255,255,0.6); padding: 32px 24px; text-align: center; font-size: 12.5px;">
+    <p style="margin: 0 0 6px;">&copy; Lambda Xi Chapter, Omega Psi Phi Fraternity, Inc. &mdash; Established 1977</p>
+    <a href="Lambda Xi Homepage.dc.html" style="color: oklch(0.75 0.12 85);">&larr; Back to Home</a>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { mobileMenuOpen: false };
+  renderVals() {
+    const navItems = [
+      { label: 'Home', href: 'Lambda Xi Homepage.dc.html', hasSub: false },
+      { label: 'Our Legacy', href: 'history-of-omega-psi-phi.dc.html', hasSub: true, submenu: [
+        { label: 'History of Omega Psi Phi', href: 'history-of-omega-psi-phi.dc.html' },
+        { label: 'History of Lambda Xi', href: 'history-of-lambda-xi.dc.html' },
+        { label: 'Executive Officers', href: 'executive-officers.dc.html' },
+        { label: 'Past Basilei', href: 'past-basilei.dc.html' },
+        { label: 'Lineage', href: 'lineage.dc.html' },
+      ]},
+      { label: 'Programs', href: 'mandated-programs.dc.html', hasSub: true, submenu: [
+        { label: 'Mandated Programs', href: 'mandated-programs.dc.html' },
+        { label: 'Scholarships', href: 'scholarships.dc.html' },
+      ]},
+      { label: 'Events', href: '50th-anniversary-gala.dc.html', hasSub: false },
+      { label: 'Gallery', href: 'Lambda Xi Homepage.dc.html#gallery', hasSub: false },
+      { label: 'News', href: 'news.dc.html', hasSub: false },
+      { label: 'Contact', href: 'contact-us.dc.html', hasSub: false },
+    ];
+    return {
+      navItems,
+      mobileMenuOpen: this.state.mobileMenuOpen,
+      mobileMenuIcon: this.state.mobileMenuOpen ? '\u2715' : '\u2630',
+      toggleMobileMenu: () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen })),
+    };
+  }
+}
+
+</script>
+</body>
+</html>
