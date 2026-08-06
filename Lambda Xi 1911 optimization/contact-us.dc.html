@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Lambda Xi Chapter</title>
+<meta name="description" content="Get in touch with the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc. — inquiries about membership, scholarships, and events.">
 <script src="./support.js"></script>
 </head>
 <body>
@@ -146,6 +148,9 @@ class Component extends DCLogic {
       toggleMobileMenu: () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen })),
       submitted: this.state.submitted,
       notSubmitted: !this.state.submitted,
+      // TODO: no backend yet — this form does NOT deliver messages anywhere.
+      // Wire to a form service (e.g. Formspree: POST to https://formspree.io/f/<form-id>)
+      // or replace with a mailto: link before relying on this page for inquiries.
       handleSubmit: (e) => { e.preventDefault(); this.setState({ submitted: true }); },
     };
   }
