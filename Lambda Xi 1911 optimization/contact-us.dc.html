@@ -6,6 +6,7 @@
 <title>Contact Us | Lambda Xi Chapter</title>
 <meta name="description" content="Get in touch with the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc. — inquiries about membership, scholarships, and events.">
 <script src="./support.js"></script>
+<script src="../js/lambdaxi-data.js"></script>
 </head>
 <body>
 <x-dc>
@@ -91,18 +92,17 @@
       <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
         <form onSubmit="{{ handleSubmit }}" style="display: flex; flex-direction: column; gap: 16px;">
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-            <input required placeholder="First Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
-            <input required placeholder="Last Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+            <input required name="firstName" placeholder="First Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+            <input required name="lastName" placeholder="Last Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
           </div>
-          <input required type="email" placeholder="Email" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
-          <select style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; color: oklch(0.4 0.02 300);">
-            <option>Select a topic...</option>
+          <input required type="email" name="email" placeholder="Email" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <select name="topic" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; color: oklch(0.4 0.02 300);">
             <option>General Inquiry</option>
             <option>Scholarships</option>
             <option>Membership Interest</option>
             <option>Events</option>
           </select>
-          <textarea required placeholder="Message" rows="5" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; resize: vertical;"></textarea>
+          <textarea required name="message" placeholder="Message" rows="5" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; resize: vertical;"></textarea>
           <button type="submit" style="background: oklch(0.3 0.08 300); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer;" style-hover="background: oklch(0.24 0.06 300);">Submit</button>
         </form>
       </sc-if>
@@ -151,7 +151,21 @@ class Component extends DCLogic {
       // TODO: no backend yet — this form does NOT deliver messages anywhere.
       // Wire to a form service (e.g. Formspree: POST to https://formspree.io/f/<form-id>)
       // or replace with a mailto: link before relying on this page for inquiries.
-      handleSubmit: (e) => { e.preventDefault(); this.setState({ submitted: true }); },
+      // Membership Interest submissions additionally save to localStorage via
+      // js/lambdaxi-data.js (placeholder for the future Supabase `applications` table).
+      handleSubmit: (e) => {
+        e.preventDefault();
+        const data = new FormData(e.target);
+        if (data.get('topic') === 'Membership Interest') {
+          window.LambdaXiData.submitApplication('membership_interest', {
+            applicant_name: `${data.get('firstName')} ${data.get('lastName')}`.trim(),
+            email: data.get('email'),
+            phone: '',
+            payload: { message: data.get('message') },
+          });
+        }
+        this.setState({ submitted: true });
+      },
     };
   }
 }

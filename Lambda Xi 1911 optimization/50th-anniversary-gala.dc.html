@@ -6,6 +6,7 @@
 <title>50th Anniversary Gala | Lambda Xi Chapter</title>
 <meta name="description" content="Celebrating 50 years of the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc. — event details for the 50th Anniversary Gala.">
 <script src="./support.js"></script>
+<script src="../js/lambdaxi-data.js"></script>
 </head>
 <body>
 <x-dc>
@@ -89,6 +90,28 @@
     </div>
   </section>
 
+  <section style="padding: 8px 24px 96px;">
+    <div style="max-width: 560px; margin: 0 auto; background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 44px 40px;">
+      <h2 style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; margin: 0 0 24px; text-align: center; color: oklch(0.22 0.05 300);">RSVP Your Interest</h2>
+      <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align: center; padding: 20px 0;">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: oklch(0.94 0.05 145); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 26px; color: oklch(0.45 0.12 145);">&#10003;</div>
+          <h3 style="font-family: 'Playfair Display', serif; font-size: 20px; margin: 0 0 10px; color: oklch(0.22 0.05 300);">You're On the List</h3>
+          <p style="font-size: 15px; color: oklch(0.45 0.02 300); margin: 0;">We'll email you as soon as the date and ticket details are confirmed.</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+        <form onSubmit="{{ handleSubmit }}" style="display: flex; flex-direction: column; gap: 16px;">
+          <input required name="fullName" placeholder="Full Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <input required type="email" name="email" placeholder="Email" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <input name="guests" type="number" min="1" placeholder="Number of Guests" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <textarea name="notes" placeholder="Dietary needs or notes (optional)" rows="3" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; resize: vertical;"></textarea>
+          <button type="submit" style="background: oklch(0.3 0.08 300); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer;" style-hover="background: oklch(0.24 0.06 300);">Submit RSVP</button>
+        </form>
+      </sc-if>
+    </div>
+  </section>
+
   <footer style="background: oklch(0.14 0.04 300); color: rgba(255,255,255,0.6); padding: 32px 24px; text-align: center; font-size: 12.5px;">
     <p style="margin: 0 0 6px;">&copy; Lambda Xi Chapter, Omega Psi Phi Fraternity, Inc. &mdash; Established 1977</p>
     <a href="Lambda Xi Homepage.dc.html" style="color: oklch(0.75 0.12 85);">&larr; Back to Home</a>
@@ -98,7 +121,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
-  state = { mobileMenuOpen: false };
+  state = { mobileMenuOpen: false, submitted: false };
   renderVals() {
     const navItems = [
       { label: 'Home', href: 'Lambda Xi Homepage.dc.html', hasSub: false },
@@ -123,6 +146,25 @@ class Component extends DCLogic {
       mobileMenuOpen: this.state.mobileMenuOpen,
       mobileMenuIcon: this.state.mobileMenuOpen ? '\u2715' : '\u2630',
       toggleMobileMenu: () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen })),
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      // Placeholder: RSVPs save to this browser's localStorage only (js/lambdaxi-data.js).
+      // No officer is notified yet \u2014 swap this for a real Supabase insert when the backend exists.
+      handleSubmit: (e) => {
+        e.preventDefault();
+        const data = new FormData(e.target);
+        window.LambdaXiData.submitApplication('event_rsvp', {
+          applicant_name: data.get('fullName'),
+          email: data.get('email'),
+          phone: '',
+          payload: {
+            event: '50th Anniversary Gala',
+            guests: data.get('guests') || '1',
+            notes: data.get('notes'),
+          },
+        });
+        this.setState({ submitted: true });
+      },
     };
   }
 }
