@@ -11,7 +11,7 @@
 <x-dc>
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Libre+Franklin:wght@400;500;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
 <style>
   body { margin: 0; }
   a { color: inherit; text-decoration: none; }
@@ -23,6 +23,8 @@
     .mobile-only { display: none !important; }
   }
   .nav-item-wrap:hover .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+  @keyframes marquee-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .marquee-track { display: flex; width: max-content; animation: marquee-scroll 24s linear infinite; }
 </style>
 </helmet>
 
@@ -83,9 +85,11 @@
   </header>
 
   <!-- HERO -->
-  <section id="home" style="position: relative; background: linear-gradient(160deg, oklch(0.24 0.06 300), oklch(0.16 0.05 300)); color: white; padding: 96px 24px 84px; text-align: center; overflow: hidden;">
-    <div style="position: absolute; inset: 0; opacity: 0.5; background-image: radial-gradient(circle at 20% 20%, oklch(0.7 0.14 85 / 0.12), transparent 40%), radial-gradient(circle at 80% 70%, oklch(0.7 0.14 85 / 0.1), transparent 45%);"></div>
-    <div style="position: relative; max-width: 780px; margin: 0 auto;">
+  <section id="home" style="position: relative; color: white; padding: 140px 24px 120px; text-align: center; overflow: hidden; min-height: 620px; display: flex; align-items: center; justify-content: center;">
+    <div id="hero-video-mount" style="position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden;"></div>
+    <div style="position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, oklch(0.14 0.05 300 / 0.75), oklch(0.14 0.05 300 / 0.55) 50%, oklch(0.14 0.05 300 / 0.85));"></div>
+    <p aria-hidden="true" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2; font-family: 'Archivo Black', sans-serif; font-size: clamp(64px, 14vw, 190px); line-height: 1; color: rgba(255,255,255,0.07); white-space: nowrap; margin: 0; letter-spacing: 0.02em;">UPLIFT</p>
+    <div style="position: relative; z-index: 3; max-width: 780px; margin: 0 auto;">
       <img src="../images/shared/omega-psi-phi-crest.png" alt="Omega Psi Phi crest" style="width: 92px; height: 92px; object-fit: contain; margin: 0 auto 28px;" />
       <p style="font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: oklch(0.82 0.11 85); font-weight: 600; margin: 0 0 18px;">Omega Psi Phi Fraternity, Inc. &middot; Lambda Xi Chapter</p>
       <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(34px, 5vw, 56px); font-weight: 700; line-height: 1.1; margin: 0 0 20px;">Friendship Is Essential to the Soul</h1>
@@ -114,6 +118,29 @@
           <p style="font-size: 14px; margin: 4px 0 0; color: oklch(0.5 0.02 300);">Basileus, Lambda Xi Chapter</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- IMPACT STATS -->
+  <section style="position: relative; padding: 80px 24px; background: linear-gradient(160deg, oklch(0.24 0.06 300), oklch(0.16 0.05 300)); color: white; text-align: center; overflow: hidden;">
+    <p style="font-size: 12.5px; letter-spacing: 0.2em; text-transform: uppercase; color: oklch(0.82 0.11 85); font-weight: 700; margin: 0 0 12px;">Since 1977</p>
+    <h2 style="font-family: 'Archivo Black', sans-serif; font-size: clamp(24px, 3vw, 34px); margin: 0 0 48px;">Our Impact Runs Deep</h2>
+    <div style="max-width: 780px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 32px;">
+      <sc-for list="{{ impactStats }}" as="stat" hint-placeholder-count="3">
+        <div>
+          <p style="font-family: 'Archivo Black', sans-serif; font-size: clamp(36px, 5vw, 52px); color: oklch(0.75 0.14 85); margin: 0 0 8px; line-height: 1;">{{ stat.value }}</p>
+          <p style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; color: rgba(255,255,255,0.85); margin: 0;">{{ stat.label }}</p>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES MARQUEE -->
+  <section style="background: oklch(0.7 0.14 85); padding: 16px 0; overflow: hidden;" aria-hidden="true">
+    <div class="marquee-track">
+      <sc-for list="{{ marqueeRepeat }}" as="rep" hint-placeholder-count="2">
+        <span style="white-space: nowrap; font-family: 'Archivo Black', sans-serif; font-size: 20px; color: oklch(0.2 0.04 300); padding: 0 20px;">MANHOOD &bull; SCHOLARSHIP &bull; PERSEVERANCE &bull; UPLIFT &bull;</span>
+      </sc-for>
     </div>
   </section>
 
@@ -150,13 +177,18 @@
           <button onClick="{{ selectYear }}" data-year="{{ year.label }}" style="border: 1.5px solid {{ year.border }}; background: {{ year.bg }}; color: {{ year.color }}; padding: 9px 22px; border-radius: 999px; font-weight: 700; font-size: 13.5px; cursor: pointer;">{{ year.label }}</button>
         </sc-for>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
-        <sc-for list="{{ galleryPlaceholders }}" as="ph" hint-placeholder-count="4">
-          <div style="aspect-ratio: 1; border-radius: 12px; background: repeating-linear-gradient(45deg, oklch(0.94 0.01 90), oklch(0.94 0.01 90) 10px, oklch(0.91 0.01 90) 10px, oklch(0.91 0.01 90) 20px); display: flex; align-items: center; justify-content: center; text-align: center; padding: 16px;">
-            <span style="font-family: monospace; font-size: 12px; color: oklch(0.5 0.02 90);">{{ ph }}</span>
-          </div>
-        </sc-for>
-      </div>
+      <sc-if value="{{ hasGalleryPhotos }}" hint-placeholder-val="{{ true }}">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
+          <sc-for list="{{ galleryPhotos }}" as="photo" hint-placeholder-count="4">
+            <div style="aspect-ratio: 1; border-radius: 12px; overflow: hidden;">
+              <img src="{{ photo.src }}" alt="{{ photo.caption }}" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+      <sc-if value="{{ noGalleryPhotos }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align: center; padding: 48px 24px; background: oklch(0.96 0.005 90); border-radius: 14px; color: oklch(0.5 0.02 300); font-size: 15px;">Photos from {{ selectedYear }} are being added &mdash; check back soon.</div>
+      </sc-if>
     </div>
   </section>
 
@@ -236,12 +268,25 @@ class Component extends DCLogic {
   state = {
     scrolled: false,
     mobileMenuOpen: false,
-    selectedYear: '2025',
+    selectedYear: '2023',
   };
 
   componentDidMount() {
     this._onScroll = () => this.setState({ scrolled: window.scrollY > 40 });
     window.addEventListener('scroll', this._onScroll);
+    // The x-dc template parser doesn't render <video> elements, so the hero
+    // background video is mounted imperatively into a plain placeholder div.
+    const mount = document.getElementById('hero-video-mount');
+    if (mount && !mount.querySelector('video')) {
+      const v = document.createElement('video');
+      v.src = '../video/hero-loop.mp4';
+      v.autoplay = true;
+      v.muted = true;
+      v.loop = true;
+      v.playsInline = true;
+      v.style.cssText = 'width:100%; height:100%; object-fit:cover;';
+      mount.appendChild(v);
+    }
   }
   componentWillUnmount() {
     window.removeEventListener('scroll', this._onScroll);
@@ -271,6 +316,13 @@ class Component extends DCLogic {
       { title: '50th Anniversary Gala', date: 'Date TBA', href: '50th-anniversary-gala.dc.html' },
     ];
 
+    const impactStats = [
+      { value: '49', label: 'Years of Service' },
+      { value: '2', label: 'Annual Scholarships' },
+      { value: '$5.5K', label: 'Awarded Each Year' },
+    ];
+    const marqueeRepeat = [1, 2];
+
     const galleryYears = ['2025', '2024', '2023', '2022', '2021', '2017-2020'].map(label => {
       const active = label === this.state.selectedYear;
       return {
@@ -280,13 +332,37 @@ class Component extends DCLogic {
         color: active ? 'white' : 'oklch(0.35 0.02 300)',
       };
     });
-    const galleryPlaceholders = [1, 2, 3, 4].map(i => `photo ${i} — ${this.state.selectedYear}`);
+
+    // Real event photos, keyed by gallery year. Years without photos yet fall
+    // through to the "being added" message below instead of showing nothing.
+    const galleryPhotosByYear = {
+      '2023': [
+        { src: '../images/gallery/2023/mlk-day-of-service-5.jpg', caption: 'MLK Day of Service — classroom outreach' },
+        { src: '../images/gallery/2023/boat-ride-blazers-monument.jpg', caption: 'Boat Ride 2023 — chapter blazers' },
+        { src: '../images/gallery/2023/mlk-day-of-service-9.jpg', caption: 'MLK Day of Service — community booth' },
+        { src: '../images/gallery/2023/boat-ride-mall-pose.jpg', caption: 'Boat Ride 2023' },
+        { src: '../images/gallery/2023/mlk-day-of-service-7.jpg', caption: 'MLK Day of Service — student assembly' },
+        { src: '../images/gallery/2023/boat-ride-blazers-group.jpg', caption: 'Boat Ride 2023 — chapter blazers' },
+        { src: '../images/gallery/2023/mlk-day-of-service-1.jpg', caption: 'MLK Day of Service — classroom outreach' },
+        { src: '../images/gallery/2023/boat-ride-monument-1.jpg', caption: 'Boat Ride 2023' },
+      ],
+      '2022': [
+        { src: '../images/gallery/2022/district-conference-roster.jpg', caption: '13th District Conference 2022' },
+        { src: '../images/gallery/2022/district-conference-charter.jpg', caption: '13th District Conference 2022' },
+      ],
+    };
+    const galleryPhotos = galleryPhotosByYear[this.state.selectedYear] || [];
 
     return {
       navItems,
       events,
+      impactStats,
+      marqueeRepeat,
       galleryYears,
-      galleryPlaceholders,
+      galleryPhotos,
+      hasGalleryPhotos: galleryPhotos.length > 0,
+      noGalleryPhotos: galleryPhotos.length === 0,
+      selectedYear: this.state.selectedYear,
       headerBg: this.state.scrolled ? 'oklch(0.16 0.05 300)' : 'oklch(0.2 0.06 300)',
       headerShadow: this.state.scrolled ? '0 4px 18px rgba(0,0,0,0.18)' : 'none',
       mobileMenuOpen: this.state.mobileMenuOpen,
