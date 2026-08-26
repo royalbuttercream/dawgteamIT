@@ -6,6 +6,7 @@
 <title>Scholarships | Lambda Xi Chapter</title>
 <meta name="description" content="Scholarship opportunities offered by the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc.">
 <script src="./support.js"></script>
+<script src="../js/lambdaxi-data.js"></script>
 </head>
 <body>
 <x-dc>
@@ -78,11 +79,50 @@
     <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0;">Scholarship Opportunities</h1>
   </section>
 
-  <section style="padding: 64px 24px 96px;">
-    <div style="max-width: 640px; margin: 0 auto; background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 44px 40px; text-align: center;">
-      <p style="font-size: 17px; font-weight: 600; margin: 0 0 24px; color: oklch(0.3 0.08 300);">Applications are accepted 1 February to 1 May</p>
-      <p style="font-size: 15.5px; line-height: 1.8; color: oklch(0.42 0.02 300); margin: 0 0 30px;">Lambda Xi awards scholarships to graduating seniors as part of Omega Psi Phi's international commitment to academic excellence and uplift.</p>
-      <a href="contact-us.dc.html" style="display: inline-block; background: oklch(0.3 0.08 300); color: white; padding: 13px 30px; border-radius: 999px; font-weight: 700; font-size: 14px;" style-hover="background: oklch(0.24 0.06 300);">Ask About Applying</a>
+  <section style="padding: 64px 24px 32px;">
+    <div style="max-width: 760px; margin: 0 auto; display: grid; gap: 20px;">
+      <div style="background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 32px 36px;">
+        <p style="font-size: 12.5px; letter-spacing: 0.1em; text-transform: uppercase; color: oklch(0.6 0.14 85); font-weight: 700; margin: 0 0 8px;">$2,500 &middot; Three Recipients</p>
+        <h2 style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; margin: 0 0 12px; color: oklch(0.22 0.05 300);">Future Leaders Scholarship</h2>
+        <p style="font-size: 15px; line-height: 1.7; color: oklch(0.42 0.02 300); margin: 0;">Open to high school seniors planning to pursue a Bachelor's Degree at any accredited college or university.</p>
+      </div>
+      <div style="background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 32px 36px;">
+        <p style="font-size: 12.5px; letter-spacing: 0.1em; text-transform: uppercase; color: oklch(0.6 0.14 85); font-weight: 700; margin: 0 0 8px;">$3,000 &middot; One Recipient</p>
+        <h2 style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; margin: 0 0 12px; color: oklch(0.22 0.05 300);">Bro. Carl Reed Scholarship</h2>
+        <p style="font-size: 15px; line-height: 1.7; color: oklch(0.42 0.02 300); margin: 0;">Open to high school seniors planning to pursue a Bachelor's Degree at a historically Black college or university (HBCU).</p>
+      </div>
+      <p style="font-size: 14.5px; text-align: center; color: oklch(0.45 0.02 300); margin: 8px 0 0;">Applications are accepted <strong>1 February to 1 May</strong> each year.</p>
+    </div>
+  </section>
+
+  <section style="padding: 8px 24px 96px;">
+    <div style="max-width: 640px; margin: 0 auto; background: white; border: 1px solid oklch(0.9 0.01 90); border-radius: 14px; padding: 44px 40px;">
+      <h2 style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; margin: 0 0 24px; text-align: center; color: oklch(0.22 0.05 300);">Apply for a Scholarship</h2>
+      <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align: center; padding: 20px 0;">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: oklch(0.94 0.05 145); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 26px; color: oklch(0.45 0.12 145);">&#10003;</div>
+          <h3 style="font-family: 'Playfair Display', serif; font-size: 20px; margin: 0 0 10px; color: oklch(0.22 0.05 300);">Application Received</h3>
+          <p style="font-size: 15px; color: oklch(0.45 0.02 300); margin: 0;">A brother from the Scholarship Committee will follow up before the review deadline.</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+        <form onSubmit="{{ handleSubmit }}" style="display: flex; flex-direction: column; gap: 16px;">
+          <select required name="scholarship" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; color: oklch(0.4 0.02 300);">
+            <option value="">Which scholarship?</option>
+            <option value="Future Leaders">Future Leaders Scholarship ($2,500)</option>
+            <option value="Bro. Carl Reed">Bro. Carl Reed Scholarship ($3,000, HBCU-bound)</option>
+          </select>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <input required name="firstName" placeholder="First Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+            <input required name="lastName" placeholder="Last Name" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          </div>
+          <input required type="email" name="email" placeholder="Email" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <input required name="school" placeholder="High School" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <input required name="college" placeholder="College or University You Plan to Attend" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none;" />
+          <textarea required name="essay" placeholder="Briefly tell us about your community involvement and goals" rows="4" style="padding: 13px 16px; border: 1px solid oklch(0.85 0.01 90); border-radius: 8px; font-size: 14.5px; outline: none; resize: vertical;"></textarea>
+          <button type="submit" style="background: oklch(0.3 0.08 300); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer;" style-hover="background: oklch(0.24 0.06 300);">Submit Application</button>
+        </form>
+      </sc-if>
     </div>
   </section>
 
@@ -95,7 +135,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
-  state = { mobileMenuOpen: false };
+  state = { mobileMenuOpen: false, submitted: false };
   renderVals() {
     const navItems = [
       { label: 'Home', href: 'Lambda Xi Homepage.dc.html', hasSub: false },
@@ -120,6 +160,26 @@ class Component extends DCLogic {
       mobileMenuOpen: this.state.mobileMenuOpen,
       mobileMenuIcon: this.state.mobileMenuOpen ? '\u2715' : '\u2630',
       toggleMobileMenu: () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen })),
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      // Placeholder: submissions save to this browser's localStorage only (js/lambdaxi-data.js).
+      // No officer is notified yet \u2014 swap this for a real Supabase insert when the backend exists.
+      handleSubmit: (e) => {
+        e.preventDefault();
+        const data = new FormData(e.target);
+        window.LambdaXiData.submitApplication('scholarship', {
+          applicant_name: `${data.get('firstName')} ${data.get('lastName')}`.trim(),
+          email: data.get('email'),
+          phone: '',
+          payload: {
+            scholarship: data.get('scholarship'),
+            school: data.get('school'),
+            college: data.get('college'),
+            essay: data.get('essay'),
+          },
+        });
+        this.setState({ submitted: true });
+      },
     };
   }
 }
