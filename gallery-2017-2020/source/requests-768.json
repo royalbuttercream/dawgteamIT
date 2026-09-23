@@ -1,0 +1,623 @@
+[
+  {
+    "method": "GET",
+    "url": "https://www.lambdaxi1911.com/2017-2020",
+    "status": 200,
+    "resourceType": "document",
+    "contentType": "text/html; charset=utf-8",
+    "responseBodySize": 119473,
+    "host": "www.lambdaxi1911.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap",
+    "status": 200,
+    "resourceType": "stylesheet",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 1241,
+    "host": "static-fonts-css.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 1243,
+    "host": "static-fonts-css.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1312902/113191_548063.jpg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 87466,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "status": 200,
+    "resourceType": "stylesheet",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 145921,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/png",
+    "responseBodySize": 32016,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/535922_827533.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9081,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/detectIE-c385c24313ef0e9e4e7a1e131bf5e59f0fbd468f9f9ef44fd6739ae84ef0c0a4.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 1672,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/i18n-2ace11ac644d0b40fb8b7cb65e9dd1e553022750e0254118dacbe1fe50735e97.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript",
+    "responseBodySize": 4079,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/368287_378970.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 8494,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/10887_640829.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 11820,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/969171_800472.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 7713,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/47149_788249.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 7012,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/331674_218685.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 8412,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/474770_486749.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 6992,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/fonts/fa-solid-900.e8a427e15cc502bef99cfd722b37ea98.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 78581,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts.strikinglycdn.com/s/sansita/v12/QldLNTRRphEb_-V7JKWUWX5-w4dsz_k.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 12520,
+    "host": "static-fonts.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/501151_611238.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 6693,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/168210_950901.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 7709,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/792757_342797.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 8265,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/204789_734973.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 7139,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/159321_354510.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 8329,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/104426_236744.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10203,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts.strikinglycdn.com/s/specialelite/v20/XLYgIZbkc4JPUL5CVArUVL0ntnAOSFNuQsI.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 53653,
+    "host": "static-fonts.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/496012_318687.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10419,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/886648_650766.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10315,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/431690_756601.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9690,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/509245_119342.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9354,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/527611_538534.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9704,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/864247_670690.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9848,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/244803_449053.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9206,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/286392_967652.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 8773,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/305100_257384.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10022,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/811304_673908.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9730,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/728529_283470.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9192,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/224557_730859.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9819,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/127991_965434.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9435,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/602842_872829.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 8874,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/549406_285701.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 9960,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/383610_581986.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10911,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/748041_422462.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 11151,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/881669_946456.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10027,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/360414_902209.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10690,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/794940_393962.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 12527,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/750322_841210.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 11981,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/917642_370123.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10743,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 28143,
+    "host": "cdnjs.cloudflare.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/343476_810697.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 14531,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/913822_430127.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10039,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/415237_819604.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10501,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/778453_372659.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 15518,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/228009_421516.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10824,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/69025_975825.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10132,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/195516_168476.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 15805,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/317418_353733.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 10608,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/593196_537137.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 17917,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/610500_318598.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 14020,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/379463_617862.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 16798,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/567600_775301.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 17913,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/594488_82355.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 27591,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/988457_905684.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 23546,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/899599_990267.jpeg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 24592,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/lightBoostedPage-site-bundle.119eae4b628a5ef5e60d.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 111334,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/9498.62074136c7446856591a-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 3506,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/6757.edcadc2626ab3af71e85-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 3406,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/4448.9bd9b002da4a307cafb8-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 38931,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts.strikinglycdn.com/s/sansita/v12/QldONTRRphEb_-V7LB6xTFNczq0.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 11992,
+    "host": "static-fonts.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap",
+    "status": 200,
+    "resourceType": "xhr",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 1254,
+    "host": "static-fonts-css.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "status": 200,
+    "resourceType": "xhr",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 145606,
+    "host": "static-assets.strikinglycdn.com"
+  }
+]

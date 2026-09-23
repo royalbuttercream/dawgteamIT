@@ -1,0 +1,236 @@
+[
+  {
+    "method": "GET",
+    "url": "https://www.lambdaxi1911.com/past-basilei",
+    "status": 200,
+    "resourceType": "document",
+    "contentType": "text/html; charset=utf-8",
+    "responseBodySize": 118191,
+    "host": "www.lambdaxi1911.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap",
+    "status": 200,
+    "resourceType": "stylesheet",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 1251,
+    "host": "static-fonts-css.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 1252,
+    "host": "static-fonts-css.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1312902/113191_548063.jpg",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/jpeg",
+    "responseBodySize": 87456,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+    "status": 200,
+    "resourceType": "image",
+    "contentType": "image/png",
+    "responseBodySize": 32015,
+    "host": "custom-images.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "status": 200,
+    "resourceType": "stylesheet",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 145922,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/detectIE-c385c24313ef0e9e4e7a1e131bf5e59f0fbd468f9f9ef44fd6739ae84ef0c0a4.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 1673,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/i18n-2ace11ac644d0b40fb8b7cb65e9dd1e553022750e0254118dacbe1fe50735e97.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript",
+    "responseBodySize": 4080,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 28151,
+    "host": "cdnjs.cloudflare.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts.strikinglycdn.com/s/sansita/v12/QldLNTRRphEb_-V7JKWUWX5-w4dsz_k.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 12529,
+    "host": "static-fonts.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts.strikinglycdn.com/s/specialelite/v20/XLYgIZbkc4JPUL5CVArUVL0ntnAOSFNuQsI.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 53661,
+    "host": "static-fonts.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/fonts/fa-solid-900.e8a427e15cc502bef99cfd722b37ea98.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 78581,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/lightBoostedPage-site-bundle.119eae4b628a5ef5e60d.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 111335,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/9498.62074136c7446856591a-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 3505,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/6757.edcadc2626ab3af71e85-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 3406,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/4448.9bd9b002da4a307cafb8-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 38930,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/fonts/entypo-fontello.56c0334a3129bf39b25e0d4e67fcf233.woff",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "application/font-woff",
+    "responseBodySize": 40734,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts.strikinglycdn.com/s/sansita/v12/QldONTRRphEb_-V7LB6xTFNczq0.woff2",
+    "status": 200,
+    "resourceType": "font",
+    "contentType": "font/woff2",
+    "responseBodySize": 12009,
+    "host": "static-fonts.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/5053.dda1ba66f19ce0e3043b-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 3906,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "status": 200,
+    "resourceType": "xhr",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 145608,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/8227.12b22a64050d0f3936c3-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 5457,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/6073.6a1cceb78d64b27ecdd4-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 3538,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/3136.961ee9af2d8759f0d0d3-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 6053,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/9508.dc3b9cbacb3e227b6886-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 7702,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-assets.strikinglycdn.com/webpack/8672.9c6811558138d60bb5f8-site-bundle.js",
+    "status": 200,
+    "resourceType": "script",
+    "contentType": "application/javascript; charset=utf-8",
+    "responseBodySize": 7432,
+    "host": "static-assets.strikinglycdn.com"
+  },
+  {
+    "method": "GET",
+    "url": "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap",
+    "status": 200,
+    "resourceType": "xhr",
+    "contentType": "text/css; charset=utf-8",
+    "responseBodySize": 1263,
+    "host": "static-fonts-css.strikinglycdn.com"
+  }
+]

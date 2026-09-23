@@ -1,0 +1,1751 @@
+{
+  "title": "Korea Bruhz",
+  "lang": "en",
+  "metaDescription": "Photos of RoK Hard Ques fellowshipping, serving the community, and celebrating life from 2017-2020.",
+  "og": [
+    "og:type=website",
+    "og:title=Korea Bruhz",
+    "og:url=https://www.lambdaxi1911.com/2017-2020",
+    "og:image=https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lo",
+    "og:site_name=The RoK Hard Ques",
+    "og:description=Photos of RoK Hard Ques fellowshipping, serving the community, and celebrating l"
+  ],
+  "canonical": "https://www.lambdaxi1911.com/2017-2020",
+  "favicon": true,
+  "viewportMeta": "width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "docH": 900
+  },
+  "overflowX": 0,
+  "wide": [],
+  "hasMain": false,
+  "hasSkipLink": false,
+  "headings": [
+    {
+      "level": 1,
+      "text": "The RoK Hard Ques",
+      "visible": true
+    },
+    {
+      "level": 2,
+      "text": "The RoK Hard Ques",
+      "visible": true
+    },
+    {
+      "level": 2,
+      "text": "The Good Bruhz",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "text": "Home",
+      "href": "/",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "History of Omega Psi Phi",
+      "href": "https://www.oppf.org/about-omega/",
+      "kind": "external",
+      "target": "_blank",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "History of Lambda Xi",
+      "href": "/history-of-lambda-xi",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Executive Officers",
+      "href": "/executive-officers",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Past Basilei",
+      "href": "/past-basilei",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Lineage",
+      "href": "/lineage",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Mandated Programs",
+      "href": "/mandated-programs",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Scholarships",
+      "href": "/scholarships",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "50th Anniversary Gala",
+      "href": "/50th-anniversary-gala",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Achievement Week",
+      "href": "/achievement-week",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "All Star Game",
+      "href": "/all-star-game",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Youth Leadership Conference",
+      "href": "/youth-leadership-conference",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2025",
+      "href": "/2025",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2024",
+      "href": "/2024",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2023",
+      "href": "/2023",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2022",
+      "href": "/2022",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2021",
+      "href": "/2021",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2017-2020",
+      "href": "/2017-2020",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "News",
+      "href": "/news",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Seeking",
+      "href": "https://msp.oppf.org/",
+      "kind": "external",
+      "target": "_blank",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "[img: Giving Back to the Community]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/535922_827533.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "The Brothers of Lambda Xi supporting Dongducheon Orphanage with a monetary donation."
+    },
+    {
+      "text": "[img: Service]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/368287_378970.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "The Brothers of the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc. met up to clean the streets."
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/969171_800472.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/10887_640829.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/988457_905684.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ΛΞ Bruhz in Action]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/594488_82355.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Bro Brown and Bro Wilkins hard at work removing litter from the streets."
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/899599_990267.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/204789_734973.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/331674_218685.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/474770_486749.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/47149_788249.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/104426_236744.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: FIETTS]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/501151_611238.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/127991_965434.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/610500_318598.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/593196_537137.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/159321_354510.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/509245_119342.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/360414_902209.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/383610_581986.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/69025_975825.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/886648_650766.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/305100_257384.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/343476_810697.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/567600_775301.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/431690_756601.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/811304_673908.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/728529_283470.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/244803_449053.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/881669_946456.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/496012_318687.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/748041_422462.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/750322_841210.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/864247_670690.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/168210_950901.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/917642_370123.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/379463_617862.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/913822_430127.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/195516_168476.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/527611_538534.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/286392_967652.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/228009_421516.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/794940_393962.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/415237_819604.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/224557_730859.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/778453_372659.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/317418_353733.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/602842_872829.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "[img: Bro Hargrove]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/792757_342797.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Bro Hargrove poses for a picture in celebration of Achievement Week."
+    },
+    {
+      "text": "[img: ]",
+      "href": "//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1312902/549406_285701.jpeg",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": "Thumbnail Gallery"
+    },
+    {
+      "text": "Show more",
+      "href": "",
+      "kind": "empty",
+      "target": "",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Home",
+      "href": "/home",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://www.lambdaxi1911.com/contact-us",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Find Us",
+      "href": "https://maps.google.com/maps?q=36.95861337189751,127.0427376735077",
+      "kind": "external",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Learn More",
+      "href": "/pages/cookie-policy",
+      "kind": "internal",
+      "target": "_blank",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    }
+  ],
+  "controls": [
+    {
+      "tag": "button",
+      "type": "",
+      "name": "",
+      "id": "",
+      "required": false,
+      "placeholder": "",
+      "text": "Accept",
+      "accessibleName": "",
+      "autocomplete": "",
+      "outlineStyle": "none",
+      "visible": true,
+      "inForm": false
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1312902/113191_548063.jpg",
+      "alt": "thumbnail image",
+      "hasAlt": true,
+      "naturalWidth": 945,
+      "naturalHeight": 630,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 282,
+      "naturalHeight": 300,
+      "renderedWidth": 56,
+      "renderedHeight": 60,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": true
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 282,
+      "naturalHeight": 300,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/535922_827533.jpeg",
+      "alt": "Giving Back to the Community",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 187,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/368287_378970.jpeg",
+      "alt": "Service",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 149,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/969171_800472.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 124,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/10887_640829.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 247,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/988457_905684.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 515,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/594488_82355.jpeg",
+      "alt": "ΛΞ Bruhz in Action",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 515,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/899599_990267.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 515,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/204789_734973.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 122,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/331674_218685.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/474770_486749.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 122,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/47149_788249.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 141,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/104426_236744.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 169,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/501151_611238.jpeg",
+      "alt": "FIETTS",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 131,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/127991_965434.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 190,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/610500_318598.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 444,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/593196_537137.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 333,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/159321_354510.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 128,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/509245_119342.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 134,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/360414_902209.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 168,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/383610_581986.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 171,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/69025_975825.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 172,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/886648_650766.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/305100_257384.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 168,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/343476_810697.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 250,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/567600_775301.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 333,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/431690_756601.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 171,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/811304_673908.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 169,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/728529_283470.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 156,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/244803_449053.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 133,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/881669_946456.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 161,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/496012_318687.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 190,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/748041_422462.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 174,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/750322_841210.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 170,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/864247_670690.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 169,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/168210_950901.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 183,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/917642_370123.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/379463_617862.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 444,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/913822_430127.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/195516_168476.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 247,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/527611_538534.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 317,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/286392_967652.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 156,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/228009_421516.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/794940_393962.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 223,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/415237_819604.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/224557_730859.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 194,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/778453_372659.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 323,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/317418_353733.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 188,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/602842_872829.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 162,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/792757_342797.jpeg",
+      "alt": "Bro Hargrove",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 159,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_250,f_auto,q_auto/1312902/549406_285701.jpeg",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 250,
+      "naturalHeight": 186,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    }
+  ],
+  "bgImages": [],
+  "iframes": [],
+  "videos": [],
+  "landmarks": [],
+  "small": [],
+  "tapTargets": [
+    {
+      "tag": "a",
+      "w": 73,
+      "h": 19,
+      "text": "Show more"
+    },
+    {
+      "tag": "button",
+      "w": 34,
+      "h": 12,
+      "text": "Accept"
+    },
+    {
+      "tag": "a",
+      "w": 57,
+      "h": 14,
+      "text": "Learn More"
+    }
+  ],
+  "styleSheets": [
+    "inline",
+    "inline",
+    "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,7",
+    "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline"
+  ],
+  "fonts": [
+    "Sansita 700",
+    "Special Elite 400",
+    "Font Awesome 5 Free 900"
+  ],
+  "inlineStyleCount": 76,
+  "totalEls": 749,
+  "bodyTextLength": 284,
+  "cookies": 2,
+  "localStorageKeys": [],
+  "perf": {
+    "domContentLoaded": 817,
+    "load": 939,
+    "htmlTransfer": 119066,
+    "htmlDecoded": 761690,
+    "transferTotal": 146812,
+    "requestCount": 63,
+    "byType": {
+      "link": {
+        "count": 3,
+        "transfer": 0
+      },
+      "script": {
+        "count": 7,
+        "transfer": 27746
+      },
+      "img": {
+        "count": 52,
+        "transfer": 0
+      }
+    },
+    "hosts": {
+      "static-fonts-css.strikinglycdn.com": 0,
+      "static-assets.strikinglycdn.com": 0,
+      "custom-images.strikinglycdn.com": 0,
+      "cdnjs.cloudflare.com": 27746
+    },
+    "lcpMs": null
+  },
+  "settleMs": 4513,
+  "httpStatus": 200,
+  "console": [
+    {
+      "type": "warning",
+      "text": "The resource https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap was preloaded using link preload but not used within a few seconds from the window's loa"
+    },
+    {
+      "type": "warning",
+      "text": "Deprecated API for given entry type."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap was preloaded using link preload but not used within a few seconds from the window's loa"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "focus": [
+    {
+      "tag": "a",
+      "text": "Home",
+      "href": "/",
+      "visibleFocus": true,
+      "focusIndicators": {
+        "outlineStyle": "dotted",
+        "outlineWidth": "1px",
+        "boxShadow": "none"
+      },
+      "inViewport": true,
+      "hiddenByCss": false,
+      "rect": {
+        "x": 381,
+        "y": 42,
+        "w": 50,
+        "h": 26
+      }
+    },
+    {
+      "tag": "a",
+      "text": "News",
+      "href": "/news",
+      "visibleFocus": true,
+      "focusIndicators": {
+        "outlineStyle": "dotted",
+        "outlineWidth": "1px",
+        "boxShadow": "none"
+      },
+      "inViewport": true,
+      "hiddenByCss": false,
+      "rect": {
+        "x": 981,
+        "y": 42,
+        "w": 45,
+        "h": 26
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "visibleFocus": true,
+      "focusIndicators": {
+        "outlineStyle": "dotted",
+        "outlineWidth": "1px",
+        "boxShadow": "none"
+      },
+      "inViewport": true,
+      "hiddenByCss": false,
+      "rect": {
+        "x": 1162,
+        "y": 42,
+        "w": 89,
+        "h": 26
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Seeking",
+      "href": "https://msp.oppf.org/",
+      "visibleFocus": true,
+      "focusIndicators": {
+        "outlineStyle": "dotted",
+        "outlineWidth": "1px",
+        "boxShadow": "none"
+      },
+      "inViewport": true,
+      "hiddenByCss": false,
+      "rect": {
+        "x": 1271,
+        "y": 29,
+        "w": 124,
+        "h": 52
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Accept",
+      "href": "",
+      "visibleFocus": true,
+      "focusIndicators": {
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "boxShadow": "none"
+      },
+      "inViewport": false,
+      "hiddenByCss": false,
+      "rect": {
+        "x": 35,
+        "y": 1851,
+        "w": 34,
+        "h": 12
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Learn More",
+      "href": "/pages/cookie-policy",
+      "visibleFocus": true,
+      "focusIndicators": {
+        "outlineStyle": "dotted",
+        "outlineWidth": "1px",
+        "boxShadow": "none"
+      },
+      "inViewport": false,
+      "hiddenByCss": false,
+      "rect": {
+        "x": 35,
+        "y": 1872,
+        "w": 57,
+        "h": 14
+      }
+    }
+  ],
+  "interactions": {
+    "submenuVisibleOnHover": false,
+    "submenuVisibleOnFocus": false,
+    "lightbox": {
+      "found": true,
+      "cls": "fancybox__container is-animated",
+      "role": "dialog",
+      "ariaModal": "true",
+      "focusInside": true,
+      "closeButtons": [
+        "carousel__button fancybox__button--zoom",
+        "carousel__button fancybox__button--close",
+        "carousel__button is-next",
+        "carousel__button is-prev",
+        "carousel__dot is-selected",
+        "carousel__dot"
+      ]
+    },
+    "lightboxClosedByEscape": true
+  },
+  "popup": null
+}

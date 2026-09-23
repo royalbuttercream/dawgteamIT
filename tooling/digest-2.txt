@@ -1,0 +1,290 @@
+
+## essay-contest-registration  (Essay Contest Registration - The RoK Hard Ques)  /essay-contest-registration
+status 200 | settle 10325/4931/4399 ms | docH 4289/900/900 | overflowX 0/0/0 | html 702KB | dcl 652 load 832
+requests 375:173 1440:117 | bytes 375:4791KB 1440:3331KB | blocked non-GET 0
+hosts@1440: static-assets.strikinglycdn.com:2878KB www.lambdaxi1911.com:129KB custom-images.strikinglycdn.com:117KB cdnjs.cloudflare.com:105KB static-fonts.strikinglycdn.com:76KB d26b395fwzu5fz.cloudfront.net:10KB ssl.gstatic.com:7KB docs.google.com:5KB
+types@1440: document:3/131KB stylesheet:4/145KB font:6/231KB image:4/125KB script:97/2553KB xhr:2/143KB fetch:1/2KB
+largest: 218KB script static-assets.strikinglycdn.com/i18n_combined-4341a5729d5609ef79e037b53da2b31e0e1f101683d0
+4xx/5xx: 401 docs.google.com/forms/d/e/1FAIpQLSdxXzXGsIbBxydbmol96iL05nZGZPfz6bF1n8bH4mjDrgc83Q/viewfor
+meta: lang=en desc="" og=6 canonical=https://www.lambdaxi1911.com/essay-contest-registration favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=23/297 text=295
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h1:2026 Achievement Week Essay Contest
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 25 total, 5 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: 
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 3 in DOM, 1 visible, no-alt 0, empty-alt 2, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 0 
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 6 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > button:Accept > a:Learn More
+focus@375: 33 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > iframe:iframe > a:facebook > a:instagram > a:youtube > a:facebook-mes > a:Home > a:Contact Us > a:Find
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x1, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x15
+axe@375: color-contrast[serious]x4, frame-title[serious]x1, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x9
+axe incomplete: 
+console: 3 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type. | Failed to load resource: the server responded with a status of 401 ()
+
+## youth-leadership-conference  (Annual Youth Leadership Conference)  /youth-leadership-conference
+status 200 | settle 11286/4739/4548 ms | docH 1027/1500/1500 | overflowX 0/0/0 | html 705KB | dcl 643 load 863
+requests 375:171 1440:122 | bytes 375:5089KB 1440:3831KB | blocked non-GET 0
+hosts@1440: static-assets.strikinglycdn.com:2917KB custom-images.strikinglycdn.com:428KB cdnjs.cloudflare.com:180KB www.lambdaxi1911.com:129KB connect.facebook.net:86KB static-fonts.strikinglycdn.com:76KB d26b395fwzu5fz.cloudfront.net:10KB static-fonts-css.strikinglycdn.com:4KB
+types@1440: document:2/127KB stylesheet:4/145KB font:8/347KB image:3/428KB script:99/2638KB xhr:2/143KB fetch:4/3KB
+largest: 311KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200, ; 218KB script static-assets.strikinglycdn.com/i18n_combined-4341a5729d5609ef79e037b53da2b31e0e1f101683d0
+meta: lang=en desc="Information about Lambda Xi's Annual Youth Leadership Conference" og=6 canonical=https://www.lambdaxi1911.com/youth-leadership-conference favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=23/318 text=272
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":[],"closedByEscape":true}
+links: 26 total, 6 visible, ext msp.oppf.org/ | _blank 4 | aria-current 0 | img-only/empty 0
+content links: "Register Now"->www.lambdaxi1911.com/ylc-registration[_blank]
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 4 in DOM, 2 visible, no-alt 0, empty-alt 3, srcset 0, lazy 0
+image sizes: 282x300->56x60 682x1024->682x1024
+bg images: 0 
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 7 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > a:Register Now > button:Accept > a:Learn More
+focus@375: 33 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > a:Register Now > a:facebook > a:instagram > a:youtube > a:facebook-mes > a:Home > a:Contact Us > a:Fin
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x3, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x15
+axe@375: color-contrast[serious]x4, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x9
+axe incomplete: color-contrastx6
+console: 2 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type.
+
+## ylc-registration  (YLC Registration - The RoK Hard Ques)  /ylc-registration
+status 200 | settle 10445/4476/4809 ms | docH 5348/900/900 | overflowX 0/0/0 | html 702KB | dcl 982 load 1239
+requests 375:210 1440:110 | bytes 375:5907KB 1440:3114KB | blocked non-GET 0
+hosts@1440: static-assets.strikinglycdn.com:2655KB custom-images.strikinglycdn.com:117KB www.lambdaxi1911.com:114KB cdnjs.cloudflare.com:105KB static-fonts.strikinglycdn.com:76KB docs.google.com:34KB d26b395fwzu5fz.cloudfront.net:10KB static-fonts-css.strikinglycdn.com:4KB
+types@1440: document:2/148KB image:2/117KB stylesheet:3/144KB font:6/231KB script:95/2331KB xhr:2/143KB
+meta: lang=en desc="" og=6 canonical=https://www.lambdaxi1911.com/ylc-registration favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=23/297 text=285
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h1:Register for the 2026 YLC
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 25 total, 5 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: 
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 3 in DOM, 1 visible, no-alt 0, empty-alt 2, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 0 
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 6 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > button:Accept > a:Learn More
+focus@375: 40 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > iframe:iframe > iframe:iframe > iframe:iframe > iframe:iframe > iframe:iframe > iframe:iframe > iframe
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x1, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x15
+axe@375: color-contrast[serious]x4, frame-title[serious]x1, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x9
+axe incomplete: 
+console: 2 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type.
+
+## all-star-game  (Annual All Star Game)  /all-star-game
+status 200 | settle 9363/4943/4685 ms | docH 869/1364/2002 | overflowX 0/0/0 | html 703KB | dcl 832 load 1006
+requests 375:171 1440:112 | bytes 375:5833KB 1440:4178KB | blocked non-GET 0
+hosts@1440: static-assets.strikinglycdn.com:2698KB custom-images.strikinglycdn.com:1171KB www.lambdaxi1911.com:114KB cdnjs.cloudflare.com:105KB static-fonts.strikinglycdn.com:76KB d26b395fwzu5fz.cloudfront.net:10KB static-fonts-css.strikinglycdn.com:4KB p.typekit.net:0KB
+types@1440: document:1/114KB stylesheet:3/144KB font:7/271KB image:3/1171KB script:96/2334KB xhr:2/143KB
+largest: 1054KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,
+meta: lang=en desc="Lambda Xi's Annual Mental Health Awareness All Star Basketball Game." og=6 canonical=https://www.lambdaxi1911.com/all-star-game favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=22/371 text=259
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 25 total, 5 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: 
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 4 in DOM, 2 visible, no-alt 0, empty-alt 3, srcset 0, lazy 0
+image sizes: 282x300->56x60 1200x1697->1127x1594
+bg images: 0 
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 6 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > button:Accept > a:Learn More
+focus@375: 32 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > a:facebook > a:instagram > a:youtube > a:facebook-mes > a:Home > a:Contact Us > a:Find Us > a:Learn Mo
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x8, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x14
+axe@375: color-contrast[serious]x3, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x8
+axe incomplete: 
+console: 2 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type.
+
+## 50th-anniversary-gala  (50th Anniversary)  /50th-anniversary-gala
+status 200 | settle 11491/5751/5799 ms | docH 868/1361/1997 | overflowX 0/0/0 | html 702KB | dcl 1842 load 2111
+requests 375:171 1440:110 | bytes 375:5003KB 1440:3263KB | blocked non-GET 0
+hosts@1440: static-assets.strikinglycdn.com:2698KB custom-images.strikinglycdn.com:342KB www.lambdaxi1911.com:114KB static-fonts.strikinglycdn.com:76KB cdnjs.cloudflare.com:27KB static-fonts-css.strikinglycdn.com:4KB p.typekit.net:0KB
+types@1440: document:1/114KB font:6/194KB stylesheet:3/144KB image:3/342KB script:95/2324KB xhr:2/143KB
+largest: 226KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,
+meta: lang=en desc="Agenda and information about the Lambda Xi 50th Anniversary" og=6 canonical=https://www.lambdaxi1911.com/50th-anniversary-gala favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=22/291 text=259
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 25 total, 5 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: 
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 4 in DOM, 2 visible, no-alt 0, empty-alt 3, srcset 0, lazy 0
+image sizes: 282x300->56x60 1200x1692->1127x1589
+bg images: 0 
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 6 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > button:Accept > a:Learn More
+focus@375: 32 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > a:facebook > a:instagram > a:youtube > a:facebook-mes > a:Home > a:Contact Us > a:Find Us > a:Learn Mo
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x8, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x14
+axe@375: color-contrast[serious]x3, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x8
+axe incomplete: 
+console: 2 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type.
+
+## gallery-2025  (2025 - The RoK Hard Ques)  /2025
+status 200 | settle 33771/4867/5437 ms | docH 2332/2204/3253 | overflowX 0/0/0 | html 791KB | dcl 1135 load 1489
+requests 375:241 1440:225 | bytes 375:5910KB 1440:5988KB | blocked non-GET 2
+hosts@1440: static-assets.strikinglycdn.com:3190KB custom-images.strikinglycdn.com:2117KB cdnjs.cloudflare.com:180KB www.lambdaxi1911.com:136KB maps.googleapis.com:90KB connect.facebook.net:86KB static-fonts.strikinglycdn.com:76KB maps.gstatic.com:75KB
+types@1440: document:3/133KB stylesheet:4/145KB font:11/449KB image:77/2117KB script:117/2997KB xhr:7/143KB fetch:6/5KB
+largest: 319KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_960,w_760,f_ ; 277KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920, ; 218KB script static-assets.strikinglycdn.com/i18n_combined-4341a5729d5609ef79e037b53da2b31e0e1f101683d0
+meta: lang=en desc="Photos of the RoK Hard Ques fellowshipping, serving the community, and celebrating life in" og=6 canonical=https://www.lambdaxi1911.com/2025 favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=23/929 text=271
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h1:Talent Hunt
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 95 total, 40 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 35
+content links: "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_192 ; "[img: ]"->//custom-images.strikinglycdn.com/res/hrscywv4p/image/upl
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 73 in DOM, 1 visible, no-alt 0, empty-alt 72, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 40 363x205 363x205 363x205
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 51
+focus@1440: 41 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbnail Gall > a:Thumbna
+focus@375: 40 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > 
+interactions@1440: {"submenuVisibleOnHover":true,"submenuVisibleOnFocus":false,"lightbox":{"found":true,"cls":"fancybox__container is-animated","role":"dialog","ariaModal":"true","focusInside":true,"closeButtons":["carousel__button fancybox__button--zoom","carousel__button fancybox__button--close","carousel__button is-next","carousel__button is-prev","carousel__dot is-selected","carousel__dot"]},"lightboxClosedByEsc
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x6, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x50
+axe@375: color-contrast[serious]x3, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x10
+axe incomplete: color-contrastx3, heading-orderx3
+console: 4 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type. | Failed to load resource: net::ERR_FAILED
+
+## gallery-2021  (2021 - The RoK Hard Ques)  /2021
+status 200 | settle 10938/4538/4576 ms | docH 4585/1453/1453 | overflowX 0/0/0 | html 864KB | dcl 674 load 881
+requests 375:327 1440:306 | bytes 375:6187KB 1440:6501KB | blocked non-GET 2
+hosts@1440: static-assets.strikinglycdn.com:3310KB custom-images.strikinglycdn.com:2403KB cdnjs.cloudflare.com:180KB www.lambdaxi1911.com:143KB js.hcaptcha.com:101KB maps.googleapis.com:91KB connect.facebook.net:86KB static-fonts.strikinglycdn.com:76KB
+types@1440: document:3/138KB font:14/568KB stylesheet:4/145KB image:153/2403KB script:118/3097KB xhr:7/143KB fetch:7/7KB
+largest: 319KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_960,w_760,f_ ; 244KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920, ; 243KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920, ; 228KB image custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920, ; 218KB script static-assets.strikinglycdn.com/i18n_combined-4341a5729d5609ef79e037b53da2b31e0e1f101683d0
+meta: lang=en desc="Photos of Korea Ques fellowshipping, serving the community, and celebrating life in 2021." og=6 canonical=https://www.lambdaxi1911.com/2021 favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=266/1698 text=311
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h2:Holiday Season | h2:Achievement Week | h2:Halloween
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":[],"closedByEscape":true}
+links: 162 total, 6 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: "Show more"->
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 139 in DOM, 1 visible, no-alt 0, empty-alt 92, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 0 
+small text: [] | tap<24 @375: 6 [{"tag":"a","w":73,"h":18,"text":"Show more"},{"tag":"a","w":73,"h":18,"text":"Show more"},{"tag":"a","w":73,"h":18,"text":"Show more"},{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 6 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > button:Accept > a:Learn More
+focus@375: 40 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > 
+interactions@1440: {"submenuVisibleOnHover":true,"submenuVisibleOnFocus":false,"lightbox":{"found":true,"cls":"fancybox__container is-animated","role":"dialog","ariaModal":"true","focusInside":true,"closeButtons":["carousel__button fancybox__button--zoom","carousel__button fancybox__button--close","carousel__button is-next","carousel__button is-prev","carousel__dot is-selected","carousel__dot"]},"lightboxClosedByEsc
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x2, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x18
+axe@375: color-contrast[serious]x7, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x9
+axe incomplete: heading-orderx5
+console: 5 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type. | Failed to load resource: net::ERR_FAILED
+
+## gallery-2017-2020  (Korea Bruhz)  /2017-2020
+status 200 | settle 10626/5002/4513 ms | docH 2134/900/900 | overflowX 0/0/0 | html 744KB | dcl 817 load 939
+requests 375:215 1440:209 | bytes 375:5167KB 1440:4820KB | blocked non-GET 2
+hosts@1440: static-assets.strikinglycdn.com:3048KB custom-images.strikinglycdn.com:1095KB cdnjs.cloudflare.com:180KB www.lambdaxi1911.com:132KB maps.googleapis.com:90KB connect.facebook.net:86KB static-fonts.strikinglycdn.com:76KB maps.gstatic.com:75KB
+types@1440: document:3/130KB stylesheet:4/145KB font:7/307KB script:117/2997KB image:66/1095KB xhr:7/143KB fetch:5/4KB
+largest: 218KB script static-assets.strikinglycdn.com/i18n_combined-4341a5729d5609ef79e037b53da2b31e0e1f101683d0
+meta: lang=en desc="Photos of RoK Hard Ques fellowshipping, serving the community, and celebrating life from 2" og=6 canonical=https://www.lambdaxi1911.com/2017-2020 favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=76/749 text=284
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h2:The Good Bruhz
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 76 total, 6 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: "Show more"->
+forms: []
+controls: button:Accept name=""
+iframes: []
+images: 53 in DOM, 1 visible, no-alt 0, empty-alt 47, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 0 
+small text: [] | tap<24 @375: 4 [{"tag":"a","w":73,"h":18,"text":"Show more"},{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 12
+focus@1440: 6 stops; no indicator 0; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > button:Accept > a:Learn More
+focus@375: 40 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > a:The Brothers > a:The Brothers > a:Thumbnail Ga > a:Thumbnail Ga > a:Thumbnail Ga > a:Bro Brown an > 
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false,"lightbox":{"found":true,"cls":"fancybox__container is-animated","role":"dialog","ariaModal":"true","focusInside":true,"closeButtons":["carousel__button fancybox__button--zoom","carousel__button fancybox__button--close","carousel__button is-next","carousel__button is-prev","carousel__dot is-selected","carousel__dot"]},"lightboxClosedByEs
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x2, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x16
+axe@375: color-contrast[serious]x5, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x9
+axe incomplete: 
+console: 5 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type. | Failed to load resource: net::ERR_FAILED
+
+## news  (Lambda Xi News)  /news
+status 200 | settle 9675/6090/5912 ms | docH 1426/1284/1339 | overflowX 0/0/0 | html 709KB | dcl 1752 load 2345
+requests 375:269 1440:200 | bytes 375:15251KB 1440:14634KB | blocked non-GET 10
+hosts@1440: svg.issuu.com:9396KB static-assets.strikinglycdn.com:2919KB e.issuu.com:1278KB custom-images.strikinglycdn.com:466KB cdnjs.cloudflare.com:180KB www.lambdaxi1911.com:140KB connect.facebook.net:86KB static-fonts.strikinglycdn.com:76KB
+types@1440: document:8/173KB stylesheet:8/399KB font:9/384KB image:15/7874KB script:115/3654KB fetch:36/19KB xhr:9/2131KB
+largest: 809KB image svg.issuu.com/251201114612-ba1cde769421fe3ed6fd8ac113100be5/page_2.svg ; 773KB image svg.issuu.com/251201114612-ba1cde769421fe3ed6fd8ac113100be5/page_4.svg ; 722KB image svg.issuu.com/251231113235-60e60789e3fc16faf27b790f0f4c89f9/page_5.svg ; 709KB xhr svg.issuu.com/251201114612-ba1cde769421fe3ed6fd8ac113100be5/page_1.svg ; 709KB xhr svg.issuu.com/251201114612-ba1cde769421fe3ed6fd8ac113100be5/page_1.svg ; 709KB image svg.issuu.com/251201114612-ba1cde769421fe3ed6fd8ac113100be5/page_1.svg
+meta: lang=en desc="Brief article/blog updates on what the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc." og=6 canonical=https://www.lambdaxi1911.com/news favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=none inline=36/438 text=431
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h2:RoK Hard News!
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":[],"closedByEscape":true}
+links: 25 total, 5 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: 
+forms: []
+controls: button:Accept name=""
+iframes: [{"src":"https://e.issuu.com/embed.html?d=lambda_xi_rok_hard_news_oy_25&u=lambdaxi","title":"","w":1129,"h":677}]
+images: 3 in DOM, 1 visible, no-alt 0, empty-alt 2, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 1 1440x1140
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900 | sheets 13
+focus@1440: 17 stops; no indicator 11; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > iframe:iframe[NF] > button:Accept > a:Learn More
+focus@375: 40 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > iframe:iframe > iframe:iframe > iframe:iframe > iframe:iframe > iframe:iframe > iframe:iframe > iframe
+interactions@1440: {"submenuVisibleOnHover":true,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: frame-title[serious]x1, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x16
+axe@375: color-contrast[serious]x3, frame-title[serious]x2, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x11
+axe incomplete: color-contrastx13, frame-testedx1, heading-orderx3
+console: 13 msgs; Failed to load resource: net::ERR_FAILED | Deprecated API for given entry type. | Failed to execute 'postMessage' on 'DOMWindow': The target origin prov | The resource https://static-fonts-css.strikinglycdn.com/css?family=San
+
+## contact-us  (Contact Info)  /contact-us
+status 200 | settle 8485/5231/5073 ms | docH 1089/1139/1139 | overflowX 0/0/0 | html 707KB | dcl 1028 load 1500
+requests 375:186 1440:137 | bytes 375:5233KB 1440:4039KB | blocked non-GET 5
+hosts@1440: static-assets.strikinglycdn.com:2957KB newassets.hcaptcha.com:375KB cdnjs.cloudflare.com:180KB www.lambdaxi1911.com:130KB custom-images.strikinglycdn.com:117KB js.hcaptcha.com:101KB connect.facebook.net:86KB static-fonts.strikinglycdn.com:76KB
+types@1440: document:4/502KB image:3/118KB stylesheet:4/145KB font:9/387KB script:100/2739KB xhr:12/143KB fetch:5/5KB
+largest: 218KB script static-assets.strikinglycdn.com/i18n_combined-4341a5729d5609ef79e037b53da2b31e0e1f101683d0
+meta: lang=en desc="If you're interested in Omega Psi Phi Fraternity, Inc. or just looking to see what the Lam" og=6 canonical=https://www.lambdaxi1911.com/contact-us favicon=true viewport="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0"
+a11y: main=false skip=false landmarks=input[combobox] inline=37/352 text=322
+headings: h1:The RoK Hard Ques | h2:The RoK Hard Ques | h1:Contact Us | h4:
+popup: {"text":"Register now for our Annual Youth Leadership Conference! Register Now!","role":"dialog","ariaModal":"true","ariaLabel":"","focusInside":true,"closeButton":{"tag":"button","label":"Close","w":30,"h":30},"links":[],"fields":["textarea:h-captcha-response"],"closedByEscape":true}
+links: 25 total, 5 visible, ext msp.oppf.org/ | _blank 3 | aria-current 0 | img-only/empty 0
+content links: 
+forms: []
+controls: input[text]: name="First Name" ; input[text]: name="Last Name" ; input[text]: name="Email" ; input[search]: name="" ; input[text]:Phone name="" ; textarea[text]: name="Message" ; button:Submit name="" ; button:Accept name=""
+iframes: []
+images: 3 in DOM, 1 visible, no-alt 0, empty-alt 2, srcset 0, lazy 0
+image sizes: 282x300->56x60
+bg images: 0 
+small text: [] | tap<24 @375: 3 [{"tag":"a","w":62,"h":18,"text":"Learn More"},{"tag":"button","w":34,"h":12,"text":"Accept"},{"tag":"a","w":57,"h":14,"text":"Learn More"}]
+fonts: Sansita 700, Special Elite 400, Font Awesome 5 Free 900, entypo 400 | sheets 12
+focus@1440: 13 stops; no indicator 5; hidden 0; order: a:Home > a:News > a:Contact Us > a:Seeking > input:First Name[NF] > input:Last Name[NF] > input:Email[NF] > input:input > input:Phone[NF] > textarea:Message[NF] > button:Submit > button:Accept > a:Learn More
+focus@375: 40 stops; hidden 0; order: body:body > a:Home > a:History of O > a:History of L > a:Executive Of > a:Past Basilei > a:Lineage > a:Mandated Pro > a:Scholarships > a:50th Anniver > a:Achievement  > a:All Star Gam > a:Youth Leader > a:2025 > a:2024 > a:2023 > a:2022 > a:2021 > a:2017-2020 > a:News > a:Contact Us > a:Seeking > input:First Name > input:Last Name > input:Email > input:input > input:Phone > textarea:Message > ifra
+interactions@1440: {"submenuVisibleOnHover":false,"submenuVisibleOnFocus":false}
+interactions@375: {"toggle":{"tag":"div","role":null,"tabindex":null,"ariaLabel":null,"ariaExpanded":null,"w":40,"h":40},"mobileMenu":[{"tag":"a","text":"Home","href":"/","h":47,"dropdown":false},{"tag":"div","text":"Our Legacy History of Omega Psi Phi Hist","href":null,"h":47,"dropdown":true},{"tag":"a","text":"History of Omega Psi Phi","href":"https://www.oppf.org/about-omega/","h":46,"dropdown":false},{"tag":"a","text":"History of Lambda Xi","href":"/history-of-lambda-xi","h":46,"dropdown":false},{"tag":"a","text":"Executive Officers","href":"/executive-officers","h":46,"dropdown":false},{"tag":"a","text":"Past Basilei","href":"/past-basilei","h":46,"dropdown":false},{"tag":"a","text":"Lineage","href":"/lineage","h":46,"dropdown":false},{"tag":"div","text":"Programs Mandated Programs Scholarships","href":null,"h":47,"dropdown":true},{"tag":"a","text":"Mandated Programs","href":"/mandated-programs","h":
+axe@1440: color-contrast[serious]x6, empty-heading[minor]x1, heading-order[moderate]x1, label[critical]x1, landmark-one-main[moderate]x1, meta-viewport-large[minor]x1, region[moderate]x20
+axe@375: color-contrast[serious]x9, empty-heading[minor]x1, heading-order[moderate]x1, label[critical]x1, landmark-one-main[moderate]x1, list[serious]x1, meta-viewport-large[minor]x1, region[moderate]x14
+axe incomplete: aria-valid-attr-valuex1, color-contrastx4
+console: 8 msgs; The resource https://static-fonts-css.strikinglycdn.com/css?family=San | Deprecated API for given entry type. | bobcatPropTypes is undefined for PhoneCodePickerField | Failed to load resource: net::ERR_FAILED

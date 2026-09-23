@@ -1,0 +1,62 @@
+{
+  "slug": "executive-officers",
+  "url": "https://www.lambdaxi1911.com/executive-officers",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 11069,
+      "overflowX": 0,
+      "docH": 3988,
+      "requests": 186,
+      "blockedNonGet": 7,
+      "transferKB": 314,
+      "axeViolations": [
+        "color-contrast(4)",
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(9)"
+      ],
+      "console": 9,
+      "focusStops": 32,
+      "focusWithoutIndicator": 4
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 5517,
+      "overflowX": 0,
+      "docH": 1567,
+      "requests": 116,
+      "blockedNonGet": 0,
+      "transferKB": 142,
+      "axeViolations": [
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5903,
+      "overflowX": 0,
+      "docH": 1873,
+      "requests": 149,
+      "blockedNonGet": 0,
+      "transferKB": 142,
+      "axeViolations": [
+        "color-contrast(11)",
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 10,
+      "focusWithoutIndicator": 0
+    }
+  }
+}

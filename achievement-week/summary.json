@@ -1,0 +1,64 @@
+{
+  "slug": "achievement-week",
+  "url": "https://www.lambdaxi1911.com/achievement-week",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 11247,
+      "overflowX": 0,
+      "docH": 1701,
+      "requests": 173,
+      "blockedNonGet": 7,
+      "transferKB": 317,
+      "axeViolations": [
+        "color-contrast(4)",
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(10)"
+      ],
+      "console": 9,
+      "focusStops": 33,
+      "focusWithoutIndicator": 4
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 5786,
+      "overflowX": 0,
+      "docH": 2230,
+      "requests": 28,
+      "blockedNonGet": 0,
+      "transferKB": 145,
+      "axeViolations": [
+        "color-contrast(1)",
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 2,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5158,
+      "overflowX": 0,
+      "docH": 2805,
+      "requests": 133,
+      "blockedNonGet": 0,
+      "transferKB": 145,
+      "axeViolations": [
+        "color-contrast(1)",
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 2,
+      "focusStops": 7,
+      "focusWithoutIndicator": 0
+    }
+  }
+}

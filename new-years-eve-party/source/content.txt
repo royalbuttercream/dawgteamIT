@@ -1,0 +1,7 @@
+# new-years-eve-party  https://www.lambdaxi1911.com/new-year-s-eve-party
+title: New Year's Eve party
+description: Information about Dragon Hill Lodge's Annual New Year's Eve party hosted by Lambda Xi
+
+## section s-block-section
+img: alt="" 656929_376749.png
+img: alt="" 207099_865576.png

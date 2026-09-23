@@ -1,0 +1,101 @@
+# lineage  https://www.lambdaxi1911.com/lineage
+title: Korea Bruhz
+description: Men of Omega Psi Phi Fraternity, Inc. made in Korea
+
+## section s-accordion-section
+h1: Line History
+Line History
+accordion-question: 1970s
+h4: 1970s
+1970s
+accordion-answer: Fall 77Frederick D. ColemanRonnie J. McIlwainJesse C. Sellers
+Fall 77
+Frederick D. ColemanRonnie J. McIlwainJesse C. Sellers
+accordion-question: 1980s
+h4: 1980s
+1980s
+accordion-answer: Spring 82Ω Dexter C. AdamsReginald E. Pettus Fall 82Michael D. GayleO. HollowayCurtis A. Lee Fall 83Geoffrey E. PierceBobby D. Thomas Spring 84Leonard R. MontfordHenry l. SimmonsSturgis A. StokesCalvin L. Stringfield Fall 84Morris L. BarcoGerald J. ButlerDwayne HarrisDavid R. HobbsAnthony Howard SrΩ Howard B. HydeWillie L. LakeKevin W. LeeWillie W. Williams Fall 85Steven R. ChambersRonald DanielsJacob B. DavisDerrell GreeneWilburn J. Harrison Fall 86Ω John T. BrooksKevin S. DennisHarold DomineckCecil A. HogueLeroy JacksonGeorge A. MiltonPhillip A. PowellFred J. Wilson Spring 88William L. Bolden JrRichard AddoClement HarrisJoseph K. PopeWayne A. SandersΩ Benjamin F. Thomas Jr Fall 88Ω Marshall E. AndersonDanny BoldenEric A. DavisΩ Leonard D. HaywoodEric JohnsonEric J. Watkins-BayAlvin K. WilkinsRonnie W. Williams
+Spring 82Ω Dexter C. AdamsReginald E. Pettus
+Fall 82
+Michael D. Gayle
+O. Holloway
+Curtis A. Lee
+Fall 83Geoffrey E. PierceBobby D. Thomas
+Spring 84Leonard R. MontfordHenry l. SimmonsSturgis A. StokesCalvin L. Stringfield
+Fall 84Morris L. BarcoGerald J. ButlerDwayne HarrisDavid R. HobbsAnthony Howard SrΩ Howard B. HydeWillie L. LakeKevin W. LeeWillie W. Williams
+Fall 85Steven R. ChambersRonald DanielsJacob B. DavisDerrell GreeneWilburn J. Harrison
+Fall 86Ω John T. BrooksKevin S. DennisHarold DomineckCecil A. HogueLeroy JacksonGeorge A. MiltonPhillip A. PowellFred J. Wilson
+Spring 88William L. Bolden JrRichard AddoClement HarrisJoseph K. PopeWayne A. SandersΩ Benjamin F. Thomas Jr
+Fall 88Ω Marshall E. AndersonDanny BoldenEric A. DavisΩ Leonard D. HaywoodEric JohnsonEric J. Watkins-BayAlvin K. WilkinsRonnie W. Williams
+accordion-question: 2000s
+h4: 2000s
+2000s
+accordion-answer: Spring 00Ron L. Blanch Derrick Daniels Kenneth J. Evans Jr Lester J. Miles Vinson L. Porter Jr Ω Edward McDaniels Jr Spring 04Steven T. Downey Ramel D. Jackson Robert L. Perry Spring 05James R. Burkes Richard C. Corbin Jr Leslie L. Nobles Jr Fall 06Marcus C. Black Jr Montye R. Harris Ω Calvin A. Nance Sr Christopher V. Wynder Spring 09Desmond Smith Quentin Benjamin Craig Battle Aaron Matthews Thomas Smith Brian Ward
+Spring 00
+Ron L. Blanch
+Derrick Daniels
+Kenneth J. Evans Jr
+Lester J. Miles
+Vinson L. Porter Jr
+Ω Edward McDaniels Jr
+Spring 04
+Steven T. Downey
+Ramel D. Jackson
+Robert L. Perry
+Spring 05
+James R. Burkes
+Richard C. Corbin Jr
+Leslie L. Nobles Jr
+Fall 06
+Marcus C. Black Jr
+Montye R. Harris
+Ω Calvin A. Nance Sr
+Christopher V. Wynder
+Spring 09
+Desmond Smith
+Quentin Benjamin
+Craig Battle
+Aaron Matthews
+Thomas Smith
+Brian Ward
+accordion-question: 2010s
+h4: 2010s
+2010s
+accordion-answer: Fall 11Dewayne TerryRodney LambersonAdam GrinesKarl LeeAntoine StatenSpring 13Bernard HarveyFall 14Matthew TassinSpring 15Dexter NunnallyEdward MitchellRobert NevelsBryan CrosbySpring 16Alexander WilkinsNicholson D. LawrenceTimothy A. MullinsSirSedrick C. Kendrick Spring 17Ricky Noid JrAntuan MorrisSpring 18 Cedric DavisWayne BarkerFreddie Thompson, IVRandy BrownAnthony GuilloryLuther JohnsonQuincy Holder SrRobert Williams JrChris ThompsonMarlon RingoSpring 19Preston WillisEmanuel StephensNicholas Morgan
+Fall 11
+Dewayne TerryRodney LambersonAdam GrinesKarl LeeAntoine Staten
+Spring 13
+Bernard Harvey
+Fall 14Matthew Tassin
+Spring 15Dexter NunnallyEdward MitchellRobert NevelsBryan Crosby
+Spring 16Alexander WilkinsNicholson D. LawrenceTimothy A. MullinsSirSedrick C. Kendrick
+Spring 17
+Ricky Noid Jr
+Antuan Morris
+Spring 18 Cedric DavisWayne BarkerFreddie Thompson, IVRandy BrownAnthony GuilloryLuther JohnsonQuincy Holder SrRobert Williams JrChris ThompsonMarlon Ringo
+Spring 19Preston WillisEmanuel StephensNicholas Morgan
+accordion-question: 2020s
+h4: 2020s
+2020s
+accordion-answer: Spring 21Terry M. Gaitor, IIICornelius WoodsonWalter B. Young JrJames C. PatrickFall 21 Brandon SpencerClarence JohnsonMorgan DurhamClarence Burse Spring 22Dennis CunnighamLondon Brown Spring 23Jesse Horton JrLawrence Lovejoy Fall 24Troy Warren JrMarcus ShepherdCharlesvester WimsFall 25Terrence SettleWahid Moore
+Spring 21
+Terry M. Gaitor, III
+Cornelius Woodson
+Walter B. Young Jr
+James C. PatrickFall 21 Brandon SpencerClarence JohnsonMorgan DurhamClarence Burse
+Spring 22Dennis CunnighamLondon Brown
+Spring 23
+Jesse Horton JrLawrence Lovejoy
+Fall 24
+Troy Warren Jr
+Marcus Shepherd
+Charlesvester Wims
+Fall 25
+Terrence Settle
+Wahid Moore
+
+## section s-block-section
+h2: Notable Chapter Brothers
+h3: Twelth 13th District Representative Freddie Thompson, IVIHQ's 2024-2025 Brigadier General Charles Young Military Leadership Award Recipient Freddie Thompson, IV
+Twelth 13th District Representative Freddie Thompson, IV
+IHQ's 2024-2025 Brigadier General Charles Young Military Leadership Award Recipient Freddie Thompson, IV

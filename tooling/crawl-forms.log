@@ -1,0 +1,13 @@
+[scholarships@375] 200 settle 39244ms, 195 req (12 non-GET blocked), 346KB, overflowX 0, axe 8 rule(s)
+[scholarships@768] 200 settle 11547ms, 235 req (12 non-GET blocked), 270KB, overflowX 0, axe 8 rule(s)
+[scholarships@1440] 200 settle 12594ms, 235 req (12 non-GET blocked), 270KB, overflowX 0, axe 8 rule(s)
+[essay-contest-registration@375] 200 settle 17524ms, 173 req (7 non-GET blocked), 313KB, overflowX 0, axe 6 rule(s)
+[essay-contest-registration@768] 200 settle 23000ms, 214 req (7 non-GET blocked), 238KB, overflowX 0, axe 6 rule(s)
+[essay-contest-registration@1440] 200 settle 13277ms, 214 req (7 non-GET blocked), 238KB, overflowX 0, axe 6 rule(s)
+[ylc-registration@375] 200 settle 40686ms, 229 req (21 non-GET blocked), 313KB, overflowX 0, axe 6 rule(s)
+[ylc-registration@768] 200 settle 14627ms, 245 req (15 non-GET blocked), 238KB, overflowX 0, axe 6 rule(s)
+[ylc-registration@1440] 200 settle 23032ms, 267 req (21 non-GET blocked), 238KB, overflowX 0, axe 6 rule(s)
+[contact-us@375] 200 settle 14029ms, 186 req (12 non-GET blocked), 314KB, overflowX 0, axe 8 rule(s)
+[contact-us@768] 200 settle 11022ms, 230 req (12 non-GET blocked), 314KB, overflowX 0, axe 8 rule(s)
+[contact-us@1440] 200 settle 14443ms, 232 req (12 non-GET blocked), 314KB, overflowX 0, axe 8 rule(s)
+done

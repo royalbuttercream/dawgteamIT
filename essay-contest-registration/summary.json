@@ -1,0 +1,66 @@
+{
+  "slug": "essay-contest-registration",
+  "url": "https://www.lambdaxi1911.com/essay-contest-registration",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 17524,
+      "overflowX": 0,
+      "docH": 4289,
+      "requests": 173,
+      "blockedNonGet": 7,
+      "transferKB": 313,
+      "axeViolations": [
+        "color-contrast(4)",
+        "frame-title(1)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(9)"
+      ],
+      "console": 12,
+      "focusStops": 33,
+      "focusWithoutIndicator": 5
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 23000,
+      "overflowX": 0,
+      "docH": 4316,
+      "requests": 214,
+      "blockedNonGet": 7,
+      "transferKB": 238,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(3)",
+        "frame-title(1)",
+        "image-alt(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 13,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 13277,
+      "overflowX": 0,
+      "docH": 4251,
+      "requests": 214,
+      "blockedNonGet": 7,
+      "transferKB": 238,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(4)",
+        "frame-title(1)",
+        "image-alt(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 13,
+      "focusStops": 80,
+      "focusWithoutIndicator": 40
+    }
+  }
+}

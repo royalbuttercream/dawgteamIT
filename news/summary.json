@@ -1,0 +1,62 @@
+{
+  "slug": "news",
+  "url": "https://www.lambdaxi1911.com/news",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 9675,
+      "overflowX": 0,
+      "docH": 1426,
+      "requests": 269,
+      "blockedNonGet": 18,
+      "transferKB": 326,
+      "axeViolations": [
+        "color-contrast(3)",
+        "frame-title(2)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(11)"
+      ],
+      "console": 21,
+      "focusStops": 40,
+      "focusWithoutIndicator": 15
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 6090,
+      "overflowX": 0,
+      "docH": 1284,
+      "requests": 188,
+      "blockedNonGet": 10,
+      "transferKB": 320,
+      "axeViolations": [
+        "frame-title(2)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(17)"
+      ],
+      "console": 12,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5912,
+      "overflowX": 0,
+      "docH": 1339,
+      "requests": 200,
+      "blockedNonGet": 10,
+      "transferKB": 142,
+      "axeViolations": [
+        "frame-title(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 13,
+      "focusStops": 17,
+      "focusWithoutIndicator": 11
+    }
+  }
+}

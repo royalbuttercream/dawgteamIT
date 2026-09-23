@@ -1,0 +1,7 @@
+# youth-leadership-conference  https://www.lambdaxi1911.com/youth-leadership-conference
+title: Annual Youth Leadership Conference
+description: Information about Lambda Xi's Annual Youth Leadership Conference
+
+## section s-block-section
+img: alt="" 510822_99430.png
+link: Register Now -> https://www.lambdaxi1911.com/ylc-registration [_blank]

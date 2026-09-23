@@ -1,0 +1,26 @@
+# home  https://www.lambdaxi1911.com/
+title: The RoK Hard Ques
+description: Your #1 source of information on the RoK Hard Lambda Xi Chapter of the Omega Psi Phi Fraternity, INCORPORATED!
+
+## section s-new-title-section
+img: alt="" 908039_690793.png
+h1: FRIENDSHIP IS ESSENTIAL TO THE SOUL
+FRIENDSHIP IS ESSENTIAL TO THE SOUL
+
+## section s-block-section
+h2: Message from the Basileus
+Greetings,
+On behalf of the Brothers of the Lambda Xi Chapter, welcome and thank you for visiting our official website. I am honored to serve as Basileus for the 2025–2026 Omega Year, guided by our theme: “Exceeding Our Founders’ Expectations.”
+Our Founders established Omega Psi Phi Fraternity, Inc. on the principles of Manhood, Scholarship, Perseverance, and Uplift -- values that continue to shape our work and define our purpose. The Lambda Xi Chapter remains committed to honoring their legacy by striving for excellence in all that we do.
+Lambda Xi is composed of active duty service members and civilians residing across various regions of the Korean Peninsula, united in friendship and committed to advancing the mission of Omega. As one of Omega’s international chapters, we proudly serve the Korean Peninsula. Through our mandated programs and community outreach, we work to uplift service members, families, and surrounding communities with intentional and impactful engagement.
+Here on our website, you will find information about our initiatives, upcoming events, and the ongoing work we are doing throughout the Peninsula. Whether you are a brother reconnecting, a community member seeking support, or a visitor looking to learn more, we are grateful for your interest in our chapter and its mission.
+We invite you to explore, engage, and stay connected as we continue the important work of service, leadership, and friendship, upholding the high standards and enduring legacy of our Founders and the Omega Psi Phi Fraternity, Inc.
+In Friendship and Service,
+Bro. Eugene Gibbs
+Basileus, Lambda Xi Chapter
+img: alt="" 444093_62887.png
+
+## section s-html-section
+h2: Annual Souvenir Journal
+Annual Souvenir Journal
+iframe: https://e.issuu.com/embed.html?d=lambda_xi_achievement_week_journal&u=lambdaxi

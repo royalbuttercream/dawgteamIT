@@ -1,0 +1,711 @@
+[
+ {
+  "decade": "1970s",
+  "semesters": [
+   {
+    "season": "Fall",
+    "year": 1977,
+    "label": "Fall 1977",
+    "brothers": [
+     {
+      "name": "Frederick D. Coleman",
+      "omegaChapter": false
+     },
+     {
+      "name": "Ronnie J. McIlwain",
+      "omegaChapter": false
+     },
+     {
+      "name": "Jesse C. Sellers",
+      "omegaChapter": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "decade": "1980s",
+  "semesters": [
+   {
+    "season": "Spring",
+    "year": 1982,
+    "label": "Spring 1982",
+    "brothers": [
+     {
+      "name": "Dexter C. Adams",
+      "omegaChapter": true
+     },
+     {
+      "name": "Reginald E. Pettus",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 1982,
+    "label": "Fall 1982",
+    "brothers": [
+     {
+      "name": "Michael D. Gayle",
+      "omegaChapter": false
+     },
+     {
+      "name": "O. Holloway",
+      "omegaChapter": false
+     },
+     {
+      "name": "Curtis A. Lee",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 1983,
+    "label": "Fall 1983",
+    "brothers": [
+     {
+      "name": "Geoffrey E. Pierce",
+      "omegaChapter": false
+     },
+     {
+      "name": "Bobby D. Thomas",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 1984,
+    "label": "Spring 1984",
+    "brothers": [
+     {
+      "name": "Leonard R. Montford",
+      "omegaChapter": false
+     },
+     {
+      "name": "Henry l. Simmons",
+      "omegaChapter": false
+     },
+     {
+      "name": "Sturgis A. Stokes",
+      "omegaChapter": false
+     },
+     {
+      "name": "Calvin L. Stringfield",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 1984,
+    "label": "Fall 1984",
+    "brothers": [
+     {
+      "name": "Morris L. Barco",
+      "omegaChapter": false
+     },
+     {
+      "name": "Gerald J. Butler",
+      "omegaChapter": false
+     },
+     {
+      "name": "Dwayne Harris",
+      "omegaChapter": false
+     },
+     {
+      "name": "David R. Hobbs",
+      "omegaChapter": false
+     },
+     {
+      "name": "Anthony Howard Sr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Howard B. Hyde",
+      "omegaChapter": true
+     },
+     {
+      "name": "Willie L. Lake",
+      "omegaChapter": false
+     },
+     {
+      "name": "Kevin W. Lee",
+      "omegaChapter": false
+     },
+     {
+      "name": "Willie W. Williams",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 1985,
+    "label": "Fall 1985",
+    "brothers": [
+     {
+      "name": "Steven R. Chambers",
+      "omegaChapter": false
+     },
+     {
+      "name": "Ronald Daniels",
+      "omegaChapter": false
+     },
+     {
+      "name": "Jacob B. Davis",
+      "omegaChapter": false
+     },
+     {
+      "name": "Derrell Greene",
+      "omegaChapter": false
+     },
+     {
+      "name": "Wilburn J. Harrison",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 1986,
+    "label": "Fall 1986",
+    "brothers": [
+     {
+      "name": "John T. Brooks",
+      "omegaChapter": true
+     },
+     {
+      "name": "Kevin S. Dennis",
+      "omegaChapter": false
+     },
+     {
+      "name": "Harold Domineck",
+      "omegaChapter": false
+     },
+     {
+      "name": "Cecil A. Hogue",
+      "omegaChapter": false
+     },
+     {
+      "name": "Leroy Jackson",
+      "omegaChapter": false
+     },
+     {
+      "name": "George A. Milton",
+      "omegaChapter": false
+     },
+     {
+      "name": "Phillip A. Powell",
+      "omegaChapter": false
+     },
+     {
+      "name": "Fred J. Wilson",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 1988,
+    "label": "Spring 1988",
+    "brothers": [
+     {
+      "name": "William L. Bolden Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Richard Addo",
+      "omegaChapter": false
+     },
+     {
+      "name": "Clement Harris",
+      "omegaChapter": false
+     },
+     {
+      "name": "Joseph K. Pope",
+      "omegaChapter": false
+     },
+     {
+      "name": "Wayne A. Sanders",
+      "omegaChapter": false
+     },
+     {
+      "name": "Benjamin F. Thomas Jr",
+      "omegaChapter": true
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 1988,
+    "label": "Fall 1988",
+    "brothers": [
+     {
+      "name": "Marshall E. Anderson",
+      "omegaChapter": true
+     },
+     {
+      "name": "Danny Bolden",
+      "omegaChapter": false
+     },
+     {
+      "name": "Eric A. Davis",
+      "omegaChapter": false
+     },
+     {
+      "name": "Leonard D. Haywood",
+      "omegaChapter": true
+     },
+     {
+      "name": "Eric Johnson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Eric J. Watkins-Bay",
+      "omegaChapter": false
+     },
+     {
+      "name": "Alvin K. Wilkins",
+      "omegaChapter": false
+     },
+     {
+      "name": "Ronnie W. Williams",
+      "omegaChapter": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "decade": "1990s",
+  "semesters": [],
+  "note": "Data pending from the chapter. Add semesters here in the same shape as the other decades."
+ },
+ {
+  "decade": "2000s",
+  "semesters": [
+   {
+    "season": "Spring",
+    "year": 2000,
+    "label": "Spring 2000",
+    "brothers": [
+     {
+      "name": "Ron L. Blanch",
+      "omegaChapter": false
+     },
+     {
+      "name": "Derrick Daniels",
+      "omegaChapter": false
+     },
+     {
+      "name": "Kenneth J. Evans Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Lester J. Miles",
+      "omegaChapter": false
+     },
+     {
+      "name": "Vinson L. Porter Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Edward McDaniels Jr",
+      "omegaChapter": true
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2004,
+    "label": "Spring 2004",
+    "brothers": [
+     {
+      "name": "Steven T. Downey",
+      "omegaChapter": false
+     },
+     {
+      "name": "Ramel D. Jackson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Robert L. Perry",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2005,
+    "label": "Spring 2005",
+    "brothers": [
+     {
+      "name": "James R. Burkes",
+      "omegaChapter": false
+     },
+     {
+      "name": "Richard C. Corbin Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Leslie L. Nobles Jr",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 2006,
+    "label": "Fall 2006",
+    "brothers": [
+     {
+      "name": "Marcus C. Black Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Montye R. Harris",
+      "omegaChapter": false
+     },
+     {
+      "name": "Calvin A. Nance Sr",
+      "omegaChapter": true
+     },
+     {
+      "name": "Christopher V. Wynder",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2009,
+    "label": "Spring 2009",
+    "brothers": [
+     {
+      "name": "Desmond Smith",
+      "omegaChapter": false
+     },
+     {
+      "name": "Quentin Benjamin",
+      "omegaChapter": false
+     },
+     {
+      "name": "Craig Battle",
+      "omegaChapter": false
+     },
+     {
+      "name": "Aaron Matthews",
+      "omegaChapter": false
+     },
+     {
+      "name": "Thomas Smith",
+      "omegaChapter": false
+     },
+     {
+      "name": "Brian Ward",
+      "omegaChapter": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "decade": "2010s",
+  "semesters": [
+   {
+    "season": "Fall",
+    "year": 2011,
+    "label": "Fall 2011",
+    "brothers": [
+     {
+      "name": "Dewayne Terry",
+      "omegaChapter": false
+     },
+     {
+      "name": "Rodney Lamberson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Adam Grines",
+      "omegaChapter": false
+     },
+     {
+      "name": "Karl Lee",
+      "omegaChapter": false
+     },
+     {
+      "name": "Antoine Staten",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2013,
+    "label": "Spring 2013",
+    "brothers": [
+     {
+      "name": "Bernard Harvey",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 2014,
+    "label": "Fall 2014",
+    "brothers": [
+     {
+      "name": "Matthew Tassin",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2015,
+    "label": "Spring 2015",
+    "brothers": [
+     {
+      "name": "Dexter Nunnally",
+      "omegaChapter": false
+     },
+     {
+      "name": "Edward Mitchell",
+      "omegaChapter": false
+     },
+     {
+      "name": "Robert Nevels",
+      "omegaChapter": false
+     },
+     {
+      "name": "Bryan Crosby",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2016,
+    "label": "Spring 2016",
+    "brothers": [
+     {
+      "name": "Alexander Wilkins",
+      "omegaChapter": false
+     },
+     {
+      "name": "Nicholson D. Lawrence",
+      "omegaChapter": false
+     },
+     {
+      "name": "Timothy A. Mullins",
+      "omegaChapter": false
+     },
+     {
+      "name": "SirSedrick C. Kendrick",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2017,
+    "label": "Spring 2017",
+    "brothers": [
+     {
+      "name": "Ricky Noid Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Antuan Morris",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2018,
+    "label": "Spring 2018",
+    "brothers": [
+     {
+      "name": "Cedric Davis",
+      "omegaChapter": false
+     },
+     {
+      "name": "Wayne Barker",
+      "omegaChapter": false
+     },
+     {
+      "name": "Freddie Thompson, IV",
+      "omegaChapter": false
+     },
+     {
+      "name": "Randy Brown",
+      "omegaChapter": false
+     },
+     {
+      "name": "Anthony Guillory",
+      "omegaChapter": false
+     },
+     {
+      "name": "Luther Johnson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Quincy Holder Sr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Robert Williams Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Chris Thompson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Marlon Ringo",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2019,
+    "label": "Spring 2019",
+    "brothers": [
+     {
+      "name": "Preston Willis",
+      "omegaChapter": false
+     },
+     {
+      "name": "Emanuel Stephens",
+      "omegaChapter": false
+     },
+     {
+      "name": "Nicholas Morgan",
+      "omegaChapter": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "decade": "2020s",
+  "semesters": [
+   {
+    "season": "Spring",
+    "year": 2021,
+    "label": "Spring 2021",
+    "brothers": [
+     {
+      "name": "Terry M. Gaitor, III",
+      "omegaChapter": false
+     },
+     {
+      "name": "Cornelius Woodson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Walter B. Young Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "James C. Patrick",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 2021,
+    "label": "Fall 2021",
+    "brothers": [
+     {
+      "name": "Brandon Spencer",
+      "omegaChapter": false
+     },
+     {
+      "name": "Clarence Johnson",
+      "omegaChapter": false
+     },
+     {
+      "name": "Morgan Durham",
+      "omegaChapter": false
+     },
+     {
+      "name": "Clarence Burse",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2022,
+    "label": "Spring 2022",
+    "brothers": [
+     {
+      "name": "Dennis Cunnigham",
+      "omegaChapter": false
+     },
+     {
+      "name": "London Brown",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Spring",
+    "year": 2023,
+    "label": "Spring 2023",
+    "brothers": [
+     {
+      "name": "Jesse Horton Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Lawrence Lovejoy",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 2024,
+    "label": "Fall 2024",
+    "brothers": [
+     {
+      "name": "Troy Warren Jr",
+      "omegaChapter": false
+     },
+     {
+      "name": "Marcus Shepard",
+      "omegaChapter": false
+     },
+     {
+      "name": "Charlesvester Wims",
+      "omegaChapter": false
+     }
+    ]
+   },
+   {
+    "season": "Fall",
+    "year": 2025,
+    "label": "Fall 2025",
+    "brothers": [
+     {
+      "name": "Terrence Settle",
+      "omegaChapter": false
+     },
+     {
+      "name": "Wahid Moore",
+      "omegaChapter": false
+     }
+    ]
+   }
+  ]
+ }
+]

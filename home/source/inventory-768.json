@@ -1,0 +1,557 @@
+{
+  "title": "The RoK Hard Ques",
+  "lang": "en",
+  "metaDescription": "Your #1 source of information on the RoK Hard Lambda Xi Chapter of the Omega Psi Phi Fraternity, INCORPORATED!",
+  "og": [
+    "og:type=website",
+    "og:title=The RoK Hard Ques",
+    "og:url=https://www.lambdaxi1911.com/",
+    "og:image=https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lo",
+    "og:site_name=The RoK Hard Ques",
+    "og:description=Your #1 source of information on the RoK Hard Lambda Xi Chapter of the Omega Psi"
+  ],
+  "canonical": "https://www.lambdaxi1911.com/",
+  "favicon": true,
+  "viewportMeta": "width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0",
+  "viewport": {
+    "w": 768,
+    "h": 900,
+    "docH": 2881
+  },
+  "overflowX": 0,
+  "wide": [],
+  "hasMain": false,
+  "hasSkipLink": false,
+  "headings": [
+    {
+      "level": 1,
+      "text": "The RoK Hard Ques",
+      "visible": true
+    },
+    {
+      "level": 2,
+      "text": "The RoK Hard Ques",
+      "visible": true
+    },
+    {
+      "level": 1,
+      "text": "FRIENDSHIP IS ESSENTIAL TO THE SOUL",
+      "visible": true
+    },
+    {
+      "level": 2,
+      "text": "Message from the Basileus",
+      "visible": true
+    },
+    {
+      "level": 2,
+      "text": "Annual Souvenir Journal",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "text": "Home",
+      "href": "/",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "History of Omega Psi Phi",
+      "href": "https://www.oppf.org/about-omega/",
+      "kind": "external",
+      "target": "_blank",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "History of Lambda Xi",
+      "href": "/history-of-lambda-xi",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Executive Officers",
+      "href": "/executive-officers",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Past Basilei",
+      "href": "/past-basilei",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Lineage",
+      "href": "/lineage",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Mandated Programs",
+      "href": "/mandated-programs",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Scholarships",
+      "href": "/scholarships",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "50th Anniversary Gala",
+      "href": "/50th-anniversary-gala",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Achievement Week",
+      "href": "/achievement-week",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "All Star Game",
+      "href": "/all-star-game",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Youth Leadership Conference",
+      "href": "/youth-leadership-conference",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2025",
+      "href": "/2025",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2024",
+      "href": "/2024",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2023",
+      "href": "/2023",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2022",
+      "href": "/2022",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2021",
+      "href": "/2021",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2017-2020",
+      "href": "/2017-2020",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "News",
+      "href": "/news",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Seeking",
+      "href": "https://msp.oppf.org/",
+      "kind": "external",
+      "target": "_blank",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Learn More",
+      "href": "/pages/cookie-policy",
+      "kind": "internal",
+      "target": "_blank",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    }
+  ],
+  "controls": [
+    {
+      "tag": "button",
+      "type": "",
+      "name": "",
+      "id": "",
+      "required": false,
+      "placeholder": "",
+      "text": "Accept",
+      "accessibleName": "",
+      "autocomplete": "",
+      "outlineStyle": "none",
+      "visible": true,
+      "inForm": false
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1312902/113191_548063.jpg",
+      "alt": "thumbnail image",
+      "hasAlt": true,
+      "naturalWidth": 945,
+      "naturalHeight": 630,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 282,
+      "naturalHeight": 300,
+      "renderedWidth": 56,
+      "renderedHeight": 60,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": true
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 282,
+      "naturalHeight": 300,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1312902/908039_690793.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 835,
+      "naturalHeight": 284,
+      "renderedWidth": 676,
+      "renderedHeight": 230,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": true
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1312902/444093_62887.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1200,
+      "renderedWidth": 339,
+      "renderedHeight": 339,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": true
+    }
+  ],
+  "bgImages": [
+    {
+      "tag": "div",
+      "cls": "s-bg-image s-bg-blurred s-bg-light-text s-new-title-section ",
+      "url": "url(\"https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1312902/131250_931262.jpeg\")",
+      "w": 768,
+      "h": 746
+    }
+  ],
+  "iframes": [
+    {
+      "src": "/c/apps/google_map?loc=Pyeongtaek%2C%20South%20Korea",
+      "title": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://e.issuu.com/embed.html?d=lambda_xi_achievement_week_journal&u=lambdaxi",
+      "title": "",
+      "w": 676,
+      "h": 406
+    }
+  ],
+  "videos": [],
+  "landmarks": [],
+  "small": [],
+  "tapTargets": [
+    {
+      "tag": "button",
+      "w": 34,
+      "h": 12,
+      "text": "Accept"
+    },
+    {
+      "tag": "a",
+      "w": 57,
+      "h": 14,
+      "text": "Learn More"
+    }
+  ],
+  "styleSheets": [
+    "inline",
+    "inline",
+    "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,7",
+    "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline"
+  ],
+  "fonts": [
+    "Sansita 700",
+    "Special Elite 400",
+    "Font Awesome 5 Free 900"
+  ],
+  "inlineStyleCount": 63,
+  "totalEls": 443,
+  "bodyTextLength": 1965,
+  "cookies": 2,
+  "localStorageKeys": [
+    "canUseLocalStorage"
+  ],
+  "perf": {
+    "domContentLoaded": 997,
+    "load": 1634,
+    "htmlTransfer": 121878,
+    "htmlDecoded": 741263,
+    "transferTotal": 228120,
+    "requestCount": 109,
+    "byType": {
+      "link": {
+        "count": 3,
+        "transfer": 0
+      },
+      "script": {
+        "count": 96,
+        "transfer": 27746
+      },
+      "img": {
+        "count": 4,
+        "transfer": 0
+      },
+      "iframe": {
+        "count": 1,
+        "transfer": 0
+      },
+      "css": {
+        "count": 4,
+        "transfer": 78496
+      }
+    },
+    "hosts": {
+      "static-fonts-css.strikinglycdn.com": 0,
+      "static-assets.strikinglycdn.com": 0,
+      "custom-images.strikinglycdn.com": 0,
+      "cdnjs.cloudflare.com": 106242,
+      "e.issuu.com": 0,
+      "p.typekit.net": 0,
+      "d26b395fwzu5fz.cloudfront.net": 0
+    },
+    "lcpMs": null
+  },
+  "settleMs": 5567,
+  "httpStatus": 200,
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "warning",
+      "text": "Deprecated API for given entry type."
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "focus": [],
+  "interactions": {},
+  "popup": null
+}

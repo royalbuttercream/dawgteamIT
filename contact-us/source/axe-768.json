@@ -1,0 +1,510 @@
+{
+  "violations": [
+    {
+      "id": "aria-dialog-name",
+      "impact": "serious",
+      "tags": [
+        "cat.aria",
+        "best-practice"
+      ],
+      "help": "ARIA dialog and alertdialog nodes should have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-dialog-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".s-kit-modal"
+          ],
+          "html": "<div role=\"dialog\" aria-modal=\"true\" class=\"s-kit-modal s-email-form popups-dialog layout-center modify-the-position\" style=\"width: auto;\">",
+          "summary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".s-name-field.s-email-form-field:nth-child(1) > .s-email-form-field-wrapper > .s-email-form-field-input.s-font-body > label"
+          ],
+          "html": "<label>First Name</label>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".s-name-field.s-email-form-field:nth-child(2) > .s-email-form-field-wrapper > .s-email-form-field-input.s-font-body > label"
+          ],
+          "html": "<label>Last Name</label>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".s-email-field.s-email-form-field:nth-child(2) > .s-email-form-field-wrapper > .s-email-form-field-input.s-font-body > label"
+          ],
+          "html": "<label>Email</label>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".s-message-field > .s-email-form-field-wrapper > .s-email-form-field-input.s-font-body > label"
+          ],
+          "html": "<label>Message</label>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".s-email-form-fields-group > .s-submit-field.s-email-form-field > .s-email-form-button"
+          ],
+          "html": "<button sectionstyleprops=\"[object Object]\" class=\"s-email-form-button s-common-button s-font-button\">\n        Submit\n      </button>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #ffffff, background color: #cdb33a, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+        },
+        {
+          "target": [
+            ".accept-btn.s-common-button[sectionstyleprops=\"[object Object]\"]:nth-child(1)"
+          ],
+          "html": "<div sectionstyleprops=\"[object Object]\" class=\"accept-btn s-common-button\">Accept all</div>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #ffffff, background color: #cdb33a, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".accept-btn.s-common-button[sectionstyleprops=\"[object Object]\"]:nth-child(2)"
+          ],
+          "html": "<div sectionstyleprops=\"[object Object]\" class=\"accept-btn s-common-button\">Settings</div>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #ffffff, background color: #cdb33a, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".cancel-btn"
+          ],
+          "html": "<span class=\"s-common-link cancel-btn\" style=\"opacity: 0.5;\">Decline All</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.25 (foreground color: #a5a6a7, background color: #f4f6f8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ],
+      "nodeCount": 8
+    },
+    {
+      "id": "empty-heading",
+      "impact": "minor",
+      "tags": [
+        "cat.name-role-value",
+        "best-practice"
+      ],
+      "help": "Headings should not be empty",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "h4"
+          ],
+          "html": "<h4><div class=\"s-rich-text-wrapper\" style=\"display: block;\"><p><span style=\"display: inline-block\">&nbsp;</span></p></div></h4>",
+          "summary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "heading-order",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "h4"
+          ],
+          "html": "<h4><div class=\"s-rich-text-wrapper\" style=\"display: block;\"><p><span style=\"display: inline-block\">&nbsp;</span></p></div></h4>",
+          "summary": "Fix any of the following:\n  Heading order invalid"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "help": "Images must have alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".banner > img"
+          ],
+          "html": "<img src=\"https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_960,w_760,f_auto,q_auto/1312902/894235_156562.png\">",
+          "summary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "label",
+      "impact": "critical",
+      "tags": [
+        "cat.forms",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.n",
+        "TTv5",
+        "TT5.c",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-11.1.1"
+      ],
+      "help": "Form elements must have labels",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#rc_select_0"
+          ],
+          "html": "<input type=\"search\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-owns=\"rc_select_0_list\" aria-autocomplete=\"list\" aria-controls=\"rc_select_0_list\" value=\"\" id=\"rc_select_0\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "meta-viewport-large",
+      "impact": "minor",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "best-practice"
+      ],
+      "help": "Users should be able to zoom and scale the text up to 500%",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#viewport"
+          ],
+          "html": "<meta content=\"width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0\" id=\"viewport\" name=\"viewport\">",
+          "summary": "Fix any of the following:\n  <meta> tag limits zooming on mobile devices"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "region",
+      "impact": "moderate",
+      "tags": [
+        "cat.keyboard",
+        "best-practice",
+        "RGAAv4",
+        "RGAA-9.2.1"
+      ],
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".logo-title"
+          ],
+          "html": "<h1 class=\"logo-title\" style=\"cursor: pointer;\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(1)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/\"><span class=\"s-font-body\">Home</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(2) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Our Legacy&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(3) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Programs&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(4) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Upcoming Events&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(5) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Gallery&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(6)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/news\"><span class=\"s-font-body\">News</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(7) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Members&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(8)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item selected\" target=\"_self\" href=\"/contact-us\"><span class=\"s-font-body\">Contact Us</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".cta"
+          ],
+          "html": "<li class=\"cta\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-title-group"
+          ],
+          "html": "<div class=\"s-title-group\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-email-form-name-field-group"
+          ],
+          "html": "<div class=\"s-email-field s-email-form-field s-email-form-name-field-group\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-email-field.s-email-form-field:nth-child(2)"
+          ],
+          "html": "<div class=\"s-email-field s-email-form-field\">\n          <div class=\"s-email-form-field-wrapper\"><div class=\"s-email-form-field-input s-font-body\"><label>Email</label><input type=\"text\" aria-label=\"Email\" value=\"\" style=\"\"></div></div>\n        </div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".country-code"
+          ],
+          "html": "<span class=\"country-code\">+44</span>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-kit-input"
+          ],
+          "html": "<input maxlength=\"20\" placeholder=\"Phone\" class=\"s-kit-input s-kit-input-outlined s-font-body\" type=\"text\" value=\"\" style=\"\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-message-field"
+          ],
+          "html": "<div class=\"s-email-form-field s-message-field\">\n        <div class=\"s-email-form-field-wrapper\"><div class=\"s-email-form-field-input s-font-body\"><label>Message</label><textarea type=\"text\" aria-label=\"Message\" style=\"\"></textarea></div></div>\n      </div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "#s-footer-section-container"
+          ],
+          "html": "<div id=\"s-footer-section-container\" class=\"\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-font-body > .s-cookie-notification-bar"
+          ],
+          "html": "<div class=\"s-cookie-notification-bar\" style=\"bottom: 70px; left: 20px;\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "#user_sites > .s-cookie-notification-bar > .cookie-notification-title"
+          ],
+          "html": "<div class=\"cookie-notification-title\">Cookie Use</div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "#user_sites > .s-cookie-notification-bar > .cookie-notification-text"
+          ],
+          "html": "<span class=\"cookie-notification-text\">We use cookies to ensure a smooth browsing experience.  By continuing we assume you accept the use of cookies.</span>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        }
+      ],
+      "nodeCount": 21
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "aria-valid-attr-value",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "help": "ARIA attributes must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#rc_select_0"
+          ],
+          "html": "<input type=\"search\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-owns=\"rc_select_0_list\" aria-autocomplete=\"list\" aria-controls=\"rc_select_0_list\" value=\"\" id=\"rc_select_0\" style=\"\">",
+          "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"rc_select_0_list\""
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "h2 > span"
+          ],
+          "html": "<span style=\"color: #ffa64d;\">The RoK Hard Ques</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "target": [
+            ".s-nav-item[href=\"/\"][target=\"_self\"] > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">Home</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            "input[aria-label=\"First Name\"]"
+          ],
+          "html": "<input type=\"text\" aria-label=\"First Name\" value=\"\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            "input[aria-label=\"Last Name\"]"
+          ],
+          "html": "<input type=\"text\" aria-label=\"Last Name\" value=\"\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            "input[aria-label=\"Email\"]"
+          ],
+          "html": "<input type=\"text\" aria-label=\"Email\" value=\"\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            "#rc_select_0"
+          ],
+          "html": "<input type=\"search\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-owns=\"rc_select_0_list\" aria-autocomplete=\"list\" aria-controls=\"rc_select_0_list\" value=\"\" id=\"rc_select_0\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            ".country-code"
+          ],
+          "html": "<span class=\"country-code\">+44</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "target": [
+            "textarea[aria-label=\"Message\"]"
+          ],
+          "html": "<textarea type=\"text\" aria-label=\"Message\" style=\"\"></textarea>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            ".s-font-body > .s-cookie-notification-bar > .cookie-notification-text"
+          ],
+          "html": "<span class=\"cookie-notification-text\">We use cookies to ensure a smooth browsing experience. By accepting, you agree the use of cookies.&nbsp;<a class=\"s-common-link\" href=\"/pages/cookie-policy\" target=\"_blank\" style=\"text-decoration: underline; color: inherit;\">Learn More</a></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        }
+      ],
+      "nodeCount": 9
+    },
+    {
+      "id": "frame-tested",
+      "impact": "critical",
+      "tags": [
+        "cat.structure",
+        "best-practice",
+        "review-item"
+      ],
+      "help": "Frames should be tested with axe-core",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-tested?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "iframe[data-hcaptcha-widget-id=\"01nc0vqp9huz\"]"
+          ],
+          "html": "<iframe src=\"https://newassets.hc...\" tabindex=\"0\" frameborder=\"0\" scrolling=\"no\" allow=\"private-state-token-...\" title=\"Widget containing ch...\" data-hcaptcha-widget...=\"01nc0vqp9huz\" data-hcaptcha-respon...=\"\" style=\"pointer-events: auto...\">",
+          "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+        }
+      ],
+      "nodeCount": 1
+    }
+  ],
+  "testEngine": "4.13.0"
+}

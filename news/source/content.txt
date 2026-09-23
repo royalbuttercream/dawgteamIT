@@ -1,0 +1,10 @@
+# news  https://www.lambdaxi1911.com/news
+title: Lambda Xi News
+description: Brief article/blog updates on what the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc. has been doing in Korea
+
+## section s-block-section
+h2: RoK Hard News!
+Lambda Xi Chapter - Omega Year 2026 Newsletters (November 2025 - October 2026)
+iframe: /show_iframe_component/26214466?source=live_site
+Lambda Xi Chapter - Omega Year 2025 Newsletters (November 2024- October 2025)
+iframe: https://e.issuu.com/embed.html?d=lambda_xi_rok_hard_news_oy_25&u=lambdaxi

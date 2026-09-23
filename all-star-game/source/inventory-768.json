@@ -1,0 +1,447 @@
+{
+  "title": "Annual All Star Game",
+  "lang": "en",
+  "metaDescription": "Lambda Xi's Annual Mental Health Awareness All Star Basketball Game.",
+  "og": [
+    "og:type=website",
+    "og:title=Annual All Star Game",
+    "og:url=https://www.lambdaxi1911.com/all-star-game",
+    "og:image=https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lo",
+    "og:site_name=The RoK Hard Ques",
+    "og:description=Lambda Xi's Annual Mental Health Awareness All Star Basketball Game."
+  ],
+  "canonical": "https://www.lambdaxi1911.com/all-star-game",
+  "favicon": true,
+  "viewportMeta": "width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0",
+  "viewport": {
+    "w": 768,
+    "h": 900,
+    "docH": 1364
+  },
+  "overflowX": 0,
+  "wide": [],
+  "hasMain": false,
+  "hasSkipLink": false,
+  "headings": [
+    {
+      "level": 1,
+      "text": "The RoK Hard Ques",
+      "visible": true
+    },
+    {
+      "level": 2,
+      "text": "The RoK Hard Ques",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "text": "Home",
+      "href": "/",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "History of Omega Psi Phi",
+      "href": "https://www.oppf.org/about-omega/",
+      "kind": "external",
+      "target": "_blank",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "History of Lambda Xi",
+      "href": "/history-of-lambda-xi",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Executive Officers",
+      "href": "/executive-officers",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Past Basilei",
+      "href": "/past-basilei",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Lineage",
+      "href": "/lineage",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Mandated Programs",
+      "href": "/mandated-programs",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Scholarships",
+      "href": "/scholarships",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "50th Anniversary Gala",
+      "href": "/50th-anniversary-gala",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Achievement Week",
+      "href": "/achievement-week",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "All Star Game",
+      "href": "/all-star-game",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Youth Leadership Conference",
+      "href": "/youth-leadership-conference",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2025",
+      "href": "/2025",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2024",
+      "href": "/2024",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2023",
+      "href": "/2023",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2022",
+      "href": "/2022",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2021",
+      "href": "/2021",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "2017-2020",
+      "href": "/2017-2020",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "News",
+      "href": "/news",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "kind": "internal",
+      "target": "_self",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Seeking",
+      "href": "https://msp.oppf.org/",
+      "kind": "external",
+      "target": "_blank",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Home",
+      "href": "/home",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://www.lambdaxi1911.com/contact-us",
+      "kind": "internal",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Find Us",
+      "href": "https://maps.google.com/maps?q=36.95861337189751,127.0427376735077",
+      "kind": "external",
+      "target": "",
+      "rel": "",
+      "visible": false,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    },
+    {
+      "text": "Learn More",
+      "href": "/pages/cookie-policy",
+      "kind": "internal",
+      "target": "_blank",
+      "rel": "",
+      "visible": true,
+      "ariaCurrent": "",
+      "ariaLabel": ""
+    }
+  ],
+  "controls": [
+    {
+      "tag": "button",
+      "type": "",
+      "name": "",
+      "id": "",
+      "required": false,
+      "placeholder": "",
+      "text": "Accept",
+      "accessibleName": "",
+      "autocomplete": "",
+      "outlineStyle": "none",
+      "visible": true,
+      "inForm": false
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1312902/113191_548063.jpg",
+      "alt": "thumbnail image",
+      "hasAlt": true,
+      "naturalWidth": 945,
+      "naturalHeight": 630,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 282,
+      "naturalHeight": 300,
+      "renderedWidth": 56,
+      "renderedHeight": 60,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": true
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1312902/559683_636203.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 282,
+      "naturalHeight": 300,
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": false
+    },
+    {
+      "src": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1312902/938049_860948.png",
+      "alt": "",
+      "hasAlt": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1697,
+      "renderedWidth": 676,
+      "renderedHeight": 956,
+      "loading": "",
+      "hasSrcset": false,
+      "complete": true,
+      "visible": true
+    }
+  ],
+  "bgImages": [],
+  "iframes": [],
+  "videos": [],
+  "landmarks": [],
+  "small": [],
+  "tapTargets": [
+    {
+      "tag": "button",
+      "w": 34,
+      "h": 12,
+      "text": "Accept"
+    },
+    {
+      "tag": "a",
+      "w": 57,
+      "h": 14,
+      "text": "Learn More"
+    }
+  ],
+  "styleSheets": [
+    "inline",
+    "inline",
+    "https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,7",
+    "https://static-assets.strikinglycdn.com/themes/zine/main_v4.0c1aa6ab472978e4e1a2.bundle.css",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline",
+    "inline"
+  ],
+  "fonts": [
+    "Sansita 700",
+    "Special Elite 400",
+    "Font Awesome 5 Free 900"
+  ],
+  "inlineStyleCount": 22,
+  "totalEls": 371,
+  "bodyTextLength": 259,
+  "cookies": 2,
+  "localStorageKeys": [],
+  "perf": {
+    "domContentLoaded": 886,
+    "load": 1365,
+    "htmlTransfer": 116836,
+    "htmlDecoded": 719375,
+    "transferTotal": 144582,
+    "requestCount": 14,
+    "byType": {
+      "link": {
+        "count": 3,
+        "transfer": 0
+      },
+      "img": {
+        "count": 3,
+        "transfer": 0
+      },
+      "script": {
+        "count": 7,
+        "transfer": 27746
+      }
+    },
+    "hosts": {
+      "static-fonts-css.strikinglycdn.com": 0,
+      "static-assets.strikinglycdn.com": 0,
+      "custom-images.strikinglycdn.com": 0,
+      "cdnjs.cloudflare.com": 27746
+    },
+    "lcpMs": null
+  },
+  "settleMs": 4943,
+  "httpStatus": 200,
+  "console": [
+    {
+      "type": "warning",
+      "text": "The resource https://static-fonts-css.strikinglycdn.com/css?family=Sansita:regular,italic,700,700italic,800,800italic,900,900italic|Special+Elite:regular|Work+Sans:400,600,700&subset=latin,latin-ext&display=swap was preloaded using link preload but not used within a few seconds from the window's loa"
+    },
+    {
+      "type": "warning",
+      "text": "Deprecated API for given entry type."
+    }
+  ],
+  "focus": [],
+  "interactions": {},
+  "popup": null
+}

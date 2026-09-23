@@ -1,0 +1,8 @@
+# ylc-registration  https://www.lambdaxi1911.com/ylc-registration
+title: YLC Registration - The RoK Hard Ques
+description: 
+
+## section s-html-section
+h1: Register for the 2026 YLC
+Register for the 2026 YLC
+iframe: https://docs.google.com/forms/d/e/1FAIpQLSeLFCfsAgWfeI1He-_zwalLjL-4tKzLsTzlu9PYI3Tt1RmhMg/viewform?embedded=true

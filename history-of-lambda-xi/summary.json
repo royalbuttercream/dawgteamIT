@@ -1,0 +1,60 @@
+{
+  "slug": "history-of-lambda-xi",
+  "url": "https://www.lambdaxi1911.com/history-of-lambda-xi",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 9728,
+      "overflowX": 0,
+      "docH": 2940,
+      "requests": 171,
+      "blockedNonGet": 7,
+      "transferKB": 317,
+      "axeViolations": [
+        "color-contrast(4)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(9)"
+      ],
+      "console": 9,
+      "focusStops": 32,
+      "focusWithoutIndicator": 4
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 4654,
+      "overflowX": 0,
+      "docH": 2712,
+      "requests": 23,
+      "blockedNonGet": 0,
+      "transferKB": 145,
+      "axeViolations": [
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5118,
+      "overflowX": 0,
+      "docH": 2504,
+      "requests": 97,
+      "blockedNonGet": 0,
+      "transferKB": 145,
+      "axeViolations": [
+        "color-contrast(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 6,
+      "focusWithoutIndicator": 0
+    }
+  }
+}

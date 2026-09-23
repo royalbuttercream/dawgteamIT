@@ -1,0 +1,21 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true });
+await c.route('**/*', (r) => (['GET','HEAD','OPTIONS'].includes(r.request().method()) ? r.continue() : r.abort()));
+const p = await c.newPage();
+await p.goto('https://www.lambdaxi1911.com/', { waitUntil: 'domcontentloaded' });
+await p.waitForTimeout(6000);
+const info = await p.evaluate(() => {
+  const vis = (el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+  const desc = (el) => `${el.tagName.toLowerCase()}.${String(el.className).trim().replace(/\s+/g, '.').slice(0, 70)}${el.id ? '#' + el.id : ''} [${(el.getAttribute('aria-label') || el.innerText || '').trim().slice(0, 30)}] ${Math.round(el.getBoundingClientRect().x)},${Math.round(el.getBoundingClientRect().y)} ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`;
+  const topLeft = [...document.querySelectorAll('body *')].filter((el) => { const r = el.getBoundingClientRect(); return vis(el) && r.y < 70 && r.x < 80 && r.width < 80 && r.height < 80 && r.width > 10; }).map(desc);
+  const modals = [...document.querySelectorAll('[class*="modal"],[class*="popup"],[role=dialog],[class*="overlay"]')].filter(vis).map(desc);
+  const closes = [...document.querySelectorAll('[class*="close"],[aria-label*="close" i],button')].filter(vis).map(desc);
+  const nav = document.querySelector('ul.s-nav');
+  const navItems = nav ? [...nav.children].map((li) => ({ cls: String(li.className).slice(0, 40), text: (li.querySelector('a,span')?.innerText || '').trim().slice(0, 30), href: li.querySelector('a')?.getAttribute('href') || null, subs: [...li.querySelectorAll('ul a')].map((a) => a.innerText.trim() + '->' + a.getAttribute('href')) })) : null;
+  const drawer = [...document.querySelectorAll('[class*="drawer"],[class*="mobile-nav"],[class*="navbar"]')].map(desc).slice(0, 10);
+  return { topLeft, modals, closes, navItems, drawer, viewport: document.querySelector('meta[name=viewport]')?.content };
+});
+console.log(JSON.stringify(info, null, 1));
+await p.screenshot({ path: '/tmp/m375.png' });
+await b.close();

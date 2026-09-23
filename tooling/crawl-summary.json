@@ -1,0 +1,1021 @@
+[
+  {
+    "slug": "home",
+    "url": "https://www.lambdaxi1911.com/",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10153,
+        "overflowX": 0,
+        "docH": 3070,
+        "requests": 233,
+        "blockedNonGet": 12,
+        "transferKB": 318,
+        "axeViolations": [
+          "color-contrast(3)",
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(11)"
+        ],
+        "console": 16,
+        "focusStops": 37,
+        "focusWithoutIndicator": 9
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5567,
+        "overflowX": 0,
+        "docH": 2881,
+        "requests": 171,
+        "blockedNonGet": 7,
+        "transferKB": 223,
+        "axeViolations": [
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(17)"
+        ],
+        "console": 8,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5750,
+        "overflowX": 0,
+        "docH": 2780,
+        "requests": 188,
+        "blockedNonGet": 9,
+        "transferKB": 146,
+        "axeViolations": [
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(17)"
+        ],
+        "console": 11,
+        "focusStops": 7,
+        "focusWithoutIndicator": 1
+      }
+    }
+  },
+  {
+    "slug": "history-of-lambda-xi",
+    "url": "https://www.lambdaxi1911.com/history-of-lambda-xi",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 9728,
+        "overflowX": 0,
+        "docH": 2940,
+        "requests": 171,
+        "blockedNonGet": 7,
+        "transferKB": 317,
+        "axeViolations": [
+          "color-contrast(4)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 9,
+        "focusStops": 32,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4654,
+        "overflowX": 0,
+        "docH": 2712,
+        "requests": 23,
+        "blockedNonGet": 0,
+        "transferKB": 145,
+        "axeViolations": [
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5118,
+        "overflowX": 0,
+        "docH": 2504,
+        "requests": 97,
+        "blockedNonGet": 0,
+        "transferKB": 145,
+        "axeViolations": [
+          "color-contrast(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "executive-officers",
+    "url": "https://www.lambdaxi1911.com/executive-officers",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 11069,
+        "overflowX": 0,
+        "docH": 3988,
+        "requests": 186,
+        "blockedNonGet": 7,
+        "transferKB": 314,
+        "axeViolations": [
+          "color-contrast(4)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 9,
+        "focusStops": 32,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5517,
+        "overflowX": 0,
+        "docH": 1567,
+        "requests": 116,
+        "blockedNonGet": 0,
+        "transferKB": 142,
+        "axeViolations": [
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5903,
+        "overflowX": 0,
+        "docH": 1873,
+        "requests": 149,
+        "blockedNonGet": 0,
+        "transferKB": 142,
+        "axeViolations": [
+          "color-contrast(11)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 10,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "past-basilei",
+    "url": "https://www.lambdaxi1911.com/past-basilei",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10360,
+        "overflowX": 0,
+        "docH": 1670,
+        "requests": 170,
+        "blockedNonGet": 7,
+        "transferKB": 314,
+        "axeViolations": [
+          "color-contrast(4)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 9,
+        "focusStops": 32,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5345,
+        "overflowX": 0,
+        "docH": 1656,
+        "requests": 26,
+        "blockedNonGet": 0,
+        "transferKB": 142,
+        "axeViolations": [
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 4780,
+        "overflowX": 0,
+        "docH": 1656,
+        "requests": 114,
+        "blockedNonGet": 0,
+        "transferKB": 142,
+        "axeViolations": [
+          "color-contrast(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "lineage",
+    "url": "https://www.lambdaxi1911.com/lineage",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10753,
+        "overflowX": 0,
+        "docH": 1245,
+        "requests": 170,
+        "blockedNonGet": 7,
+        "transferKB": 318,
+        "axeViolations": [
+          "color-contrast(4)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(10)"
+        ],
+        "console": 9,
+        "focusStops": 37,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4476,
+        "overflowX": 0,
+        "docH": 1438,
+        "requests": 20,
+        "blockedNonGet": 0,
+        "transferKB": 145,
+        "axeViolations": [
+          "empty-heading(1)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 4345,
+        "overflowX": 0,
+        "docH": 1415,
+        "requests": 116,
+        "blockedNonGet": 0,
+        "transferKB": 145,
+        "axeViolations": [
+          "color-contrast(1)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 2,
+        "focusStops": 11,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "mandated-programs",
+    "url": "https://www.lambdaxi1911.com/mandated-programs",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 32896,
+        "overflowX": 0,
+        "docH": 6152,
+        "requests": 194,
+        "blockedNonGet": 7,
+        "transferKB": 316,
+        "axeViolations": [
+          "color-contrast(4)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 11,
+        "focusStops": 36,
+        "focusWithoutIndicator": 6
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5668,
+        "overflowX": 0,
+        "docH": 4994,
+        "requests": 146,
+        "blockedNonGet": 0,
+        "transferKB": 144,
+        "axeViolations": [
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 1,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5274,
+        "overflowX": 0,
+        "docH": 4799,
+        "requests": 158,
+        "blockedNonGet": 0,
+        "transferKB": 144,
+        "axeViolations": [
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 10,
+        "focusWithoutIndicator": 2
+      }
+    }
+  },
+  {
+    "slug": "scholarships",
+    "url": "https://www.lambdaxi1911.com/scholarships",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 8396,
+        "overflowX": 0,
+        "docH": 3249,
+        "requests": 195,
+        "blockedNonGet": 12,
+        "transferKB": 346,
+        "axeViolations": [
+          "color-contrast(8)",
+          "heading-order(3)",
+          "label-title-only(1)",
+          "label(3)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(22)"
+        ],
+        "console": 15,
+        "focusStops": 40,
+        "focusWithoutIndicator": 7
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4773,
+        "overflowX": 0,
+        "docH": 1990,
+        "requests": 29,
+        "blockedNonGet": 0,
+        "transferKB": 146,
+        "axeViolations": [
+          "color-contrast(2)",
+          "heading-order(2)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(17)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 6554,
+        "overflowX": 0,
+        "docH": 1990,
+        "requests": 120,
+        "blockedNonGet": 0,
+        "transferKB": 146,
+        "axeViolations": [
+          "color-contrast(3)",
+          "heading-order(2)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(17)"
+        ],
+        "console": 2,
+        "focusStops": 8,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "achievement-week",
+    "url": "https://www.lambdaxi1911.com/achievement-week",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 11247,
+        "overflowX": 0,
+        "docH": 1701,
+        "requests": 173,
+        "blockedNonGet": 7,
+        "transferKB": 317,
+        "axeViolations": [
+          "color-contrast(4)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(10)"
+        ],
+        "console": 9,
+        "focusStops": 33,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5786,
+        "overflowX": 0,
+        "docH": 2230,
+        "requests": 28,
+        "blockedNonGet": 0,
+        "transferKB": 145,
+        "axeViolations": [
+          "color-contrast(1)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5158,
+        "overflowX": 0,
+        "docH": 2805,
+        "requests": 133,
+        "blockedNonGet": 0,
+        "transferKB": 145,
+        "axeViolations": [
+          "color-contrast(1)",
+          "heading-order(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 2,
+        "focusStops": 7,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "essay-contest-registration",
+    "url": "https://www.lambdaxi1911.com/essay-contest-registration",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10325,
+        "overflowX": 0,
+        "docH": 4289,
+        "requests": 173,
+        "blockedNonGet": 7,
+        "transferKB": 313,
+        "axeViolations": [
+          "color-contrast(4)",
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 11,
+        "focusStops": 33,
+        "focusWithoutIndicator": 5
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4931,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 19,
+        "blockedNonGet": 0,
+        "transferKB": 141,
+        "axeViolations": [
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 4399,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 117,
+        "blockedNonGet": 0,
+        "transferKB": 141,
+        "axeViolations": [
+          "color-contrast(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 3,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "youth-leadership-conference",
+    "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-mobile-nav-bar, .navbar-toggle, button[aria-label*=\"menu\" i], [class*=\"hamburger\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"navbar s-mobile-nav-bar\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  },
+  {
+    "slug": "ylc-registration",
+    "url": "https://www.lambdaxi1911.com/ylc-registration",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10445,
+        "overflowX": 0,
+        "docH": 5348,
+        "requests": 210,
+        "blockedNonGet": 15,
+        "transferKB": 313,
+        "axeViolations": [
+          "color-contrast(4)",
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 18,
+        "focusStops": 40,
+        "focusWithoutIndicator": 12
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4476,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 19,
+        "blockedNonGet": 0,
+        "transferKB": 141,
+        "axeViolations": [
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 4809,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 110,
+        "blockedNonGet": 0,
+        "transferKB": 141,
+        "axeViolations": [
+          "color-contrast(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 2,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "all-star-game",
+    "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-mobile-nav-bar, .navbar-toggle, button[aria-label*=\"menu\" i], [class*=\"hamburger\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"navbar s-mobile-nav-bar\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  },
+  {
+    "slug": "50th-anniversary-gala",
+    "url": "https://www.lambdaxi1911.com/50th-anniversary-gala",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 11491,
+        "overflowX": 0,
+        "docH": 868,
+        "requests": 171,
+        "blockedNonGet": 7,
+        "transferKB": 313,
+        "axeViolations": [
+          "color-contrast(3)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(8)"
+        ],
+        "console": 9,
+        "focusStops": 32,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5751,
+        "overflowX": 0,
+        "docH": 1361,
+        "requests": 21,
+        "blockedNonGet": 0,
+        "transferKB": 141,
+        "axeViolations": [
+          "color-contrast(8)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(14)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5799,
+        "overflowX": 0,
+        "docH": 1997,
+        "requests": 110,
+        "blockedNonGet": 0,
+        "transferKB": 141,
+        "axeViolations": [
+          "color-contrast(8)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(14)"
+        ],
+        "console": 2,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "gallery-2025",
+    "url": "https://www.lambdaxi1911.com/2025",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 33771,
+        "overflowX": 0,
+        "docH": 2332,
+        "requests": 241,
+        "blockedNonGet": 7,
+        "transferKB": 318,
+        "axeViolations": [
+          "color-contrast(3)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(10)"
+        ],
+        "console": 11,
+        "focusStops": 40,
+        "focusWithoutIndicator": 1
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4867,
+        "overflowX": 0,
+        "docH": 2204,
+        "requests": 129,
+        "blockedNonGet": 0,
+        "transferKB": 146,
+        "axeViolations": [
+          "color-contrast(8)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(50)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5437,
+        "overflowX": 0,
+        "docH": 3253,
+        "requests": 225,
+        "blockedNonGet": 2,
+        "transferKB": 146,
+        "axeViolations": [
+          "color-contrast(6)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(50)"
+        ],
+        "console": 4,
+        "focusStops": 41,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "gallery-2024",
+    "error": "locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-nav li:has(ul), nav li:has(ul)').first()\u001b[22m\n\u001b[2m    - locator resolved to <li class=\"menu-dropdown\">…</li>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is visible and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  },
+  {
+    "slug": "gallery-2023",
+    "error": "locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-nav li:has(ul), nav li:has(ul)').first()\u001b[22m\n\u001b[2m    - locator resolved to <li class=\"menu-dropdown\">…</li>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is visible and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  },
+  {
+    "slug": "gallery-2022",
+    "error": "locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-nav li:has(ul), nav li:has(ul)').first()\u001b[22m\n\u001b[2m    - locator resolved to <li class=\"menu-dropdown\">…</li>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is visible and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div tabindex=\"-1\" class=\"s-kit-modal-wrap s-kit-modal-centered\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  },
+  {
+    "slug": "gallery-2021",
+    "url": "https://www.lambdaxi1911.com/2021",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10938,
+        "overflowX": 0,
+        "docH": 4585,
+        "requests": 327,
+        "blockedNonGet": 7,
+        "transferKB": 240,
+        "axeViolations": [
+          "color-contrast(7)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 9,
+        "focusStops": 40,
+        "focusWithoutIndicator": 1
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 4538,
+        "overflowX": 0,
+        "docH": 1453,
+        "requests": 162,
+        "blockedNonGet": 0,
+        "transferKB": 151,
+        "axeViolations": [
+          "color-contrast(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(18)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 4576,
+        "overflowX": 0,
+        "docH": 1453,
+        "requests": 306,
+        "blockedNonGet": 2,
+        "transferKB": 151,
+        "axeViolations": [
+          "color-contrast(2)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(18)"
+        ],
+        "console": 5,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "gallery-2017-2020",
+    "url": "https://www.lambdaxi1911.com/2017-2020",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 10626,
+        "overflowX": 0,
+        "docH": 2134,
+        "requests": 215,
+        "blockedNonGet": 7,
+        "transferKB": 316,
+        "axeViolations": [
+          "color-contrast(5)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 9,
+        "focusStops": 40,
+        "focusWithoutIndicator": 1
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5002,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 69,
+        "blockedNonGet": 0,
+        "transferKB": 143,
+        "axeViolations": [
+          "color-contrast(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 4513,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 209,
+        "blockedNonGet": 2,
+        "transferKB": 143,
+        "axeViolations": [
+          "color-contrast(2)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 5,
+        "focusStops": 6,
+        "focusWithoutIndicator": 0
+      }
+    }
+  },
+  {
+    "slug": "news",
+    "url": "https://www.lambdaxi1911.com/news",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 9675,
+        "overflowX": 0,
+        "docH": 1426,
+        "requests": 269,
+        "blockedNonGet": 18,
+        "transferKB": 326,
+        "axeViolations": [
+          "color-contrast(3)",
+          "frame-title(2)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(11)"
+        ],
+        "console": 21,
+        "focusStops": 40,
+        "focusWithoutIndicator": 15
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 6090,
+        "overflowX": 0,
+        "docH": 1284,
+        "requests": 188,
+        "blockedNonGet": 10,
+        "transferKB": 320,
+        "axeViolations": [
+          "frame-title(2)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(17)"
+        ],
+        "console": 12,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5912,
+        "overflowX": 0,
+        "docH": 1339,
+        "requests": 200,
+        "blockedNonGet": 10,
+        "transferKB": 142,
+        "axeViolations": [
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 13,
+        "focusStops": 17,
+        "focusWithoutIndicator": 11
+      }
+    }
+  },
+  {
+    "slug": "contact-us",
+    "url": "https://www.lambdaxi1911.com/contact-us",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 8485,
+        "overflowX": 0,
+        "docH": 1089,
+        "requests": 186,
+        "blockedNonGet": 12,
+        "transferKB": 314,
+        "axeViolations": [
+          "color-contrast(9)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "label(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(14)"
+        ],
+        "console": 16,
+        "focusStops": 40,
+        "focusWithoutIndicator": 13
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 5231,
+        "overflowX": 0,
+        "docH": 1139,
+        "requests": 20,
+        "blockedNonGet": 0,
+        "transferKB": 142,
+        "axeViolations": [
+          "color-contrast(5)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "label(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(20)"
+        ],
+        "console": 2,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 5073,
+        "overflowX": 0,
+        "docH": 1139,
+        "requests": 137,
+        "blockedNonGet": 5,
+        "transferKB": 142,
+        "axeViolations": [
+          "color-contrast(6)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "label(1)",
+          "landmark-one-main(1)",
+          "meta-viewport-large(1)",
+          "region(20)"
+        ],
+        "console": 8,
+        "focusStops": 13,
+        "focusWithoutIndicator": 5
+      }
+    }
+  }
+]

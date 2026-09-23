@@ -1,0 +1,58 @@
+# mandated-programs  https://www.lambdaxi1911.com/mandated-programs
+title: Mandated Programs
+description: The Omega Psi Phi Fraternity, Inc. internationally mandated programs.
+
+## section s-new-media-section
+h1: What We Do
+link: [img alt="Section image"] -> http://www.lambdaxi1911.com/achievement-week [_blank]
+img: alt="Section image" 233887_603978.jpeg
+h3: Achievement Week
+Achievement Week
+link: Achievement Week -> https://www.lambdaxi1911.com/achievement-week [_blank]
+Originally designed to promote the study of Negro life and history. Achievement Week is observed in November of each year and is designed to seek out and give due recognition to those individuals at the local and international levels who have made a noteworthy contribution toward improving the quality of life for black Americans. A High School Essay Contest is to be held in conjunction with Achievement Week.
+img: alt="Section image" 604068_18150.png
+h3: College Endowment Fund
+College Endowment Fund
+Each year the fraternity gives at least $50,000.00 to Historically Black College Institutions (HBCU) in furtherance of Omega's commitment to provide philanthropic support. Chapters are assessed donations based on chapter size.
+img: alt="Section image" 232434_822279.jpg
+h3: Fatherhood and Mentoring
+Fatherhood and Mentoring
+Every level of the Fraternity, particularly at the chapter level, is asked to play an active role in support of the partnership by actively engaging in the promotion of the Fraternity’s Fatherhood Mentoring initiative.
+img: alt="Section image" 133869_328875.png
+h3: Health Initiatives
+Health Initiatives
+All levels of the fraternity are expected to facilitate, participate and/or coordinate activities that will uplift their communities by promoting good health practices. Some of the programs are the Charles Drew Blood Drive and partnership with the American Diabetes Association
+img: alt="Section image" 474375_653804.png
+h3: Memorial Service
+Memorial Service
+March 12th of each year has been established as Memorial Day. Chapters are expected to conduct an appropriate service to recall the memory of those members who have entered into Omega Chapter.
+img: alt="Section image" 434114_15906.png
+h3: NAACP
+NAACP
+Every district and chapter of the fraternity is required to maintain a Life Membership at Large in the NAACP. In the event that a chapter or district is not a life member of the NAACP, it must maintain a yearly membership to be in could standing with the fraternity.
+img: alt="Section image" 753840_521490.jpeg
+h3: Reclamation and Retention
+Reclamation and Retention
+A concerted effort at the international, district and local levels to retain active brothers and return inactive brothers to full participatory status so that they may enjoy the full benefits of Omega.
+link: [img alt="Section image"] -> https://www.lambdaxi1911.com/scholarships [_blank]
+img: alt="Section image" 341659_275700.png
+h3: Scholarship
+Scholarship
+link: Scholarship -> https://www.lambdaxi1911.com/scholarships [_blank]
+Promotes academic excellence among the undergraduate members. Graduate chapters are expected to provide financial assistance to student members and non-members.
+img: alt="Section image" 893117_620824.jpeg
+h3: Social Action
+Social Action
+Chapters participate in activities that will uplift their communities. Some of the activities include: voter registration, Assault on Illiteracy; Habitat for Humanity; mentoring; and participation in fundraisers for charitable organizations.
+img: alt="Section image" 440644_861438.jpeg
+h3: STEM
+STEM
+The Fraternity’s STEM initiatives are designed to get students across the world excited about science, technology, engineering, and mathematics (STEM).
+img: alt="Section image" 689124_243244.png
+h3: Talent Hunt
+Talent Hunt
+This program provides exposure, encouragement and financial assistance to talented young people participating in the Performing Arts.Winners of the competition are awarded recognition and may be given college scholarships for their talents.
+img: alt="Section image" 725012_745804.png
+h3: Voter Registration, Education and Mobilization
+Voter Registration, Education and Mobilization
+Chapters are expected to facilitate, participate and/or coordinate activities that will uplift their communities through voting.

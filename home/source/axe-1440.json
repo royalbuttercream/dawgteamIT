@@ -1,0 +1,322 @@
+{
+  "violations": [
+    {
+      "id": "frame-title",
+      "impact": "serious",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.i",
+        "TTv5",
+        "TT12.d",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-2.1.1"
+      ],
+      "help": "Frames must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "iframe[allow=\"clipboard-write\"]"
+          ],
+          "html": "<iframe allow=\"clipboard-write\" sandbox=\"allow-top-navigation...\" allowfullscreen=\"true\" style=\"position:absolute;bo...\" src=\"https://e.issuu.com/...\">",
+          "summary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "landmark-one-main",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "help": "Document should have one main landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"en\" xmlns:og=\"http://ogp.me/ns#\" xmlns=\"http://www.w3.org/1999/xhtml\">",
+          "summary": "Fix all of the following:\n  Document does not have a main landmark"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "meta-viewport-large",
+      "impact": "minor",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "best-practice"
+      ],
+      "help": "Users should be able to zoom and scale the text up to 500%",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#viewport"
+          ],
+          "html": "<meta content=\"width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0\" id=\"viewport\" name=\"viewport\">",
+          "summary": "Fix any of the following:\n  <meta> tag limits zooming on mobile devices"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "region",
+      "impact": "moderate",
+      "tags": [
+        "cat.keyboard",
+        "best-practice",
+        "RGAAv4",
+        "RGAA-9.2.1"
+      ],
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".logo-title"
+          ],
+          "html": "<h1 class=\"logo-title\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(1)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item selected\" target=\"_self\" href=\"/\"><span class=\"s-font-body\">Home</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(2) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Our Legacy&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(3) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Programs&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(4) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Upcoming Events&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(5) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Gallery&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(6)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/news\"><span class=\"s-font-body\">News</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(7) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Members&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(8)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/contact-us\"><span class=\"s-font-body\">Contact Us</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".cta"
+          ],
+          "html": "<li class=\"cta\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-bg-image > .container"
+          ],
+          "html": "<div class=\"container\" style=\"z-index: 3;\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "#section-f_93b0e307-aeee-48ca-b57f-2e8e99afb538"
+          ],
+          "html": "<li class=\"slide s-section-3 s-s6-wrapper css-1g1r9xk\" id=\"section-f_93b0e307-aeee-48ca-b57f-2e8e99afb538\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-html-section > .container > .sixteen.columns > .s-title-group"
+          ],
+          "html": "<div class=\"s-title-group\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "#s-footer-section-container"
+          ],
+          "html": "<div id=\"s-footer-section-container\" class=\"\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".cookie-notification-title"
+          ],
+          "html": "<div class=\"cookie-notification-title\">Cookie Use</div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".cookie-notification-text"
+          ],
+          "html": "<span class=\"cookie-notification-text\">We use cookies to ensure a smooth browsing experience.  By continuing we assume you accept the use of cookies.</span>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "a[href$=\"cookie-policy\"]"
+          ],
+          "html": "<a href=\"/pages/cookie-policy\" target=\"_blank\">Learn More</a>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        }
+      ],
+      "nodeCount": 17
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".h2Tag > span"
+          ],
+          "html": "<span style=\"color: #ffa64d;\">The RoK Hard Ques</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".selected > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">Home</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(2) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Our Legacy&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(3) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Programs&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(4) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Upcoming Events&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(5) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Gallery&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            "a[href$=\"news\"] > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">News</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(7) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Members&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            "a[href$=\"contact-us\"] > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">Contact Us</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            "h1 > .s-rich-text-wrapper > .\\#\\(className\\) > span"
+          ],
+          "html": "<span style=\"color: #ffffff;\">FRIENDSHIP IS ESSENTIAL TO THE SOUL</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        }
+      ],
+      "nodeCount": 10
+    },
+    {
+      "id": "frame-tested",
+      "impact": "critical",
+      "tags": [
+        "cat.structure",
+        "best-practice",
+        "review-item"
+      ],
+      "help": "Frames should be tested with axe-core",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-tested?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "iframe[allow=\"clipboard-write\"]"
+          ],
+          "html": "<iframe allow=\"clipboard-write\" sandbox=\"allow-top-navigation...\" allowfullscreen=\"true\" style=\"position:absolute;bo...\" src=\"https://e.issuu.com/...\">",
+          "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+        }
+      ],
+      "nodeCount": 1
+    }
+  ],
+  "testEngine": "4.13.0"
+}

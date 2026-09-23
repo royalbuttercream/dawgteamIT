@@ -1,0 +1,6 @@
+# 50th-anniversary-gala  https://www.lambdaxi1911.com/50th-anniversary-gala
+title: 50th Anniversary
+description: Agenda and information about the Lambda Xi 50th Anniversary
+
+## section s-new-title-section
+img: alt="" 61593_567934.png

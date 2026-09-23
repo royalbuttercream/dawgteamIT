@@ -1,0 +1,14 @@
+# achievement-week  https://www.lambdaxi1911.com/achievement-week
+title: Achievement Week
+description: Achievement Week events being hosted by Lambda Xi.
+
+## section s-new-title-section
+h1: Achievement Week 2026
+Achievement Week 2026
+h4: Achievement Week 2026 announcements.
+Achievement Week 2026 announcements.
+
+## section s-block-section
+h1: International High School Essay Contest
+img: alt="" 892366_663213.png
+link: Application -> https://www.lambdaxi1911.com/essay-contest-registration [_blank]

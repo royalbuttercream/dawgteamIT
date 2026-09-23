@@ -1,0 +1,524 @@
+{
+  "violations": [
+    {
+      "id": "aria-dialog-name",
+      "impact": "serious",
+      "tags": [
+        "cat.aria",
+        "best-practice"
+      ],
+      "help": "ARIA dialog and alertdialog nodes should have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-dialog-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".s-kit-modal"
+          ],
+          "html": "<div role=\"dialog\" aria-modal=\"true\" class=\"s-kit-modal s-email-form popups-dialog layout-center modify-the-position\" style=\"width: auto;\">",
+          "summary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".accept-btn.s-common-button[sectionstyleprops=\"[object Object]\"]:nth-child(1)"
+          ],
+          "html": "<div sectionstyleprops=\"[object Object]\" class=\"accept-btn s-common-button\">Accept all</div>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #ffffff, background color: #cdb33a, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".accept-btn.s-common-button[sectionstyleprops=\"[object Object]\"]:nth-child(2)"
+          ],
+          "html": "<div sectionstyleprops=\"[object Object]\" class=\"accept-btn s-common-button\">Settings</div>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #ffffff, background color: #cdb33a, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".cancel-btn"
+          ],
+          "html": "<span class=\"s-common-link cancel-btn\" style=\"opacity: 0.5;\">Decline All</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.25 (foreground color: #a5a6a7, background color: #f4f6f8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ],
+      "nodeCount": 3
+    },
+    {
+      "id": "heading-order",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".s-font-heading.s-component-content > h4"
+          ],
+          "html": "<h4><div class=\"s-rich-text-wrapper\" style=\"display: block; \"><p class=\" s-rich-text-wrapper\">Applications are accepted 1 February to 1 May</p></div></h4>",
+          "summary": "Fix any of the following:\n  Heading order invalid"
+        },
+        {
+          "target": [
+            ".s-rich-text-wrapper > h4"
+          ],
+          "html": "<h4 class=\" s-subtitle\">Applications are accepted from 1 February to 1 May</h4>",
+          "summary": "Fix any of the following:\n  Heading order invalid"
+        },
+        {
+          "target": [
+            "h6"
+          ],
+          "html": "<h6><div class=\"s-rich-text-wrapper\" style=\"display: block; \"><p class=\" s-subtitle s-rich-text-wrapper\" style=\"font-size: 160%;\">$3,000</p></div></h6>",
+          "summary": "Fix any of the following:\n  Heading order invalid"
+        }
+      ],
+      "nodeCount": 3
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "help": "Images must have alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".banner > img"
+          ],
+          "html": "<img src=\"https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_960,w_760,f_auto,q_auto/1312902/894235_156562.png\">",
+          "summary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "label-title-only",
+      "impact": "serious",
+      "tags": [
+        "cat.forms",
+        "best-practice"
+      ],
+      "help": "Form elements should have a visible label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label-title-only?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#react-select-2-input"
+          ],
+          "html": "<input id=\"react-select-2-input\" tabindex=\"0\" inputmode=\"none\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"combobox\" aria-readonly=\"true\" aria-describedby=\"react-select-2-placeholder\" class=\"css-1hac4vs-dummyInput\" value=\"\" style=\"\">",
+          "summary": "Fix all of the following:\n  Only title used to generate label for form element"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "label",
+      "impact": "critical",
+      "tags": [
+        "cat.forms",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.n",
+        "TTv5",
+        "TT5.c",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-11.1.1"
+      ],
+      "help": "Form elements must have labels",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#react-select-2-input"
+          ],
+          "html": "<input id=\"react-select-2-input\" tabindex=\"0\" inputmode=\"none\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"combobox\" aria-readonly=\"true\" aria-describedby=\"react-select-2-placeholder\" class=\"css-1hac4vs-dummyInput\" value=\"\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were"
+        },
+        {
+          "target": [
+            "#rc_select_0"
+          ],
+          "html": "<input type=\"search\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-owns=\"rc_select_0_list\" aria-autocomplete=\"list\" aria-controls=\"rc_select_0_list\" value=\"\" id=\"rc_select_0\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were"
+        },
+        {
+          "target": [
+            "input[maxlength=\"30\"]"
+          ],
+          "html": "<input maxlength=\"30\" placeholder=\"\" class=\"s-kit-input s-kit-input-outlined s-font-body\" type=\"text\" value=\"\" style=\"\">",
+          "summary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has an empty placeholder attribute\n  Element's default semantic"
+        }
+      ],
+      "nodeCount": 3
+    },
+    {
+      "id": "meta-viewport-large",
+      "impact": "minor",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "best-practice"
+      ],
+      "help": "Users should be able to zoom and scale the text up to 500%",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#viewport"
+          ],
+          "html": "<meta content=\"width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0\" id=\"viewport\" name=\"viewport\">",
+          "summary": "Fix any of the following:\n  <meta> tag limits zooming on mobile devices"
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "region",
+      "impact": "moderate",
+      "tags": [
+        "cat.keyboard",
+        "best-practice",
+        "RGAAv4",
+        "RGAA-9.2.1"
+      ],
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".logo-title"
+          ],
+          "html": "<h1 class=\"logo-title\" style=\"cursor: pointer;\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(1)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/\"><span class=\"s-font-body\">Home</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(2) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Our Legacy&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".selected.s-nav-dropdown.s-nav-item"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown selected\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Programs&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(4) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Upcoming Events&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(5) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Gallery&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(6)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/news\"><span class=\"s-font-body\">News</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(7) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body"
+          ],
+          "html": "<div class=\"s-nav-item s-font-body s-nav-dropdown\"><span class=\"s-nav-dropdown-item s-nav-item undefined\"><span class=\"s-font-body s-nav-dropdown-text\">Members&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span></span></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(8)"
+          ],
+          "html": "<li class=\"menu-dropdown\"><a class=\"s-nav-item\" target=\"_self\" href=\"/contact-us\"><span class=\"s-font-body\">Contact Us</span></a></li>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".cta"
+          ],
+          "html": "<li class=\"cta\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-bg-image > .container"
+          ],
+          "html": "<div class=\"container\" style=\"z-index: 3;\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            "#section-f_5653e461-902e-46f7-9486-1b2816b1c43f"
+          ],
+          "html": "<li class=\"slide s-section-2 \" id=\"section-f_5653e461-902e-46f7-9486-1b2816b1c43f\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-email-form-container > .s-title-group"
+          ],
+          "html": "<div class=\"s-title-group\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-form-field.s-email-form-field:nth-child(1)"
+          ],
+          "html": "<div class=\"s-form-field s-email-form-field\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-form-field.s-email-form-field:nth-child(2) > .s-kit-form-label.s-font-body"
+          ],
+          "html": "<div class=\"s-kit-form-label s-font-body\"><div class=\"s-kit-label\"><span>School</span><span class=\"s-kit-red-dot\">&nbsp;*</span></div></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-kit-big-select__value-container"
+          ],
+          "html": "<div class=\"s-kit-big-select__value-container css-hlgwow\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-form-field.s-email-form-field:nth-child(3)"
+          ],
+          "html": "<div class=\"s-form-field s-email-form-field\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-form-field.s-email-form-field:nth-child(4)"
+          ],
+          "html": "<div class=\"s-form-field s-email-form-field\">",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".s-form-field.s-email-form-field:nth-child(5) > .s-kit-form-label.s-font-body"
+          ],
+          "html": "<div class=\"s-kit-form-label s-font-body\"><div class=\"s-kit-label\"><span>Parent Phone </span><span class=\"s-kit-red-dot\">&nbsp;*</span></div></div>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "target": [
+            ".country-code"
+          ],
+          "html": "<span class=\"country-code\">+44</span>",
+          "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        }
+      ],
+      "nodeCount": 29
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "aria-valid-attr-value",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "help": "ARIA attributes must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#rc_select_0"
+          ],
+          "html": "<input type=\"search\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-owns=\"rc_select_0_list\" aria-autocomplete=\"list\" aria-controls=\"rc_select_0_list\" value=\"\" id=\"rc_select_0\" style=\"\">",
+          "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"rc_select_0_list\""
+        }
+      ],
+      "nodeCount": 1
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".\\#\\(className\\) > span"
+          ],
+          "html": "<span style=\"color: #ffa64d;\">The RoK Hard Ques</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "target": [
+            ".s-nav-item[href=\"/\"][target=\"_self\"] > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">Home</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(2) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Our Legacy&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".selected.s-nav-dropdown.s-nav-item > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Programs&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(4) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Upcoming Events&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(5) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Gallery&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".s-nav-item[href$=\"news\"][target=\"_self\"] > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">News</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".menu-dropdown:nth-child(7) > .s-nav-link-container.located-dropdown-item > .s-nav-dropdown.s-nav-item.s-font-body > .undefined.s-nav-item.s-nav-dropdown-item > .s-nav-dropdown-text.s-font-body"
+          ],
+          "html": "<span class=\"s-font-body s-nav-dropdown-text\">Members&nbsp;<i class=\"fa drop-down-icon-bold fas fa-chevron-down\"></i></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".s-nav-item[href$=\"contact-us\"][target=\"_self\"] > .s-font-body"
+          ],
+          "html": "<span class=\"s-font-body\">Contact Us</span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            "span > strong"
+          ],
+          "html": "<strong>Scholarship Opportunities</strong>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            "h4 > .s-rich-text-wrapper > p"
+          ],
+          "html": "<p class=\" s-rich-text-wrapper\">Applications are accepted 1 February to 1 May</p>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "target": [
+            ".s-font-body > .s-cookie-notification-bar > .cookie-notification-text"
+          ],
+          "html": "<span class=\"cookie-notification-text\">We use cookies to ensure a smooth browsing experience. By accepting, you agree the use of cookies.&nbsp;<a class=\"s-common-link\" href=\"/pages/cookie-policy\" target=\"_blank\" style=\"text-decoration: underline; color: inherit;\">Learn More</a></span>",
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        }
+      ],
+      "nodeCount": 12
+    },
+    {
+      "id": "frame-tested",
+      "impact": "critical",
+      "tags": [
+        "cat.structure",
+        "best-practice",
+        "review-item"
+      ],
+      "help": "Frames should be tested with axe-core",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-tested?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "iframe[data-hcaptcha-widget-id=\"0iwlxy1m18be\"]"
+          ],
+          "html": "<iframe src=\"https://newassets.hc...\" tabindex=\"0\" frameborder=\"0\" scrolling=\"no\" allow=\"private-state-token-...\" title=\"Widget containing ch...\" data-hcaptcha-widget...=\"0iwlxy1m18be\" data-hcaptcha-respon...=\"\" style=\"pointer-events: auto...\">",
+          "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+        }
+      ],
+      "nodeCount": 1
+    }
+  ],
+  "testEngine": "4.13.0"
+}

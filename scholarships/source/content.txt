@@ -1,0 +1,29 @@
+# scholarships  https://www.lambdaxi1911.com/scholarships
+title: Lambda Xi Scholarships
+description: Scholarships offered by Lambda Xi to graduating seniors.
+
+## section s-new-title-section
+h1: Scholarship Opportunities
+Scholarship Opportunities
+h4: Applications are accepted 1 February to 1 May
+Applications are accepted 1 February to 1 May
+
+## section s-pricing-section
+h2: Open to High School Seniors
+h4: Applications are accepted from 1 February to 1 May
+img: alt="" starter-2.png
+Future Leaders
+Awarded to THREE students
+h2: $2,500
+link: Application -> https://uploads.strikinglycdn.com/files/f6d8a22e-78bb-4c30-a9d9-b84a0c688ea1/Lambda+Xi+Future+Leaders+Scholarship+Form+_+2026+Scholarship_Final.pdf?t=1775995920&id=4387888 [_blank]
+Open to high school seniors who intend to pursue a Bachelor’s Degree at any accredited college or university.
+img: alt="" pro-2.png
+Bro. Carl Reed Scholarship
+Awarded to ONE student
+$3,000
+link: Application -> https://uploads.strikinglycdn.com/files/5550ed8d-d4ae-4249-8a1b-f0ea6c8efd12/Lambda+Xi+Brother+Carl+Reed+Scholarship+Application+_+SY2025-2026_Final+-+Copy.pdf?t=1775917901&id=4387760 [_blank]
+Open to high school seniors who intend to pursue a Bachelor’s Degree at a historically black college or university.
+
+## section s-contact-section
+h2: Submit Application
+Submit Application

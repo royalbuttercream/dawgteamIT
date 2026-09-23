@@ -1,0 +1,212 @@
+[
+  {
+    "text": "Home",
+    "href": "/",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(47, 60, 77)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "Home",
+        "href": "/",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "Our Legacy",
+    "href": "https://www.oppf.org/about-omega/",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(46, 46, 47)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "History of Omega Psi Phi",
+        "href": "https://www.oppf.org/about-omega/",
+        "target": "_blank"
+      },
+      {
+        "text": "History of Lambda Xi",
+        "href": "/history-of-lambda-xi",
+        "target": "_self"
+      },
+      {
+        "text": "Executive Officers",
+        "href": "/executive-officers",
+        "target": "_self"
+      },
+      {
+        "text": "Past Basilei",
+        "href": "/past-basilei",
+        "target": "_self"
+      },
+      {
+        "text": "Lineage",
+        "href": "/lineage",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "Programs",
+    "href": "/mandated-programs",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(46, 46, 47)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "Mandated Programs",
+        "href": "/mandated-programs",
+        "target": "_self"
+      },
+      {
+        "text": "Scholarships",
+        "href": "/scholarships",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "Upcoming Events",
+    "href": "/50th-anniversary-gala",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(46, 46, 47)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "50th Anniversary Gala",
+        "href": "/50th-anniversary-gala",
+        "target": "_self"
+      },
+      {
+        "text": "Achievement Week",
+        "href": "/achievement-week",
+        "target": "_self"
+      },
+      {
+        "text": "All Star Game",
+        "href": "/all-star-game",
+        "target": "_self"
+      },
+      {
+        "text": "Youth Leadership Conference",
+        "href": "/youth-leadership-conference",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "Gallery",
+    "href": "/2025",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(46, 46, 47)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "2025",
+        "href": "/2025",
+        "target": "_self"
+      },
+      {
+        "text": "2024",
+        "href": "/2024",
+        "target": "_self"
+      },
+      {
+        "text": "2023",
+        "href": "/2023",
+        "target": "_self"
+      },
+      {
+        "text": "2022",
+        "href": "/2022",
+        "target": "_self"
+      },
+      {
+        "text": "2021",
+        "href": "/2021",
+        "target": "_self"
+      },
+      {
+        "text": "2017-2020",
+        "href": "/2017-2020",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "News",
+    "href": "/news",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(47, 60, 77)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "News",
+        "href": "/news",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "Members",
+    "href": null,
+    "tag": null,
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "children": []
+  },
+  {
+    "text": "Contact Us",
+    "href": "/contact-us",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(120, 81, 169)",
+    "fontSize": "16px",
+    "children": [
+      {
+        "text": "Contact Us",
+        "href": "/contact-us",
+        "target": "_self"
+      }
+    ]
+  },
+  {
+    "text": "Seeking",
+    "href": "https://msp.oppf.org/",
+    "tag": "a",
+    "tabindex": null,
+    "ariaHaspopup": "",
+    "ariaExpanded": null,
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "children": [
+      {
+        "text": "Seeking",
+        "href": "https://msp.oppf.org/",
+        "target": "_blank"
+      }
+    ]
+  }
+]

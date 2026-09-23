@@ -1,0 +1,39 @@
+# executive-officers  https://www.lambdaxi1911.com/executive-officers
+title: Lambda Xi Executive Officers
+description: Photos and names of the current executive officers in the Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc.
+
+## section s-new-media-section
+h1: Executive Officers
+Executive Officers
+img: alt="Section image" 444093_62887.png
+h3: Basileus
+Basileus
+Brother Eugene Gibbs
+img: alt="Section image" 513090_102219.png
+h3: Immediate Past Basileus
+Immediate Past Basileus
+Brother Richard Smith
+img: alt="Section image" 379959_494615.png
+h3: Vice Basileus
+Vice Basileus
+Brother Randy Artis
+img: alt="Section image" 778436_648335.png
+h3: Keeper of Records and Seal
+Keeper of Records and Seal
+Brother Charlesvester Wims
+img: alt="Section image" 51925_963828.png
+h3: Keeper of Finance
+Keeper of Finance
+Brother Marcus Shepard
+img: alt="Section image" 662587_76485.png
+h3: Chaplain
+Chaplain
+Brother Andrew Wesley
+img: alt="Section image" 95980_181159.png
+h3: Keeper of Peace
+Keeper of Peace
+Brother Clint Carmichael
+img: alt="Section image" 888283_599390.png
+h3: Editor to the Oracle
+Editor to the Oracle
+Brother Michael Robinson
