@@ -1,112 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+{{head}}
 <title>Lambda Xi Chapter | Omega Psi Phi Fraternity, Inc.</title>
 <meta name="description" content="Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc.: the RoK Hard Ques, serving service members, civilians and communities across the Korean Peninsula since 1977.">
-<script>
-/* Pre-paint theme: apply the stored choice before the first frame to avoid a flash. */
-(function () {
-  var c; try { c = localStorage.getItem('lambdaxi-theme') || 'system'; } catch (e) { c = 'system'; }
-  var dark = c === 'dark' || (c === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-  document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme-choice', c);
-})();
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Libre+Franklin:wght@400;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="tokens.css">
-<link rel="stylesheet" href="mock.css">
-<link rel="icon" href="{{img:images/shared/omega-psi-phi-crest.png}}">
 </head>
 <body>
 {{header}}
 
 <main id="main">
-  <section class="hero" aria-labelledby="hero-title">
+  <section class="hero hero--photo" aria-labelledby="hero-title">
     <div class="hero__media" aria-hidden="true">
-      <img src="{{img:images/gallery/2023/boat-ride-blazers-group.jpg}}" alt="" width="900" height="675" fetchpriority="high">
+      <img src="{{img:images/home/hero-seoul.jpg}}" srcset="{{img:images/home/hero-seoul-960.jpg}} 960w, {{img:images/home/hero-seoul.jpg}} 1920w" sizes="100vw" alt="" width="1920" height="1277" fetchpriority="high">
     </div>
     <div class="container">
       <div class="hero__body">
+        <img class="hero__crest" src="{{img:images/shared/omega-psi-phi-crest.png}}" alt="" width="88" height="94">
         <p class="eyebrow">Omega Psi Phi Fraternity, Inc. &middot; Lambda Xi Chapter</p>
         <h1 id="hero-title">Friendship Is Essential to the Soul</h1>
-        <p>The RoK Hard Ques: active-duty service members and civilians serving the Korean Peninsula since 22 February 1977, the first Black Greek Letter Organization chartered in Korea.</p>
-        <div class="hero__actions">
-          <a class="btn btn--gold" href="#coming-up">What is coming up</a>
-          <a class="btn btn--ghost" href="{{href:contact}}">Contact the chapter</a>
-        </div>
+        <p>The RoK Hard Ques: active-duty service members and civilians serving the Korean Peninsula since the chapter's charter at Yongsan on 22 February 1977.</p>
       </div>
     </div>
   </section>
 
-  <section class="section" id="coming-up" aria-labelledby="coming-up-title">
-    <div class="container">
-      <div class="section__head">
-        <p class="eyebrow">Coming up</p>
-        <h2 id="coming-up-title">Events and deadlines</h2>
-        <p>Dates and places as published on the chapter's event posters. Each event has a full page with details and a registration route.</p>
-      </div>
-      <ul class="grid list-plain" role="list">
-        <li class="card event">
-          <div class="event__date" aria-hidden="true"><strong>15</strong>Oct</div>
-          <div>
-            <h3>Achievement Week essay contest: entries due</h3>
-            <p class="event__meta"><span><time datetime="2026-10-15T17:00+09:00">Thursday 15 October 2026, 5:00 PM</time></span><span>College-bound seniors at Daegu, Osan and Humphreys high schools</span></p>
-            <p>700 to 750 words on how young people can use leadership, service and innovation to create positive change. Awards of $500, $300 and $200. <a href="{{href:achievementWeek}}#essay-contest">Rules and how to enter</a></p>
-          </div>
-        </li>
-        <li class="card event">
-          <div class="event__date" aria-hidden="true"><strong>17</strong>Oct</div>
-          <div>
-            <h3>Youth Leadership Conference</h3>
-            <p class="event__meta"><span><time datetime="2026-10-17T11:00+09:00">Saturday 17 October 2026, 11:00 AM</time></span><span>Humphreys Middle School</span></p>
-            <p>Grades 9 to 12, free, limited to the first 60 students. With the RoK Alumnae Chapter of Delta Sigma Theta Sorority, Inc. <span class="status status--open">Registration open</span></p>
-            <p><a class="btn btn--primary btn--small" href="https://docs.google.com/forms/d/e/1FAIpQLSeLFCfsAgWfeI1He-_zwalLjL-4tKzLsTzlu9PYI3Tt1RmhMg/viewform">Register (Google Form)</a></p>
-          </div>
-        </li>
-        <li class="card event">
-          <div class="event__date" aria-hidden="true"><strong>Nov</strong>2026</div>
-          <div>
-            <h3>Achievement Week 2026</h3>
-            <p class="event__meta"><span><time datetime="2026-11">November 2026</time></span><span>Programme to be announced</span></p>
-            <p>Observed every November: recognition of community contributions, the essay contest awards and the banquet. <a href="{{href:achievementWeek}}">Achievement Week page</a></p>
-          </div>
-        </li>
-        <li class="card event">
-          <div class="event__date" aria-hidden="true"><strong>30</strong>Apr</div>
-          <div>
-            <h3>50th Anniversary weekend</h3>
-            <p class="event__meta"><span><time datetime="2027-04-30">30 April</time> to <time datetime="2027-05-02">2 May 2027</time></span><span>Republic of Korea</span></p>
-            <p>Five decades of friendship, service and leadership on the Peninsula. Programme and venue to follow. <a href="{{href:anniversary}}">Details and how to support the anniversary</a></p>
-          </div>
-        </li>
-        <li class="card event">
-          <div class="event__date" aria-hidden="true"><strong>1</strong>Feb</div>
-          <div>
-            <h3>Scholarship applications open</h3>
-            <p class="event__meta"><span><time datetime="2027-02-01">1 February</time> to <time datetime="2027-05-01">1 May</time> each year</span></p>
-            <p>Future Leaders Scholarship ($2,500, three students) and the Bro. Carl Reed Scholarship ($3,000, one student, HBCU-bound). <a href="{{href:scholarships}}">Eligibility and how to apply</a></p>
-          </div>
-        </li>
-        <li class="card event">
-          <div class="event__date" aria-hidden="true"><strong>12</strong>Sep</div>
-          <div>
-            <h3>All Star basketball tournament</h3>
-            <p class="event__meta"><span><time datetime="2026-09-12T11:00+09:00">Saturday 12 September 2026</time></span><span>Collier Fitness Center</span><span class="status status--past">Recently held</span></p>
-            <p>Third annual mental-health awareness tournament with the Peninsula Basketball League and the Humphreys Hoop Club. <a href="{{href:allStar}}">Event page</a></p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="section section--alt" aria-labelledby="message-title">
+  <section class="section" aria-labelledby="message-title">
     <div class="container message">
       <figure>
-        <img src="{{img:images/executive-officers/eugene-gibbs.jpg}}" alt="Brother Eugene Gibbs" width="400" height="400" loading="lazy">
+        <img src="{{img:images/executive-officers/eugene-gibbs.jpg}}" alt="Brother Eugene Gibbs" width="400" height="400">
         <figcaption>Bro. Eugene Gibbs, Basileus, 2025 to 2026 Omega Year</figcaption>
       </figure>
       <div class="prose">
@@ -116,11 +36,8 @@
         <p>On behalf of the Brothers of the Lambda Xi Chapter, welcome and thank you for visiting our official website. I am honored to serve as Basileus for the 2025&ndash;2026 Omega Year, guided by our theme: &ldquo;Exceeding Our Founders&rsquo; Expectations.&rdquo;</p>
         <p>Our Founders established Omega Psi Phi Fraternity, Inc. on the principles of Manhood, Scholarship, Perseverance, and Uplift, values that continue to shape our work and define our purpose. The Lambda Xi Chapter remains committed to honoring their legacy by striving for excellence in all that we do.</p>
         <p>Lambda Xi is composed of active duty service members and civilians residing across various regions of the Korean Peninsula, united in friendship and committed to advancing the mission of Omega. As one of Omega&rsquo;s international chapters, we proudly serve the Korean Peninsula. Through our mandated programs and community outreach, we work to uplift service members, families, and surrounding communities with intentional and impactful engagement.</p>
-        <details>
-          <summary>Read the rest of the message</summary>
-          <p>Here on our website, you will find information about our initiatives, upcoming events, and the ongoing work we are doing throughout the Peninsula. Whether you are a brother reconnecting, a community member seeking support, or a visitor looking to learn more, we are grateful for your interest in our chapter and its mission.</p>
-          <p>We invite you to explore, engage, and stay connected as we continue the important work of service, leadership, and friendship, upholding the high standards and enduring legacy of our Founders and the Omega Psi Phi Fraternity, Inc.</p>
-        </details>
+        <p>Here on our website, you will find information about our initiatives, upcoming events, and the ongoing work we are doing throughout the Peninsula. Whether you are a brother reconnecting, a community member seeking support, or a visitor looking to learn more, we are grateful for your interest in our chapter and its mission.</p>
+        <p>We invite you to explore, engage, and stay connected as we continue the important work of service, leadership, and friendship, upholding the high standards and enduring legacy of our Founders and the Omega Psi Phi Fraternity, Inc.</p>
         <div class="signature stack-top-md">
           <p><em>In Friendship and Service,</em></p>
           <p><strong>Bro. Eugene Gibbs</strong></p>
@@ -130,79 +47,37 @@
     </div>
   </section>
 
-  <section class="section" aria-labelledby="glance-title">
+  <section class="section section--alt" id="coming-up" aria-labelledby="coming-up-title">
     <div class="container">
       <div class="section__head">
-        <p class="eyebrow">The chapter at a glance</p>
-        <h2 id="glance-title">Lambda Xi in numbers</h2>
+        <p class="eyebrow">Coming up</p>
+        <h2 id="coming-up-title">Events this month and next</h2>
       </div>
-      <dl class="facts">
-        <div><dt>Chartered</dt><dd><time datetime="1977-02-22">22 Feb 1977</time><small>Eighth United States Army Headquarters, Yongsan</small></dd></div>
-        <div><dt>Years of service</dt><dd><span data-years-since="1977-02-22">49</span><small>Counted from the charter date</small></dd></div>
-        <div><dt>Scholarships each year</dt><dd>2<small>Four students: Future Leaders and Bro. Carl Reed</small></dd></div>
-        <div><dt>Mandated programs</dt><dd>12<small>From Achievement Week to Voter Registration</small></dd></div>
-        <div><dt>District recognition</dt><dd>4 years<small>13th District Graduate Chapter of the Year, 2023 to 2026</small></dd></div>
-      </dl>
+      <div data-events="home">
+        <noscript>
+          <p>The current events list needs JavaScript. All events are on the <a href="{{href:events}}">events page</a>.</p>
+        </noscript>
+      </div>
+      <p class="stack-top"><a href="{{href:events}}">All events, past and future</a></p>
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="gallery-title">
-    <div class="container">
-      <div class="section__head">
-        <p class="eyebrow">Chapter moments</p>
-        <h2 id="gallery-title">From the gallery</h2>
-        <p>Four of about 1,650 photographs across 22 albums from 2017 to 2025. <a href="{{href:gallery}}">Browse all albums by year and event</a></p>
+  <section class="section" aria-labelledby="featured-title">
+    <div class="container featured">
+      <figure class="featured__figure">
+        <a href="{{href:gallery2025}}#talent-hunt"><img src="{{img:images/gallery/2025/836693_959901-t.jpg}}" alt="" width="400" height="300" loading="lazy"><span class="featured__caption">Talent Hunt 2025: the stage before the first performance</span></a>
+      </figure>
+      <div class="prose">
+        <p class="eyebrow">From the gallery</p>
+        <h2 id="featured-title">Chapter moments</h2>
+        <p>About 2,000 photographs in 22 albums, from the 1977 charter celebration to this year's Talent Hunt. <a href="{{href:gallery}}">Browse the gallery by year and event</a>.</p>
       </div>
-      <div class="gallery-grid">
-        <figure><img src="{{img:images/gallery/2023/mlk-day-of-service-5.jpg}}" alt="Brothers speaking to a school assembly during the MLK Day of Service" width="675" height="900" loading="lazy"><figcaption>MLK Day of Service, 2023: classroom outreach</figcaption></figure>
-        <figure><img src="{{img:images/gallery/2023/boat-ride-blazers-monument.jpg}}" alt="Brothers in purple chapter blazers in front of a monument" width="900" height="675" loading="lazy"><figcaption>Boat Ride, 2023: chapter blazers</figcaption></figure>
-        <figure><img src="{{img:images/gallery/2023/mlk-day-of-service-9.jpg}}" alt="Brothers at a community information booth" width="900" height="675" loading="lazy"><figcaption>MLK Day of Service, 2023: community booth</figcaption></figure>
-        <figure><img src="{{img:images/gallery/2022/district-conference-roster.jpg}}" alt="Chapter delegation at the 13th District Conference" width="900" height="675" loading="lazy"><figcaption>13th District Conference, 2022</figcaption></figure>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" aria-labelledby="news-title">
-    <div class="container">
-      <div class="grid">
-        <div>
-          <p class="eyebrow">News</p>
-          <h2 id="news-title">Newsletters and the souvenir journal</h2>
-          <ul class="link-list">
-            <li><a href="https://issuu.com/lambdaxi/docs/lambda_xi_oy26_newsletters">RoK Hard News, Omega Year 2026</a><span class="meta">November 2025 to October 2026, read on Issuu</span></li>
-            <li><a href="https://issuu.com/lambdaxi/docs/lambda_xi_rok_hard_news_oy_25">RoK Hard News, Omega Year 2025</a><span class="meta">November 2024 to October 2025, 51 pages</span></li>
-            <li><a href="https://issuu.com/lambdaxi/docs/lambda_xi_achievement_week_journal">Achievement Week souvenir journal</a><span class="meta">23 pages</span></li>
-          </ul>
-          <p style="margin-top: var(--space-4);"><a href="{{href:news}}">All news and past issues</a></p>
-        </div>
-        <div>
-          <p class="eyebrow">Get in touch</p>
-          <h2>Contact the chapter</h2>
-          <ul class="link-list">
-            <li><a href="mailto:scholarship@lambdaxi1911.com">scholarship@lambdaxi1911.com</a><span class="meta">Scholarships and the essay contest</span></li>
-            <li><span>General enquiries: <a href="{{href:contact}}">contact form</a></span><span class="meta">Chapter email address to be confirmed <span class="status status--sample">sample</span></span></li>
-            <li><a href="https://maps.google.com/maps?q=36.95861337189751,127.0427376735077">Find us: Pyeongtaek, Republic of Korea</a><span class="meta">Google Maps</span></li>
-            <li><a href="https://msp.oppf.org/">Interested in joining Omega Psi Phi?</a><span class="meta">National membership portal</span></li>
-          </ul>
-        </div>
-      </div>
-      <p class="data-note stack-top-lg">Every name, date and figure on this page is taken from lambdaxi1911.com as captured on 23 September 2026, except the item marked <span class="status status--sample">sample</span>. Photographs are the chapter's own.</p>
     </div>
   </section>
 </main>
 
 {{footer}}
-<script>
-/* Years of service, counted from the charter date so the figure never goes stale. */
-(function () {
-  var el = document.querySelector('[data-years-since]');
-  if (!el) return;
-  var since = new Date(el.getAttribute('data-years-since') + 'T00:00:00');
-  var now = new Date();
-  var years = now.getFullYear() - since.getFullYear();
-  if (now.getMonth() < since.getMonth() || (now.getMonth() === since.getMonth() && now.getDate() < since.getDate())) years -= 1;
-  el.textContent = String(years);
-})();
-</script>
+<script type="application/json" id="events-data">{{events:json}}</script>
+<script src="events.js"></script>
 </body>
 </html>

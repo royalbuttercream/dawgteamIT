@@ -13,8 +13,9 @@ const cfg = existsSync(cfgPath) ? JSON.parse(readFileSync(cfgPath, 'utf8')) : { 
 const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 const slugify = (s) => s.toLowerCase().replace(/&amp;|&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 const CDN = 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload';
+const where = (kind) => cfg[kind === 'thumb' ? 'thumbs' : 'views'] || cfg.imageBase;
 const src = (year, ph, kind) => {
-  if (cfg.imageBase === 'local') return `{{img:images/gallery/${year}/${ph.id}-${kind === 'thumb' ? 't' : 'v'}.jpg}}`;
+  if (where(kind) === 'local') return `{{img:images/gallery/${year}/${ph.id}-${kind === 'thumb' ? 't' : 'v'}.jpg}}`;
   const t = kind === 'thumb' ? 'c_limit,w_480,h_480,q_auto:good,f_jpg' : 'c_limit,w_1200,h_1200,q_auto:good,f_jpg';
   return `${CDN}/${t}/1312902/${ph.id}.${ph.ext}`;
 };
@@ -59,7 +60,7 @@ ${years.map((y) => `
           </li>`).join('')}
         </ul>
       </section>`).join('')}
-      <p class="data-note stack-top">Album names, order and photo sets are those published on lambdaxi1911.com as captured on 23 September 2026. Photographs are the chapter's own.${cfg.imageBase === 'cdn' ? ' In this build the images are read from the current host\'s image service; the repo copy switches to local files once the photos are imported.' : ''}</p>
+      <p class="data-note stack-top">Album names, order and photo sets are those published on lambdaxi1911.com as captured on 23 September 2026. Photographs are the chapter's own.${where('view') === 'cdn' ? ' Thumbnails are stored in this repo; the large views open from the current host\'s image service until they are imported too.' : ''}</p>
     </div>
   </section>
 </main>
@@ -109,7 +110,7 @@ ${y.albums.map((a) => `
         </ul>${a.count > cfg.pageSize ? `
         <p><button type="button" class="btn btn--ghost" data-show-more aria-controls="${slugify(a.title)}">Show ${Math.min(cfg.pageSize, a.count - cfg.pageSize)} more of ${a.count}</button></p>` : ''}
       </section>`).join('')}
-      <p class="data-note stack-top">Photo sets, order and captions are those published on lambdaxi1911.com as captured on 23 September 2026. Photographs are the chapter's own.${cfg.imageBase === 'cdn' ? ' In this build the images are read from the current host\'s image service; the repo copy switches to local files once the photos are imported.' : ''}</p>
+      <p class="data-note stack-top">Photo sets, order and captions are those published on lambdaxi1911.com as captured on 23 September 2026. Photographs are the chapter's own.${where('view') === 'cdn' ? ' Thumbnails are stored in this repo; the large views open from the current host\'s image service until they are imported too.' : ''}</p>
     </div>
   </section>
 </main>
@@ -131,4 +132,4 @@ ${y.albums.map((a) => `
 `;
   writeFileSync(join(SRC, 'pages', `${yearKey(y)}.html`), page);
 }
-console.log(`gallery: index + ${years.length} year pages, ${albumsTotal} albums, ${total} photos, imageBase=${cfg.imageBase}`);
+console.log(`gallery: index + ${years.length} year pages, ${albumsTotal} albums, ${total} photos, thumbs=${where('thumb')} views=${where('view')}`);

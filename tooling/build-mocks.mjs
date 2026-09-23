@@ -44,8 +44,9 @@ const partial = (name) => readFileSync(join(SRC, 'partials', `${name}.html`), 'u
 const pageSources = readdirSync(join(SRC, 'pages')).filter((f) => f.endsWith('.html')).map((f) => basename(f, '.html'));
 const hasMock = (key) => pageSources.includes(key);
 
+const eventsJson = readFileSync(join(SRC, 'data', 'events.json'), 'utf8').replace(/<\/script/gi, '<\\/script');
 function resolve(html, { currentKey, mode }) {
-  const withPartials = html.replace('{{head}}', partial('head')).replace('{{header}}', partial('header')).replace('{{footer}}', partial('footer'));
+  const withPartials = html.replace('{{head}}', partial('head')).replace('{{header}}', partial('header')).replace('{{footer}}', partial('footer')).replace('{{events:json}}', eventsJson);
   const assets = new Set();
   const out = withPartials
     .replace(/\{\{href:(\w+)\}\}/g, (_, key) => {
@@ -63,7 +64,7 @@ function resolve(html, { currentKey, mode }) {
 }
 
 function copyShared(dir) {
-  for (const f of ['tokens.css', 'mock.css', 'mock.js', 'gallery.js']) copyFileSync(join(SRC, f), join(dir, f));
+  for (const f of ['tokens.css', 'mock.css', 'mock.js', 'gallery.js', 'events.js']) copyFileSync(join(SRC, f), join(dir, f));
 }
 
 const mergedDir = join(ROOT, 'merged');
@@ -93,3 +94,10 @@ for (const asset of allAssets) {
   copyFileSync(from, to);
 }
 console.log(`merged assets: ${allAssets.size}`);
+
+// Review hub: one page listing every built mock with its status (tooling/mock-src/data/status.json).
+const statusPath = join(SRC, 'data', 'status.json');
+const status = existsSync(statusPath) ? JSON.parse(readFileSync(statusPath, 'utf8')) : {};
+const rows = pageSources.map((key) => { const p = PAGES[key]; return `<tr><td><a href="${p.slug}.html">${p.title}</a></td><td>${status[key] || 'built'}</td><td><code>${p.slug}/mock/${p.slug}-mock.html</code></td></tr>`; }).join('\n');
+writeFileSync(join(mergedDir, 'index.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lambda Xi mocks: review hub</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="mock.css"></head><body><main id="main" class="container section"><h1>Lambda Xi rebuild: review hub</h1><p class="prose">Every built mock, with its status. Links between the pages work inside this folder. Rebuild with <code>node tooling/build-mocks.mjs</code>.</p><table class="table"><thead><tr><th scope="col">Page</th><th scope="col">Status</th><th scope="col">Standalone file</th></tr></thead><tbody>${rows}</tbody></table></main></body></html>\n`);
+console.log(`review hub: merged/index.html (${pageSources.length} pages)`);
