@@ -1,0 +1,98 @@
+{
+  "base": "https://www.lambdaxi1911.com",
+  "widths": [
+    375,
+    768,
+    1440
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "path": "/"
+    },
+    {
+      "slug": "history-of-lambda-xi",
+      "path": "/history-of-lambda-xi"
+    },
+    {
+      "slug": "executive-officers",
+      "path": "/executive-officers"
+    },
+    {
+      "slug": "past-basilei",
+      "path": "/past-basilei"
+    },
+    {
+      "slug": "lineage",
+      "path": "/lineage"
+    },
+    {
+      "slug": "mandated-programs",
+      "path": "/mandated-programs"
+    },
+    {
+      "slug": "scholarships",
+      "path": "/scholarships"
+    },
+    {
+      "slug": "achievement-week",
+      "path": "/achievement-week"
+    },
+    {
+      "slug": "essay-contest-registration",
+      "path": "/essay-contest-registration"
+    },
+    {
+      "slug": "youth-leadership-conference",
+      "path": "/youth-leadership-conference"
+    },
+    {
+      "slug": "ylc-registration",
+      "path": "/ylc-registration"
+    },
+    {
+      "slug": "all-star-game",
+      "path": "/all-star-game"
+    },
+    {
+      "slug": "50th-anniversary-gala",
+      "path": "/50th-anniversary-gala"
+    },
+    {
+      "slug": "gallery-2025",
+      "path": "/2025"
+    },
+    {
+      "slug": "gallery-2024",
+      "path": "/2024"
+    },
+    {
+      "slug": "gallery-2023",
+      "path": "/2023"
+    },
+    {
+      "slug": "gallery-2022",
+      "path": "/2022"
+    },
+    {
+      "slug": "gallery-2021",
+      "path": "/2021"
+    },
+    {
+      "slug": "gallery-2017-2020",
+      "path": "/2017-2020"
+    },
+    {
+      "slug": "news",
+      "path": "/news"
+    },
+    {
+      "slug": "contact-us",
+      "path": "/contact-us"
+    },
+    {
+      "slug": "new-years-eve-party",
+      "path": "/new-year-s-eve-party"
+    }
+  ]
+}

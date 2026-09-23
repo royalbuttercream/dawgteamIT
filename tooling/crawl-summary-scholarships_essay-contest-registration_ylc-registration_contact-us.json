@@ -1,0 +1,278 @@
+[
+  {
+    "slug": "scholarships",
+    "url": "https://www.lambdaxi1911.com/scholarships",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 39244,
+        "overflowX": 0,
+        "docH": 3249,
+        "requests": 195,
+        "blockedNonGet": 12,
+        "transferKB": 346,
+        "axeViolations": [
+          "color-contrast(8)",
+          "heading-order(3)",
+          "label-title-only(1)",
+          "label(3)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(22)"
+        ],
+        "console": 17,
+        "focusStops": 40,
+        "focusWithoutIndicator": 7
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 11547,
+        "overflowX": 0,
+        "docH": 2826,
+        "requests": 235,
+        "blockedNonGet": 12,
+        "transferKB": 270,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(3)",
+          "heading-order(3)",
+          "image-alt(1)",
+          "label-title-only(1)",
+          "label(3)",
+          "meta-viewport-large(1)",
+          "region(29)"
+        ],
+        "console": 16,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 12594,
+        "overflowX": 0,
+        "docH": 2808,
+        "requests": 235,
+        "blockedNonGet": 12,
+        "transferKB": 270,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(3)",
+          "heading-order(3)",
+          "image-alt(1)",
+          "label-title-only(1)",
+          "label(3)",
+          "meta-viewport-large(1)",
+          "region(29)"
+        ],
+        "console": 17,
+        "focusStops": 80,
+        "focusWithoutIndicator": 40
+      }
+    }
+  },
+  {
+    "slug": "essay-contest-registration",
+    "url": "https://www.lambdaxi1911.com/essay-contest-registration",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 17524,
+        "overflowX": 0,
+        "docH": 4289,
+        "requests": 173,
+        "blockedNonGet": 7,
+        "transferKB": 313,
+        "axeViolations": [
+          "color-contrast(4)",
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 12,
+        "focusStops": 33,
+        "focusWithoutIndicator": 5
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 23000,
+        "overflowX": 0,
+        "docH": 4316,
+        "requests": 214,
+        "blockedNonGet": 7,
+        "transferKB": 238,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(3)",
+          "frame-title(1)",
+          "image-alt(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 13,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 13277,
+        "overflowX": 0,
+        "docH": 4251,
+        "requests": 214,
+        "blockedNonGet": 7,
+        "transferKB": 238,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(4)",
+          "frame-title(1)",
+          "image-alt(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 13,
+        "focusStops": 80,
+        "focusWithoutIndicator": 40
+      }
+    }
+  },
+  {
+    "slug": "ylc-registration",
+    "url": "https://www.lambdaxi1911.com/ylc-registration",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 40686,
+        "overflowX": 0,
+        "docH": 5348,
+        "requests": 229,
+        "blockedNonGet": 21,
+        "transferKB": 313,
+        "axeViolations": [
+          "color-contrast(4)",
+          "frame-title(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(9)"
+        ],
+        "console": 25,
+        "focusStops": 40,
+        "focusWithoutIndicator": 12
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 14627,
+        "overflowX": 0,
+        "docH": 5322,
+        "requests": 245,
+        "blockedNonGet": 15,
+        "transferKB": 238,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(3)",
+          "frame-title(1)",
+          "image-alt(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 19,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 23032,
+        "overflowX": 0,
+        "docH": 5310,
+        "requests": 267,
+        "blockedNonGet": 21,
+        "transferKB": 238,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(4)",
+          "frame-title(1)",
+          "image-alt(1)",
+          "meta-viewport-large(1)",
+          "region(16)"
+        ],
+        "console": 25,
+        "focusStops": 80,
+        "focusWithoutIndicator": 40
+      }
+    }
+  },
+  {
+    "slug": "contact-us",
+    "url": "https://www.lambdaxi1911.com/contact-us",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 14029,
+        "overflowX": 0,
+        "docH": 1089,
+        "requests": 186,
+        "blockedNonGet": 12,
+        "transferKB": 314,
+        "axeViolations": [
+          "color-contrast(9)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "label(1)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(14)"
+        ],
+        "console": 17,
+        "focusStops": 40,
+        "focusWithoutIndicator": 13
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 11022,
+        "overflowX": 0,
+        "docH": 1125,
+        "requests": 230,
+        "blockedNonGet": 12,
+        "transferKB": 314,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(8)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "image-alt(1)",
+          "label(1)",
+          "meta-viewport-large(1)",
+          "region(21)"
+        ],
+        "console": 17,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 14443,
+        "overflowX": 0,
+        "docH": 1114,
+        "requests": 232,
+        "blockedNonGet": 12,
+        "transferKB": 314,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(9)",
+          "empty-heading(1)",
+          "heading-order(1)",
+          "image-alt(1)",
+          "label(1)",
+          "meta-viewport-large(1)",
+          "region(21)"
+        ],
+        "console": 18,
+        "focusStops": 80,
+        "focusWithoutIndicator": 40
+      }
+    }
+  }
+]

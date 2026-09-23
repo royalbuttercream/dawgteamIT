@@ -22,7 +22,37 @@ All pages live in `Lambda Xi 1911 optimization/`:
 | `contact-us.dc.html` | Contact page |
 
 ## Navigation
-The nav is defined as a JavaScript array in `support.js` with nested submenus under "Our Legacy" and "Programs".
+Each `.dc.html` page defines its own `navItems` array inside its `<script data-dc-script>` block (not `support.js`). The home copy uses anchor links; the other ten use file links. Keep them in step until the pages share one header.
+
+## Design system (approved 2026-09-23)
+The palette and typefaces already used by the `.dc.html` pages are the brand system. The live site (lambdaxi1911.com) is reference for content and behaviour, not for colour or type. Token values, light theme:
+
+| Token | Value | Use |
+|---|---|---|
+| `--bg` | `#fbfaf7` | page background |
+| `--fg` | `#1c1923` | body text |
+| `--muted` | `#57535f` | secondary text |
+| `--panel` | `#ffffff` | cards, header on light |
+| `--field` | `#ffffff` | inputs |
+| `--rule` | `#75708a` | input borders and separators that must meet 3:1 |
+| `--accent` | `#34234f` | primary actions, links (deep purple) |
+| `--accent-soft` | `#eee7fd` | accent tints |
+| `--brand-purple` | `#1b0e2d` | dark header and hero surfaces |
+| `--brand-purple-2` | `#231933` | submenu and raised surfaces on the dark header (the mock's `oklch(0.24 0.05 300)`) |
+| `--brand-gold` | `#c69612` | gold accents, always with dark text |
+| `--brand-gold-text` | `#e5bf6d` | gold text on purple; also the dark theme's `--accent` and `--link` (the mock's `oklch(0.82 0.11 85)`) |
+| `--on-brand-rule`, `--on-brand-hover` | white at 35% and 10% | borders and hover fills on purple surfaces |
+
+Dark theme values live in `tooling/mock-src/tokens.css` and must also pass WCAG 2.2 AA. Typefaces: Playfair Display (headings), Libre Franklin (body and UI), Archivo Black (display numerals only). Mono stack: `ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`. Do not add gradients, palettes or typefaces beyond these.
+
+## Forms
+Every form posts to a Google Form (embed or link). No custom submit handlers, no `localStorage` stand-ins, no success copy that a real submission did not produce.
+
+## Events data
+`tooling/mock-src/data/events.json` is the single list of chapter events (title, start, end, place, summary, page key). The build embeds it into the home and Events mocks; `events.js` shows this month and next on home and the full list on Events, formatting dates in Korea time. Add or edit events there; never hard-code an event in a page.
+
+## Audit and mocks
+`report.md`, `mock-recommendations.md` and `<page>/report.md` hold the live-site audit. Phase B mocks live in `<page>/mock/`; shared source for their CSS and JS is `tooling/mock-src/`, copied into each mock folder by `tooling/build-mocks.mjs`. Each mock must pass the `frontend-reviewer` agent and an axe run at 375, 768 and 1440 before sign-off.
 
 ## Images
 - Local images live in `images/` at the repo root, organized by section (e.g., `images/history-of-lambda-xi/`, `images/shared/`)

@@ -1,0 +1,61 @@
+{
+  "slug": "50th-anniversary-gala",
+  "url": "https://www.lambdaxi1911.com/50th-anniversary-gala",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 11491,
+      "overflowX": 0,
+      "docH": 868,
+      "requests": 171,
+      "blockedNonGet": 7,
+      "transferKB": 313,
+      "axeViolations": [
+        "color-contrast(3)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(8)"
+      ],
+      "console": 9,
+      "focusStops": 32,
+      "focusWithoutIndicator": 4
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 5751,
+      "overflowX": 0,
+      "docH": 1361,
+      "requests": 21,
+      "blockedNonGet": 0,
+      "transferKB": 141,
+      "axeViolations": [
+        "color-contrast(8)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(14)"
+      ],
+      "console": 2,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5799,
+      "overflowX": 0,
+      "docH": 1997,
+      "requests": 110,
+      "blockedNonGet": 0,
+      "transferKB": 141,
+      "axeViolations": [
+        "color-contrast(8)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(14)"
+      ],
+      "console": 2,
+      "focusStops": 6,
+      "focusWithoutIndicator": 0
+    }
+  }
+}

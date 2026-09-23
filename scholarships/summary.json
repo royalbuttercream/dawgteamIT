@@ -1,0 +1,72 @@
+{
+  "slug": "scholarships",
+  "url": "https://www.lambdaxi1911.com/scholarships",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 39244,
+      "overflowX": 0,
+      "docH": 3249,
+      "requests": 195,
+      "blockedNonGet": 12,
+      "transferKB": 346,
+      "axeViolations": [
+        "color-contrast(8)",
+        "heading-order(3)",
+        "label-title-only(1)",
+        "label(3)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(22)"
+      ],
+      "console": 17,
+      "focusStops": 40,
+      "focusWithoutIndicator": 7
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 11547,
+      "overflowX": 0,
+      "docH": 2826,
+      "requests": 235,
+      "blockedNonGet": 12,
+      "transferKB": 270,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(3)",
+        "heading-order(3)",
+        "image-alt(1)",
+        "label-title-only(1)",
+        "label(3)",
+        "meta-viewport-large(1)",
+        "region(29)"
+      ],
+      "console": 16,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 12594,
+      "overflowX": 0,
+      "docH": 2808,
+      "requests": 235,
+      "blockedNonGet": 12,
+      "transferKB": 270,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(3)",
+        "heading-order(3)",
+        "image-alt(1)",
+        "label-title-only(1)",
+        "label(3)",
+        "meta-viewport-large(1)",
+        "region(29)"
+      ],
+      "console": 17,
+      "focusStops": 80,
+      "focusWithoutIndicator": 40
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "mandated-programs",
+  "url": "https://www.lambdaxi1911.com/mandated-programs",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 32896,
+      "overflowX": 0,
+      "docH": 6152,
+      "requests": 194,
+      "blockedNonGet": 7,
+      "transferKB": 316,
+      "axeViolations": [
+        "color-contrast(4)",
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(9)"
+      ],
+      "console": 11,
+      "focusStops": 36,
+      "focusWithoutIndicator": 6
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 5668,
+      "overflowX": 0,
+      "docH": 4994,
+      "requests": 146,
+      "blockedNonGet": 0,
+      "transferKB": 144,
+      "axeViolations": [
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 1,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5274,
+      "overflowX": 0,
+      "docH": 4799,
+      "requests": 158,
+      "blockedNonGet": 0,
+      "transferKB": 144,
+      "axeViolations": [
+        "heading-order(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 10,
+      "focusWithoutIndicator": 2
+    }
+  }
+}

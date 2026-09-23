@@ -1,0 +1,66 @@
+{
+  "slug": "ylc-registration",
+  "url": "https://www.lambdaxi1911.com/ylc-registration",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 40686,
+      "overflowX": 0,
+      "docH": 5348,
+      "requests": 229,
+      "blockedNonGet": 21,
+      "transferKB": 313,
+      "axeViolations": [
+        "color-contrast(4)",
+        "frame-title(1)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(9)"
+      ],
+      "console": 25,
+      "focusStops": 40,
+      "focusWithoutIndicator": 12
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 14627,
+      "overflowX": 0,
+      "docH": 5322,
+      "requests": 245,
+      "blockedNonGet": 15,
+      "transferKB": 238,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(3)",
+        "frame-title(1)",
+        "image-alt(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 19,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 23032,
+      "overflowX": 0,
+      "docH": 5310,
+      "requests": 267,
+      "blockedNonGet": 21,
+      "transferKB": 238,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(4)",
+        "frame-title(1)",
+        "image-alt(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 25,
+      "focusStops": 80,
+      "focusWithoutIndicator": 40
+    }
+  }
+}

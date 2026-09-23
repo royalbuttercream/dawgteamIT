@@ -1,0 +1,62 @@
+{
+  "slug": "home",
+  "url": "https://www.lambdaxi1911.com/",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 10153,
+      "overflowX": 0,
+      "docH": 3070,
+      "requests": 233,
+      "blockedNonGet": 12,
+      "transferKB": 318,
+      "axeViolations": [
+        "color-contrast(3)",
+        "frame-title(1)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(11)"
+      ],
+      "console": 16,
+      "focusStops": 37,
+      "focusWithoutIndicator": 9
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 5567,
+      "overflowX": 0,
+      "docH": 2881,
+      "requests": 171,
+      "blockedNonGet": 7,
+      "transferKB": 223,
+      "axeViolations": [
+        "frame-title(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(17)"
+      ],
+      "console": 8,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 5750,
+      "overflowX": 0,
+      "docH": 2780,
+      "requests": 188,
+      "blockedNonGet": 9,
+      "transferKB": 146,
+      "axeViolations": [
+        "frame-title(1)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(17)"
+      ],
+      "console": 11,
+      "focusStops": 7,
+      "focusWithoutIndicator": 1
+    }
+  }
+}

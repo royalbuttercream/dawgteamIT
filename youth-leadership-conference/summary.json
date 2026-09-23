@@ -1,0 +1,61 @@
+{
+  "slug": "youth-leadership-conference",
+  "url": "https://www.lambdaxi1911.com/youth-leadership-conference",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 11286,
+      "overflowX": 0,
+      "docH": 1027,
+      "requests": 171,
+      "blockedNonGet": 7,
+      "transferKB": 314,
+      "axeViolations": [
+        "color-contrast(4)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(9)"
+      ],
+      "console": 9,
+      "focusStops": 33,
+      "focusWithoutIndicator": 4
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 4739,
+      "overflowX": 0,
+      "docH": 1500,
+      "requests": 25,
+      "blockedNonGet": 0,
+      "transferKB": 142,
+      "axeViolations": [
+        "color-contrast(9)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 4548,
+      "overflowX": 0,
+      "docH": 1500,
+      "requests": 122,
+      "blockedNonGet": 0,
+      "transferKB": 142,
+      "axeViolations": [
+        "color-contrast(3)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(15)"
+      ],
+      "console": 2,
+      "focusStops": 7,
+      "focusWithoutIndicator": 0
+    }
+  }
+}

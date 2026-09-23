@@ -1,0 +1,62 @@
+{
+  "slug": "gallery-2024",
+  "url": "https://www.lambdaxi1911.com/2024",
+  "widths": {
+    "375": {
+      "httpStatus": 200,
+      "settleMs": 15471,
+      "overflowX": 0,
+      "docH": 22591,
+      "requests": 811,
+      "blockedNonGet": 7,
+      "transferKB": 187,
+      "axeViolations": [
+        "color-contrast(3)",
+        "landmark-one-main(1)",
+        "list(1)",
+        "meta-viewport-large(1)",
+        "region(16)"
+      ],
+      "console": 10,
+      "focusStops": 40,
+      "focusWithoutIndicator": 1
+    },
+    "768": {
+      "httpStatus": 200,
+      "settleMs": 18399,
+      "overflowX": 0,
+      "docH": 21026,
+      "requests": 812,
+      "blockedNonGet": 7,
+      "transferKB": 187,
+      "axeViolations": [
+        "color-contrast(3)",
+        "landmark-one-main(1)",
+        "meta-viewport-large(1)",
+        "region(23)"
+      ],
+      "console": 9,
+      "focusStops": 0,
+      "focusWithoutIndicator": 0
+    },
+    "1440": {
+      "httpStatus": 200,
+      "settleMs": 25152,
+      "overflowX": 0,
+      "docH": 33693,
+      "requests": 858,
+      "blockedNonGet": 7,
+      "transferKB": 187,
+      "axeViolations": [
+        "aria-dialog-name(1)",
+        "color-contrast(3)",
+        "image-alt(1)",
+        "meta-viewport-large(1)",
+        "region(23)"
+      ],
+      "console": 13,
+      "focusStops": 80,
+      "focusWithoutIndicator": 40
+    }
+  }
+}

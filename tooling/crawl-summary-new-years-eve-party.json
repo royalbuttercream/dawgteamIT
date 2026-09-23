@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "new-years-eve-party",
+    "url": "https://www.lambdaxi1911.com/new-year-s-eve-party",
+    "widths": {
+      "375": {
+        "httpStatus": 200,
+        "settleMs": 16186,
+        "overflowX": 0,
+        "docH": 1408,
+        "requests": 172,
+        "blockedNonGet": 7,
+        "transferKB": 314,
+        "axeViolations": [
+          "color-contrast(4)",
+          "landmark-one-main(1)",
+          "list(1)",
+          "meta-viewport-large(1)",
+          "region(8)"
+        ],
+        "console": 10,
+        "focusStops": 32,
+        "focusWithoutIndicator": 4
+      },
+      "768": {
+        "httpStatus": 200,
+        "settleMs": 13902,
+        "overflowX": 0,
+        "docH": 900,
+        "requests": 219,
+        "blockedNonGet": 7,
+        "transferKB": 314,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(3)",
+          "image-alt(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 10,
+        "focusStops": 0,
+        "focusWithoutIndicator": 0
+      },
+      "1440": {
+        "httpStatus": 200,
+        "settleMs": 22676,
+        "overflowX": 0,
+        "docH": 1209,
+        "requests": 219,
+        "blockedNonGet": 7,
+        "transferKB": 314,
+        "axeViolations": [
+          "aria-dialog-name(1)",
+          "color-contrast(4)",
+          "image-alt(1)",
+          "meta-viewport-large(1)",
+          "region(15)"
+        ],
+        "console": 12,
+        "focusStops": 80,
+        "focusWithoutIndicator": 40
+      }
+    }
+  }
+]
