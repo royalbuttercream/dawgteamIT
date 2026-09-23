@@ -78,3 +78,9 @@ Every form posts to a Google Form (embed or link). No custom submit handlers, no
 - Do not rename `.dc.html` files — `support.js` and internal nav links depend on exact filenames
 - Keep images web-optimized (compress before adding; prefer `.jpg` for photos, `.png` for logos/crests)
 - Test nav links after any structural changes — the nav array in `support.js` drives all page routing
+
+## Session Rules
+- Never read image files or anything under `images/`.
+- Exclude images from every git command that lists paths: `git <cmd> -- . ':!images'`.
+- No screenshots unless asked.
+- Pipe long command output through `head -50`.
