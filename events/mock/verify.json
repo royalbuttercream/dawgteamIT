@@ -1,6 +1,6 @@
 {
   "slug": "events",
-  "url": "http://mock.local/events/mock/events-mock.html",
+  "url": "http://127.0.0.1:8765/events/mock/events-mock.html",
   "widths": {
     "320-light": {
       "theme": "light",
@@ -8,9 +8,9 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [
-        "color-contrast(2)"
+        "color-contrast(1)"
       ],
-      "focusStops": 19,
+      "focusStops": 16,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -27,9 +27,9 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [
-        "color-contrast(2)"
+        "color-contrast(1)"
       ],
-      "focusStops": 19,
+      "focusStops": 16,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -46,7 +46,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 19,
+      "focusStops": 16,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -63,7 +63,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 19,
+      "focusStops": 16,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -80,7 +80,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 19,
+      "focusStops": 16,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -97,7 +97,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 19,
+      "focusStops": 16,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -114,7 +114,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 26,
+      "focusStops": 23,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -131,7 +131,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 26,
+      "focusStops": 23,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -148,7 +148,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 26,
+      "focusStops": 23,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -165,7 +165,7 @@
       "axeViolations": 0,
       "axeIds": [],
       "incomplete": [],
-      "focusStops": 26,
+      "focusStops": 23,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,

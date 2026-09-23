@@ -65,3 +65,22 @@ No CRITICAL findings. Three warnings and five suggestions, all applied except tw
 | Skip link z-index above any future overlay | Accepted: no overlays exist; noted for later pages |
 
 Re-verified after the fixes: token pairs all pass, axe clean at all six width and scheme combinations, no overflow, keyboard and theme checks pass.
+
+### Revision, 24 September 2026, per operator feedback
+
+Applied to the home page and, where shared, to every page:
+
+| Point | Change |
+|---|---|
+| Basileus message cut off and below events | Full six paragraphs, no disclosure, placed directly under the hero |
+| "Contact" in the header | "Contact Us" on every page (shared header partial) |
+| Background photo | The live site's Seoul night photograph, imported at 1,920 and 960 px into `images/home/`, behind a dark scrim |
+| Hero buttons | Removed |
+| Events: this month and next, updating on its own | `events.js` reads `tooling/mock-src/data/events.json`, inlined into the page at build, and shows events whose dates fall in the current and next month in Korea time; when there are none it says so and links to the Events page. The Events page uses the same script and data for its Upcoming and Held lists, so the two never disagree. The chapter maintains one file. |
+| "The chapter at a glance" | Removed; the charter date moved into the hero sentence, the awards remain on History |
+| "Chapter moments" strip | One featured photograph with a caption and a link to the Gallery; no slideshow |
+| News section and Get in Touch section | Removed; both remain in the header |
+| Footer | Social links and "© RoK Hard Since 1977" only, on every page |
+| Spacing | One section rhythm (`clamp(3rem, 6vw, 4.5rem)`) on every page; one text column at 70 characters; one card grid on the page |
+
+The page is now five blocks: header, hero, message, events this month and next, one featured photo, footer. Verified after the change: axe clean at five widths in both themes, no overflow, focus and dropdown checks pass. `merged/index.html` is the review hub listing every built page with its status.

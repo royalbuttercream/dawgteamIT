@@ -1,6 +1,6 @@
 {
   "slug": "gallery-2024",
-  "url": "http://mock.local/gallery-2024/mock/gallery-2024-mock.html",
+  "url": "http://127.0.0.1:8765/gallery-2024/mock/gallery-2024-mock.html",
   "widths": {
     "320-light": {
       "theme": "light",
