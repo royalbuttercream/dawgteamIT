@@ -131,10 +131,22 @@
   }
 
   applyTheme(storedChoice());
+  function initDialogs() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-dialog-open]'), function (button) {
+      var box = document.getElementById(button.getAttribute('data-dialog-open'));
+      if (!box) return;
+      button.addEventListener('click', function () { if (typeof box.showModal === 'function') box.showModal(); else box.setAttribute('open', ''); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-dialog-close]'), function (button) {
+      button.addEventListener('click', function () { var box = button.closest('dialog'); if (!box) return; if (typeof box.close === 'function') box.close(); else box.removeAttribute('open'); });
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
     initDropdowns();
     initMobileMenu();
     markExternalLinks();
+    initDialogs();
   });
 })();

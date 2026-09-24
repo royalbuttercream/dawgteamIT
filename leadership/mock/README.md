@@ -66,3 +66,7 @@ Re-verified after the fixes: all four pages and home pass axe, overflow, focus, 
 - Past Basilei: the live page prints every year from 1977 to 2026 and leaves 21 blank; the page lists recorded years and states each decade's gap once. 2021 is recorded as "Percy Jones / Rodney Brown".
 - Lineage: two source spellings kept as published, "Henry l. Simmons" and "SirSedrick C. Kendrick". The 1990s block shows "No lines are recorded for this decade yet" until the chapter supplies names.
 - Index: the 1977 council names are from the History page.
+
+## Menu change, 24 September 2026
+
+The Our Legacy menu no longer lists this index page; it lists Executive Officers, Past Basilei and Lineage directly, with links to the national history and the 13th District. The index page is still built and reachable by URL.

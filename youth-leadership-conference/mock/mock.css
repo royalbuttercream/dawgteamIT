@@ -108,6 +108,8 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .details dt { font-weight: 700; }
 .details dd { margin: 0 0 var(--space-2); min-width: 0; overflow-wrap: anywhere; }
 .two-col { display: grid; gap: var(--space-6); align-items: start; }
+.list-tight { margin: 0; padding-left: 1.25rem; }
+.list-tight li { break-inside: avoid; }
 .poster { margin: 0; }
 .poster img { border-radius: var(--radius); border: 1px solid var(--rule-soft); }
 .poster figcaption { font-size: 0.85rem; color: var(--muted); margin-top: var(--space-2); }
@@ -244,6 +246,7 @@ summary::-webkit-details-marker { color: var(--accent); }
   .program { grid-template-columns: 2fr 3fr; }
   .program:nth-child(even) picture { order: 2; }
   .two-col { grid-template-columns: 3fr 2fr; }
+  .two-col--even { grid-template-columns: 1fr 1fr; }
   .details { grid-template-columns: minmax(7rem, max-content) 1fr; gap: var(--space-2) var(--space-4); }
   .details dd { margin-bottom: 0; }
   .brand__name { font-size: 1.25rem; }
@@ -270,3 +273,9 @@ summary::-webkit-details-marker { color: var(--accent); }
   .btn, .card, .facts div, details, .event__date, .status, .lightbox button { border: 1px solid CanvasText; }
   .nav__link[aria-current="page"] { text-decoration: underline; }
 }
+
+/* Modal dialog for long text (the History page's article). Opened by [data-dialog-open]; native Escape and the Close button close it. */
+dialog.modal { width: min(70ch, calc(100% - 2 * var(--space-5))); max-height: calc(100vh - 2 * var(--space-5)); padding: var(--space-5); border: 1px solid var(--rule-soft); border-radius: var(--radius); background: var(--panel); color: var(--fg); overflow: auto; }
+dialog.modal::backdrop { background: var(--scrim); }
+.modal__bar { display: flex; justify-content: space-between; align-items: start; gap: var(--space-4); margin-bottom: var(--space-4); }
+.modal__bar h2 { margin: 0; }
