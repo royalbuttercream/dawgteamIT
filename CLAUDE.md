@@ -65,9 +65,11 @@ Every form posts to a Google Form (embed or link). No custom submit handlers, no
 - **Interactive media**: Placeholder for embedded video, audio, or social media content (YouTube, Instagram, etc.)
 
 ## Deployment
-- Hosted on **GitHub Pages** at `https://royalbuttercream.github.io/dawgteamIT/`
-- Repo: `git@github.com:royalbuttercream/dawgteamIT.git`
-- Branch: `main` — all pushes to main deploy automatically
+- Hosted on **GitHub Pages** at `https://royalbuttercream.github.io/dawgteamIT/`, served from the `docs/` folder on `main` (cut over 2026-09-24).
+- `docs/` is build output: edit `tooling/mock-src/`, run `node tooling/build-mocks.mjs`, commit the result. Never hand-edit `docs/`, `merged/` or `<slug>/mock/`.
+- Old live URLs are covered by redirect stubs generated from `tooling/mock-src/data/redirects.json`.
+- Repo: `git@github.com:royalbuttercream/dawgteamIT.git`; pushes to `main` deploy automatically.
+- The `.dc.html` pages under `Lambda Xi 1911 optimization/` are the previous site, kept for reference and no longer served.
 
 ## Workflow for Adding Images
 1. Drop image files into the appropriate `images/` subfolder

@@ -3,7 +3,8 @@
 // placeholders, and writes:
 //   <slug>/mock/<slug>-mock.html + tokens.css + mock.css + mock.js   (standalone, per page)
 //   merged/<slug>.html + shared css/js + assets/                     (flat folder, links between mocks work)
-//   site/<path>/index.html + shared css/js, site/assets/, and one redirect stub per live URL (data/redirects.json)
+//   docs/<path>/index.html + shared css/js, docs/assets/, and one redirect stub per live URL (data/redirects.json)
+//   docs/ is the tree GitHub Pages serves (Settings > Pages: main, /docs).
 // Nav targets without a mock yet point at the live page and are marked external by mock.js.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, readdirSync } from 'node:fs';
 import { join, dirname, basename, posix } from 'node:path';
@@ -87,7 +88,7 @@ const mergedDir = join(ROOT, 'merged');
 mkdirSync(mergedDir, { recursive: true });
 copyShared(mergedDir);
 const allAssets = new Set();
-const siteRoot = join(ROOT, 'site');
+const siteRoot = join(ROOT, 'docs');
 
 for (const key of pageSources) {
   const page = PAGES[key];
@@ -136,7 +137,7 @@ for (const r of redirects) {
   writeFileSync(join(dir, 'index.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${target}"><link rel="canonical" href="${target}"><meta name="robots" content="noindex"><title>${title}</title></head><body><p>This page has moved to <a href="${target}">${title}</a>.</p></body></html>\n`);
   stubs++;
 }
-console.log(`site: ${pageSources.length} pages, ${stubs} redirect stubs, ${allAssets.size} assets in site/`);
+console.log(`site: ${pageSources.length} pages, ${stubs} redirect stubs, ${allAssets.size} assets in docs/`);
 
 // Review hub: one page listing every built mock with its status (tooling/mock-src/data/status.json).
 const statusPath = join(SRC, 'data', 'status.json');
