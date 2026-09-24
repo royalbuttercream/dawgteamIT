@@ -10,7 +10,7 @@ Standalone page, `contact-us/mock/contact-us-mock.html`. Replaces `/contact-us`.
 
 ## Forms
 
-The Google Form does not exist yet. The page says so with a sample badge, lists the fields the live form asks (name, email, topic, optional phone, message), and gives the email route as the way to reach the chapter until the form is live. No custom submit handler, no `localStorage`, no success copy a real submission did not produce.
+The Google Form was created by the chapter on 24 September 2026 from `tooling/forms/create-contact-form.gs` and is embedded under "Send a message", with a button that opens it in its own tab and the email address as a second route. It asks name, email, topic (General enquiry, Scholarships, Membership interest, Events, Press), optional phone and message; no sign-in and no upload, so anyone can send one. Notifications go to the owning account. No custom submit handler, no localStorage, no fake success copy.
 
 ## Step counts
 
