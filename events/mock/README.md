@@ -83,3 +83,7 @@ The provenance paragraphs and review badges that the pages carried are recorded 
 - Youth Leadership Conference: only the registration form's first page was inspected; the organiser holds the full question list.
 - Events index: the yearly fixtures are inferred from the posters and the mandated programme calendar; confirm the March and September dates with the chapter.
 - New Year's Eve: the page is not in the live site's menu and was found in its page list. The poster says "contact your Omega group representative" for tickets; the page routes people without one to the contact page.
+
+## Dates from one source, 24 September 2026
+
+Each event page takes its date, time and venue from `tooling/mock-src/data/events.json` at build time through `{{event:<id>:when}}` and `{{event:<id>:place}}`, using the same wording as the events list. Changing a date in the data file updates the list, the home page and the event page together. The build fails if a page names an event id that does not exist or a record lacks a date.
