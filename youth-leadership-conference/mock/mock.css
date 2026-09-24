@@ -236,8 +236,11 @@ summary::-webkit-details-marker { color: var(--accent); }
 .site-footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-1); }
 .site-footer li a { display: inline-block; padding-block: var(--space-1); min-height: 28px; }
 .site-footer ul.social, .social { display: flex; gap: var(--space-2); }
-.social a { display: inline-grid; place-items: center; width: var(--target); height: var(--target); border: 1px solid var(--on-brand-rule); border-radius: 50%; }
-.social svg { width: 20px; height: 20px; fill: currentColor; }
+.social li { display: flex; }
+.site-footer .social a, .social a { display: inline-grid; place-items: center; width: var(--target); height: var(--target); min-height: 0; padding: 0; border: 1px solid var(--on-brand-rule); border-radius: 50%; color: var(--on-brand); }
+.site-footer .social a:hover, .social a:hover { background: var(--on-brand-hover); }
+.social svg { display: block; width: 20px; height: 20px; fill: currentColor; }
+.social .is-external::after { content: none; }
 .footer__legal { margin: 0; font-size: 0.95rem; color: var(--on-brand); }
 
 @media (min-width: 640px) {
