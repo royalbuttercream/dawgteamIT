@@ -74,3 +74,7 @@ The Our Legacy menu no longer lists this index page; it lists Executive Officers
 ## Officers page change, 24 September 2026
 
 At the operator's direction the Executive Officers page is the eight cards only: photograph, name and office. The introduction, the "About the office" disclosures and the "Reach the officers" block were removed.
+
+## Officers merged into this page, 24 September 2026
+
+At the operator's direction the Executive Officers page was removed and its eight cards sit on this page under "Executive Officers", below the inaugural council list. The Our Legacy menu lists this page and no longer lists Past Basilei or Lineage, which are linked from the cards at the foot of this page. The old `/executive-officers` address and the one-day `/leadership/officers/` address both redirect here. The generated files in `executive-officers/mock/` were deleted; the folder keeps the audit report, source capture, screenshots and verify record.

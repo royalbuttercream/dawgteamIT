@@ -1,27 +1,105 @@
 {
   "note": "Every URL the live Strikingly site serves, and the page key (see PAGES in tooling/build-mocks.mjs) it should redirect to after cutover. GitHub Pages cannot issue server redirects, so the build will emit one stub HTML file per old path with a meta refresh, a canonical link and a plain link. Anchors point at the section that replaces a removed page.",
   "redirects": [
-    { "from": "/",                            "to": "home" },
-    { "from": "/history-of-lambda-xi",        "to": "history" },
-    { "from": "/executive-officers",          "to": "officers" },
-    { "from": "/past-basilei",                "to": "basilei" },
-    { "from": "/lineage",                     "to": "lineage" },
-    { "from": "/mandated-programs",           "to": "programs" },
-    { "from": "/scholarships",                "to": "scholarships" },
-    { "from": "/achievement-week",            "to": "achievementWeek" },
-    { "from": "/essay-contest-registration",  "to": "achievementWeek", "anchor": "essay-contest", "why": "printed QR code on the essay contest poster" },
-    { "from": "/youth-leadership-conference", "to": "ylc" },
-    { "from": "/ylc-registration",            "to": "ylc", "anchor": "register", "why": "printed QR code on the YLC poster" },
-    { "from": "/all-star-game",               "to": "allStar" },
-    { "from": "/50th-anniversary-gala",       "to": "anniversary" },
-    { "from": "/new-year-s-eve-party",        "to": "nye" },
-    { "from": "/2025",                        "to": "gallery2025" },
-    { "from": "/2024",                        "to": "gallery2024" },
-    { "from": "/2023",                        "to": "gallery2023" },
-    { "from": "/2022",                        "to": "gallery2022" },
-    { "from": "/2021",                        "to": "gallery2021" },
-    { "from": "/2017-2020",                   "to": "gallery2017_2020" },
-    { "from": "/news",                        "to": "news" },
-    { "from": "/contact-us",                  "to": "contact" }
+    {
+      "from": "/",
+      "to": "home"
+    },
+    {
+      "from": "/history-of-lambda-xi",
+      "to": "history"
+    },
+    {
+      "from": "/executive-officers",
+      "to": "leadership",
+      "anchor": "officers",
+      "why": "officers now live on the Leadership and Lineage page"
+    },
+    {
+      "from": "/past-basilei",
+      "to": "basilei"
+    },
+    {
+      "from": "/lineage",
+      "to": "lineage"
+    },
+    {
+      "from": "/mandated-programs",
+      "to": "programs"
+    },
+    {
+      "from": "/scholarships",
+      "to": "scholarships"
+    },
+    {
+      "from": "/achievement-week",
+      "to": "achievementWeek"
+    },
+    {
+      "from": "/essay-contest-registration",
+      "to": "achievementWeek",
+      "anchor": "essay-contest",
+      "why": "printed QR code on the essay contest poster"
+    },
+    {
+      "from": "/youth-leadership-conference",
+      "to": "ylc"
+    },
+    {
+      "from": "/ylc-registration",
+      "to": "ylc",
+      "anchor": "register",
+      "why": "printed QR code on the YLC poster"
+    },
+    {
+      "from": "/all-star-game",
+      "to": "allStar"
+    },
+    {
+      "from": "/50th-anniversary-gala",
+      "to": "anniversary"
+    },
+    {
+      "from": "/new-year-s-eve-party",
+      "to": "nye"
+    },
+    {
+      "from": "/2025",
+      "to": "gallery2025"
+    },
+    {
+      "from": "/2024",
+      "to": "gallery2024"
+    },
+    {
+      "from": "/2023",
+      "to": "gallery2023"
+    },
+    {
+      "from": "/2022",
+      "to": "gallery2022"
+    },
+    {
+      "from": "/2021",
+      "to": "gallery2021"
+    },
+    {
+      "from": "/2017-2020",
+      "to": "gallery2017_2020"
+    },
+    {
+      "from": "/news",
+      "to": "news"
+    },
+    {
+      "from": "/contact-us",
+      "to": "contact"
+    },
+    {
+      "from": "/leadership/officers",
+      "to": "leadership",
+      "anchor": "officers",
+      "why": "address the rebuilt site used for one day, 24 Sep 2026"
+    }
   ]
 }
