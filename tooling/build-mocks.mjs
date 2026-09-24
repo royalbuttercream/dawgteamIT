@@ -3,9 +3,10 @@
 // placeholders, and writes:
 //   <slug>/mock/<slug>-mock.html + tokens.css + mock.css + mock.js   (standalone, per page)
 //   merged/<slug>.html + shared css/js + assets/                     (flat folder, links between mocks work)
+//   site/<path>/index.html + shared css/js, site/assets/, and one redirect stub per live URL (data/redirects.json)
 // Nav targets without a mock yet point at the live page and are marked external by mock.js.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, readdirSync } from 'node:fs';
-import { join, dirname, basename } from 'node:path';
+import { join, dirname, basename, posix } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -40,6 +41,20 @@ export const PAGES = {
   contact: { slug: 'contact-us', live: '/contact-us', title: 'Contact' },
 };
 
+// key -> folder in the built site (trailing slash implied; each folder gets an index.html)
+export const SITE_PATHS = {
+  home: '/', history: '/history/', leadership: '/leadership/', officers: '/leadership/officers/',
+  basilei: '/leadership/past-basilei/', lineage: '/leadership/lineage/', programs: '/programs/',
+  scholarships: '/scholarships/', events: '/events/', achievementWeek: '/events/achievement-week/',
+  ylc: '/events/youth-leadership-conference/', allStar: '/events/all-star-game/',
+  anniversary: '/events/50th-anniversary/', nye: '/events/new-years-eve/', gallery: '/gallery/',
+  gallery2025: '/gallery/2025/', gallery2024: '/gallery/2024/', gallery2023: '/gallery/2023/',
+  gallery2022: '/gallery/2022/', gallery2021: '/gallery/2021/', gallery2017_2020: '/gallery/2017-2020/',
+  news: '/news/', contact: '/contact/',
+};
+const relDir = (from, to) => { const r = posix.relative(from, to); return r ? `${r}/` : './'; };
+const toRoot = (from) => relDir(from, '/');
+
 const partial = (name) => readFileSync(join(SRC, 'partials', `${name}.html`), 'utf8');
 const pageSources = readdirSync(join(SRC, 'pages')).filter((f) => f.endsWith('.html')).map((f) => basename(f, '.html'));
 const hasMock = (key) => pageSources.includes(key);
@@ -54,10 +69,11 @@ function resolve(html, { currentKey, mode }) {
       if (!p) throw new Error(`Unknown page key ${key}`);
       if (!hasMock(key)) return `${LIVE}${p.live}`;
       if (mode === 'merged') return `${p.slug}.html`;
+      if (mode === 'site') return relDir(SITE_PATHS[currentKey], SITE_PATHS[key]);
       return key === currentKey ? `${p.slug}-mock.html` : `../../${p.slug}/mock/${p.slug}-mock.html`;
     })
     .replace(/\{\{current:(\w+)\}\}/g, (_, key) => (key === currentKey ? ' aria-current="page"' : ''))
-    .replace(/\{\{img:([\w./-]+)\}\}/g, (_, path) => { assets.add(path); return mode === 'merged' ? `assets/${path}` : `../../${path}`; })
+    .replace(/\{\{img:([\w./-]+)\}\}/g, (_, path) => { assets.add(path); if (mode === 'merged') return `assets/${path}`; if (mode === 'site') return `${toRoot(SITE_PATHS[currentKey])}assets/${path}`; return `../../${path}`; })
     .replace(/\{\{live\}\}/g, LIVE)
     .replace(/\{\{title:(\w+)\}\}/g, (_, key) => PAGES[key].title);
   return { html: out, assets };
@@ -71,6 +87,7 @@ const mergedDir = join(ROOT, 'merged');
 mkdirSync(mergedDir, { recursive: true });
 copyShared(mergedDir);
 const allAssets = new Set();
+const siteRoot = join(ROOT, 'site');
 
 for (const key of pageSources) {
   const page = PAGES[key];
@@ -83,6 +100,10 @@ for (const key of pageSources) {
   const merged = resolve(src, { currentKey: key, mode: 'merged' });
   writeFileSync(join(mergedDir, `${page.slug}.html`), merged.html);
   merged.assets.forEach((a) => allAssets.add(a));
+  const siteDir = join(siteRoot, SITE_PATHS[key]);
+  mkdirSync(siteDir, { recursive: true });
+  writeFileSync(join(siteDir, 'index.html'), resolve(src, { currentKey: key, mode: 'site' }).html);
+  copyShared(siteDir);
   console.log(`built ${page.slug}: ${dir}/${page.slug}-mock.html and merged/${page.slug}.html`);
 }
 
@@ -94,6 +115,28 @@ for (const asset of allAssets) {
   copyFileSync(from, to);
 }
 console.log(`merged assets: ${allAssets.size}`);
+for (const asset of allAssets) {
+  const from = join(ROOT, asset);
+  if (!existsSync(from)) continue;
+  const to = join(siteRoot, 'assets', asset);
+  mkdirSync(dirname(to), { recursive: true });
+  copyFileSync(from, to);
+}
+
+// Redirect stubs: one index.html per live URL, pointing at the page that replaces it.
+const { redirects } = JSON.parse(readFileSync(join(SRC, 'data', 'redirects.json'), 'utf8'));
+let stubs = 0;
+for (const r of redirects) {
+  if (r.from === '/') continue;
+  const fromDir = `${r.from}/`;
+  const target = relDir(fromDir, SITE_PATHS[r.to]) + (r.anchor ? `#${r.anchor}` : '');
+  const title = PAGES[r.to].title;
+  const dir = join(siteRoot, fromDir);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, 'index.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${target}"><link rel="canonical" href="${target}"><meta name="robots" content="noindex"><title>${title}</title></head><body><p>This page has moved to <a href="${target}">${title}</a>.</p></body></html>\n`);
+  stubs++;
+}
+console.log(`site: ${pageSources.length} pages, ${stubs} redirect stubs, ${allAssets.size} assets in site/`);
 
 // Review hub: one page listing every built mock with its status (tooling/mock-src/data/status.json).
 const statusPath = join(SRC, 'data', 'status.json');
