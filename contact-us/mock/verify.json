@@ -7,8 +7,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 19,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 33,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -24,8 +26,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 19,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 33,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -41,8 +45,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 19,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 33,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -58,8 +64,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 19,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 33,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -75,8 +83,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 19,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 33,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -92,8 +102,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 19,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 33,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -109,8 +121,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 26,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 40,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -126,8 +140,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 26,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 40,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -143,8 +159,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 26,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 40,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
@@ -160,8 +178,10 @@
       "overflowX": 0,
       "axeViolations": 0,
       "axeIds": [],
-      "incomplete": [],
-      "focusStops": 26,
+      "incomplete": [
+        "frame-tested(1)"
+      ],
+      "focusStops": 40,
       "focusWithoutIndicator": [],
       "dropdown": {
         "present": true,
