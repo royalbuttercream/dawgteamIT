@@ -15,12 +15,12 @@ const totalSemesters = lineage.reduce((a, d) => a + d.semesters.length, 0);
 const decadeId = (d) => `decade-${d.decade.replace(/\D/g, '')}`;
 
 const decadesHtml = lineage.map((d) => d.semesters.length === 0 ? `
-      <section class="decade" id="${decadeId(d)}" aria-labelledby="${decadeId(d)}-title">
-        <h2 id="${decadeId(d)}-title">${d.decade}</h2>
+      <section class="tabs__panel" role="tabpanel" id="${decadeId(d)}" aria-labelledby="tab-${decadeId(d)}" tabindex="0">
+        <h2 class="visually-hidden">${d.decade}</h2>
         <p class="legend">No lines are recorded for this decade yet. The chapter is gathering the names; they will appear here when received.</p>
       </section>` : `
-      <section class="decade" id="${decadeId(d)}" aria-labelledby="${decadeId(d)}-title">
-        <h2 id="${decadeId(d)}-title">${d.decade}</h2>
+      <section class="tabs__panel" role="tabpanel" id="${decadeId(d)}" aria-labelledby="tab-${decadeId(d)}" tabindex="0">
+        <h2 class="visually-hidden">${d.decade}</h2>
         <p class="legend">${d.semesters.length} line${d.semesters.length === 1 ? '' : 's'}, ${d.semesters.reduce((a, s) => a + s.brothers.length, 0)} brothers</p>
         <div class="semesters">${d.semesters.map((s) => `
           <div class="semester">
@@ -49,17 +49,17 @@ const lineagePage = `<!DOCTYPE html>
       <nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="{{href:leadership}}">Leadership and Lineage</a></li><li aria-current="page">Lineage</li></ol></nav>
       <p class="eyebrow">Our Legacy</p>
       <h1>Lineage</h1>
-      <p>Every line that crossed at Lambda Xi, from Fall 1977 to Fall 2025: ${totalSemesters} lines and ${totalBrothers} brothers across six decades, one of them awaiting data. Names are listed in the order the chapter records them.</p>
+      <p>Honoring the line history of Lambda Xi from Fall 1977 to Present: ${totalSemesters} lines and ${totalBrothers} brothers across five decades of brotherhood.</p>
     </div>
   </div>
 
   <section class="section">
     <div class="container">
-      <nav aria-label="Decades">
-        <ul class="jump">${lineage.map((d) => `<li><a href="#${decadeId(d)}">${d.decade}</a></li>`).join('')}</ul>
-      </nav>
-      <p class="legend"><span class="omega" aria-hidden="true">&#937;</span> marks a brother who has entered Omega Chapter.</p>
+      <p class="legend"><span class="omega" aria-hidden="true">&#937;</span> Denotes a brother who has entered Omega Chapter.</p>
+      <div class="tabs" data-tabs data-tabs-default="${decadeId(lineage[lineage.length - 1])}">
+        <div class="tabs__list" role="tablist" aria-label="Decades">${lineage.map((d) => `<button type="button" role="tab" id="tab-${decadeId(d)}" aria-controls="${decadeId(d)}" aria-selected="false" tabindex="-1">${d.decade}</button>`).join('')}</div>
 ${decadesHtml}
+      </div>
     </div>
   </section>
 
