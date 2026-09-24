@@ -81,6 +81,35 @@ const CSP = [
 ].join('; ');
 const cspTag = `<meta http-equiv="Content-Security-Policy" content="${CSP}">\n`;
 const eventsJson = readFileSync(join(SRC, 'data', 'events.json'), 'utf8').replace(/<\/script/gi, '<\\/script');
+// Events are parsed and checked here so a bad edit fails the build instead of blanking the widget.
+const eventsData = JSON.parse(readFileSync(join(SRC, 'data', 'events.json'), 'utf8'));
+const eventsById = new Map();
+for (const ev of eventsData.events) {
+  for (const k of ['id', 'title', 'start', 'place', 'page']) if (!ev[k]) throw new Error(`events.json: "${ev.title || ev.id || '?'}" lacks ${k}`);
+  if (!PAGES[ev.page]) throw new Error(`events.json: "${ev.id}" points at unknown page key ${ev.page}`);
+  if (Number.isNaN(Date.parse(ev.start))) throw new Error(`events.json: "${ev.id}" has an unparseable start ${ev.start}`);
+  if (eventsById.has(ev.id)) throw new Error(`events.json: duplicate id ${ev.id}`);
+  eventsById.set(ev.id, ev);
+}
+// Same wording as events.js dateText, so a detail page and the events list never disagree.
+const KST = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric', weekday: 'long', hour: 'numeric', minute: '2-digit', hour12: true });
+const kstParts = (iso) => Object.fromEntries(KST.formatToParts(new Date(iso.length === 10 ? `${iso}T12:00+09:00` : iso)).map((x) => [x.type, x.value]));
+const dayText = (o) => `${o.weekday} ${o.day} ${o.month}`;
+function eventWhen(ev) {
+  const s = kstParts(ev.start);
+  if (ev.approximate && ev.allDay) return `<time datetime="${ev.start.slice(0, 7)}">${s.month} ${s.year}</time>`;
+  if (ev.allDay && ev.end && ev.end !== ev.start) { const e = kstParts(ev.end); return `<time datetime="${ev.start}">${dayText(s)}</time> to <time datetime="${ev.end}">${dayText(e)} ${e.year}</time>`; }
+  const time = ev.allDay ? '' : `, ${s.hour}:${s.minute} ${s.dayPeriod}`;
+  return `<time datetime="${ev.start}">${dayText(s)} ${s.year}${time}</time>`;
+}
+function eventField(id, field) {
+  const ev = eventsById.get(id);
+  if (!ev) throw new Error(`Unknown event id ${id} in {{event:${id}:${field}}}`);
+  if (field === 'when') return eventWhen(ev);
+  if (field === 'place') return ev.place;
+  if (field === 'start') return ev.start;
+  throw new Error(`Unknown event field ${field} in {{event:${id}:${field}}}`);
+}
 function resolve(html, { currentKey, mode }) {
   const withPartials = html.replace('{{head}}', partial('head')).replace('{{header}}', partial('header')).replace('{{footer}}', partial('footer')).replace('{{events:json}}', eventsJson).replace('{{csp}}', mode === 'site' ? cspTag : '');
   const assets = new Set();
@@ -95,6 +124,7 @@ function resolve(html, { currentKey, mode }) {
     })
     .replace(/\{\{current:(\w+)\}\}/g, (_, key) => (key === currentKey ? ' aria-current="page"' : ''))
     .replace(/\{\{img:([\w./-]+)\}\}/g, (_, path) => { assets.add(path); if (mode === 'merged') return `assets/${path}`; if (mode === 'site') return `${toRoot(SITE_PATHS[currentKey])}assets/${path}`; return `../../${path}`; })
+    .replace(/\{\{event:(\w+):(\w+)\}\}/g, (_, id, field) => eventField(id, field))
     .replace(/\{\{live\}\}/g, LIVE)
     .replace(/\{\{title:(\w+)\}\}/g, (_, key) => PAGES[key].title);
   return { html: out, assets };

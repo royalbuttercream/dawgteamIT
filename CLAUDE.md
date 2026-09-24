@@ -35,7 +35,7 @@ Dark theme values live in `tooling/mock-src/tokens.css` and must also pass WCAG 
 Every form posts to a Google Form (embed or link). No custom submit handlers, no `localStorage` stand-ins, no success copy that a real submission did not produce.
 
 ## Events data
-`tooling/mock-src/data/events.json` is the single list of chapter events (title, start, end, place, summary, page key). The build embeds it into the home and Events mocks; `events.js` shows this month and next on home and the full list on Events, formatting dates in Korea time. Add or edit events there; never hard-code an event in a page.
+`tooling/mock-src/data/events.json` is the single list of chapter events (title, start, end, place, summary, page key). The build embeds it into the home and Events mocks; `events.js` shows this month and next on home and the full list on Events, formatting dates in Korea time. Event pages take their date and venue from it too, through `{{event:<id>:when}}` and `{{event:<id>:place}}`; the build fails on an unknown id or a bad record. Add or edit events there; never type a date or venue into a page.
 
 ## Audit and mocks
 `report.md`, `mock-recommendations.md` and `<page>/report.md` hold the live-site audit. Phase B mocks live in `<page>/mock/`; shared source for their CSS and JS is `tooling/mock-src/`, copied into each mock folder by `tooling/build-mocks.mjs`. Each mock must pass the `frontend-reviewer` agent and an axe run at 375, 768 and 1440 before sign-off.
