@@ -52,3 +52,5 @@ Text, names and accolades are from the live History page as captured on 23 Septe
 ## Layout change, 24 September 2026
 
 At the operator's direction: the on-page jump links, the 1911 introduction and the "Continue" links were removed; the charter members and the inaugural council sit side by side above 640 px and stack below it; the article text moved from the page body into a modal dialog opened by a button under the scan. The Our Legacy menu now reads: The History of Omega Psi Phi (oppf.org), The History of Lambda Xi, Executive Officers, Past Basilei, Lineage, 13th District (oppf13th.org). The Leadership and Lineage index page is no longer in the menu.
+
+Later the same day the inaugural Executive Council list was removed from this page at the operator's direction; it stays on the Leadership and Lineage index. The charter members list returned to two columns in the text column.
