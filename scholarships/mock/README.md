@@ -7,7 +7,7 @@ One standalone page. `scholarships/mock/scholarships-mock.html` replaces `/schol
 - Amounts, counts, eligibility and the 1 February to 1 May window match the live page.
 - The two application PDFs are local copies of the chapter's published 2026 and 2025-2026 forms, under `documents/`.
 - The email address for applications, lambdaxi1911@gmail.com, is the address printed on both PDFs. An earlier draft used a sample role address; that has been replaced.
-- The field list under "What the current online form asks" is the current live form's fields, marked "field list to confirm": the Scholarship Committee has not settled the Google Form's fields, and `google-forms-spec.md` proposes a different set.
+- The field list under "What the online form asks" is the one the Google Form is built from (`tooling/forms/create-scholarship-form.gs`): the live form's questions plus college and community involvement, per the operator on 24 September 2026. The page states that the online form needs a Google account because of the file upload, and keeps the email route for anyone without one.
 - The acknowledgement and notification steps in "What happens next" describe the intended process, not a confirmed one, and are marked "process to confirm".
 
 ## Forms
@@ -31,7 +31,7 @@ The Google Form does not exist yet. The page says so with a "sample: form to be 
 | Deadline repeated three times | Stated once, in the page intro |
 | Two cards: amount, count, eligibility, PDF application | Kept, with the PDF links now labelled by format, page count and size |
 | Two application routes with no instruction on which to use | Replaced with a numbered "How to apply" list |
-| Online form, 8 fields, upload, hCaptcha | Not built; the live form's field list is shown for reference only, marked "field list to confirm" |
+| Online form, 8 fields, upload, hCaptcha | Google Form to be created from the committed script; its field list is shown on the page; no captcha needed |
 | No confirmation or next-step copy | "What happens next" section added, marked "process to confirm" |
 | Heading order h1, h4, h2, h4, h2 (a price as heading), h2 | h1, intro paragraph, card titles as h2/h3, prices as eyebrow text, no price used as a heading |
 | "historically black college or university" underlined but not a link | Written as plain text, "(HBCU)" added, no underline |
@@ -45,7 +45,7 @@ The Google Form does not exist yet. The page says so with a "sample: form to be 
 | Finding | Action |
 |---|---|
 | Page email did not match the PDFs | Changed to the address printed on both PDFs, lambdaxi1911@gmail.com |
-| Field list was worded as final and contradicted `google-forms-spec.md` | Reworded and the "field list to confirm" badge added |
+| Field list was worded as final and contradicted `google-forms-spec.md` | Field list settled on 24 September 2026 as the live form's questions plus the spec's two extra items; badge removed |
 | Copy referred to a button that did not exist | Removed |
 | Link to the old form had no caveat about its known problems | Caveat added: UK-default phone field, no submission confirmation |
 | No README | This file |
