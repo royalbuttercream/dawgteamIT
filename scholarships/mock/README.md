@@ -53,3 +53,7 @@ The Google Form does not exist yet. The page says so with a "sample: form to be 
 ## Notes moved off the page, 24 September 2026
 
 Amounts, counts, eligibility and the window are from the live page as captured on 23 September 2026; the PDFs under `documents/` are the chapter's published forms. The acknowledgement and notification steps on the page describe the intended process and should be confirmed by the Scholarship Committee.
+
+## Application moved to Tally, 24 September 2026
+
+The Google Form required applicants to sign in because of its file upload. At the operator's direction the application is now a Tally form built from `tooling/forms/tally-scholarship-form.md` in the chapter account (tally.so/r/VLg1eJ), embedded on the page with a plain iframe and linked from the "Apply online" button; no account is needed to apply. The Google Form and its creation script remain but are no longer linked. The site security policy allows tally.so frames.
