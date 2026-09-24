@@ -21,7 +21,6 @@ export const PAGES = {
   home: { slug: 'home', live: '/', title: 'Home' },
   history: { slug: 'history-of-lambda-xi', live: '/history-of-lambda-xi', title: 'History' },
   leadership: { slug: 'leadership', live: '/executive-officers', title: 'Leadership and Lineage' },
-  officers: { slug: 'executive-officers', live: '/executive-officers', title: 'Executive Officers' },
   basilei: { slug: 'past-basilei', live: '/past-basilei', title: 'Past Basilei' },
   lineage: { slug: 'lineage', live: '/lineage', title: 'Lineage' },
   programs: { slug: 'mandated-programs', live: '/mandated-programs', title: 'Mandated Programs' },
@@ -45,7 +44,7 @@ export const PAGES = {
 
 // key -> folder in the built site (trailing slash implied; each folder gets an index.html)
 export const SITE_PATHS = {
-  home: '/', history: '/history/', leadership: '/leadership/', officers: '/leadership/officers/',
+  home: '/', history: '/history/', leadership: '/leadership/',
   basilei: '/leadership/past-basilei/', lineage: '/leadership/lineage/', programs: '/programs/',
   scholarships: '/scholarships/', events: '/events/', achievementWeek: '/events/achievement-week/',
   ylc: '/events/youth-leadership-conference/', allStar: '/events/all-star-game/',
