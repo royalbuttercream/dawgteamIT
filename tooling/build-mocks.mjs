@@ -127,8 +127,8 @@ for (const asset of allAssets) {
 const { redirects } = JSON.parse(readFileSync(join(SRC, 'data', 'redirects.json'), 'utf8'));
 let stubs = 0;
 for (const r of redirects) {
-  if (r.from === '/') continue;
   const fromDir = `${r.from}/`;
+  if (r.from === '/' || fromDir === SITE_PATHS[r.to]) continue; // same address before and after: the page itself lives here
   const target = relDir(fromDir, SITE_PATHS[r.to]) + (r.anchor ? `#${r.anchor}` : '');
   const title = PAGES[r.to].title;
   const dir = join(siteRoot, fromDir);
