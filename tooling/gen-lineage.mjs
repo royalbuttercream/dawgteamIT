@@ -21,7 +21,6 @@ const decadesHtml = lineage.map((d) => d.semesters.length === 0 ? `
       </section>` : `
       <section class="tabs__panel" role="tabpanel" id="${decadeId(d)}" aria-labelledby="tab-${decadeId(d)}" tabindex="0">
         <h2 class="visually-hidden">${d.decade}</h2>
-        <p class="legend">${d.semesters.length} line${d.semesters.length === 1 ? '' : 's'}, ${d.semesters.reduce((a, s) => a + s.brothers.length, 0)} brothers</p>
         <div class="semesters">${d.semesters.map((s) => `
           <div class="semester">
             <h3>${s.label}</h3>
