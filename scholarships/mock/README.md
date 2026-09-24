@@ -31,7 +31,7 @@ The Google Form does not exist yet. The page says so with a "sample: form to be 
 | Deadline repeated three times | Stated once, in the page intro |
 | Two cards: amount, count, eligibility, PDF application | Kept, with the PDF links now labelled by format, page count and size |
 | Two application routes with no instruction on which to use | Replaced with a numbered "How to apply" list |
-| Online form, 8 fields, upload, hCaptcha | Google Form to be created from the committed script; its field list is shown on the page; no captcha needed |
+| Online form, 8 fields, upload, hCaptcha | Google Form created by the chapter on 24 September 2026 from the committed script, linked from the "Apply online" button; requires a Google account because of the upload; the email route stays for anyone without one |
 | No confirmation or next-step copy | "What happens next" section added, marked "process to confirm" |
 | Heading order h1, h4, h2, h4, h2 (a price as heading), h2 | h1, intro paragraph, card titles as h2/h3, prices as eyebrow text, no price used as a heading |
 | "historically black college or university" underlined but not a link | Written as plain text, "(HBCU)" added, no underline |
