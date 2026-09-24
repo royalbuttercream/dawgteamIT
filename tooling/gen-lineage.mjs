@@ -17,7 +17,7 @@ const decadeId = (d) => `decade-${d.decade.replace(/\D/g, '')}`;
 const decadesHtml = lineage.map((d) => d.semesters.length === 0 ? `
       <section class="decade" id="${decadeId(d)}" aria-labelledby="${decadeId(d)}-title">
         <h2 id="${decadeId(d)}-title">${d.decade}</h2>
-        <p class="legend">No lines are recorded for this decade yet. The chapter is gathering the names; they will appear here when received. <span class="status status--sample">data pending</span></p>
+        <p class="legend">No lines are recorded for this decade yet. The chapter is gathering the names; they will appear here when received.</p>
       </section>` : `
       <section class="decade" id="${decadeId(d)}" aria-labelledby="${decadeId(d)}-title">
         <h2 id="${decadeId(d)}-title">${d.decade}</h2>
@@ -69,7 +69,6 @@ ${decadesHtml}
       <ul>
         <li><strong>Freddie Thompson, IV</strong> (Spring 2018): Twelfth 13th District Representative, and recipient of the fraternity's 2024 to 2025 Brigadier General Charles Young Military Leadership Award.</li>
       </ul>
-      <p class="data-note">All names are transcribed from the Line History accordions on lambdaxi1911.com as captured on 23 September 2026 (the source text is in <code>lineage/source/content.txt</code>). Two spellings in the source are kept as published: "Henry l. Simmons" and "SirSedrick C. Kendrick". The Fall 2024 line lists the Keeper of Finance as "Marcus Shepherd" on the live site; the chapter confirmed it is the same brother as on the Executive Officers page, so the spelling "Shepard" is used on both pages here.</p>
     </div>
   </section>
 </main>
@@ -97,7 +96,7 @@ const decadeTables = Object.entries(byDecade).map(([d, rows]) => {
             <tr><th scope="row">${r.year}</th><td>${esc(r.name)}</td></tr>`).join('')}
           </tbody>
         </table>${missing.length ? `
-        <p class="legend">No record for ${missing.length === 1 ? missing[0] : missing.length + ' years'} in this decade (${missing.join(', ')}). <span class="status status--sample">gap in source</span></p>` : ''}
+        <p class="legend">No record for ${missing.length === 1 ? missing[0] : missing.length + ' years'} in this decade (${missing.join(', ')}).</p>` : ''}
       </section>`;
 }).join('\n');
 
@@ -125,7 +124,6 @@ const basileiPage = `<!DOCTYPE html>
     <div class="container">
       <nav aria-label="Decades"><ul class="jump">${Object.keys(byDecade).map((d) => `<li><a href="#basilei-${d}">${d}</a></li>`).join('')}</ul></nav>
 ${decadeTables}
-      <p class="data-note stack-top">Transcribed from the Past Basilei page on lambdaxi1911.com as captured on 23 September 2026, which prints every year from 1977 to 2026 and leaves 21 of them blank; this page lists only the recorded years and states the gaps once. 2021 is recorded as "Percy Jones / Rodney Brown".</p>
     </div>
   </section>
 </main>
