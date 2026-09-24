@@ -57,3 +57,5 @@ Amounts, counts, eligibility and the window are from the live page as captured o
 ## Application moved to Tally, 24 September 2026
 
 The Google Form required applicants to sign in because of its file upload. At the operator's direction the application is now a Tally form built from `tooling/forms/tally-scholarship-form.md` in the chapter account (tally.so/r/VLg1eJ), embedded on the page with a plain iframe and linked from the "Apply online" button; no account is needed to apply. The Google Form and its creation script remain but are no longer linked. The site security policy allows tally.so frames.
+
+Later the same day the embed was removed at the operator's direction, because the free plan's "Made with Tally" badge shows inside it; the "Apply online" button opens the form on tally.so instead. The email route names the Scholarship Committee as the link text.
