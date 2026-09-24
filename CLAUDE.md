@@ -11,7 +11,7 @@ Page sources are `tooling/mock-src/pages/<key>.html`; the key to folder mapping 
 One shared header and footer: `tooling/mock-src/partials/header.html` and `footer.html`. Links use `{{href:key}}` and the build resolves them for every output. Do not hard-code page paths.
 
 ## Design system (approved 2026-09-23)
-The palette and typefaces already used by the `.dc.html` pages are the brand system. The live site (lambdaxi1911.com) is reference for content and behaviour, not for colour or type. Token values, light theme:
+The palette and typefaces in `tooling/mock-src/tokens.css` are the brand system. The live site (lambdaxi1911.com) is reference for content and behaviour, not for colour or type. Token values, light theme:
 
 | Token | Value | Use |
 |---|---|---|
