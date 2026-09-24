@@ -82,3 +82,7 @@ At the operator's direction the Executive Officers page was removed and its eigh
 ## Past Basilei as a tabbed directory, 24 September 2026
 
 At the operator's direction the intro reads "Honoring the brothers who have led the chapter as Basileus since 1977…" with no link, the six decades are tabs (arrow keys, Home and End move between them; the newest decade opens first; a `#basilei-1990s` link opens that decade), and the "No record for … in this decade" notes are gone. Without JavaScript all six tables show.
+
+## Lineage as a tabbed directory, 24 September 2026
+
+At the operator's direction the Lineage intro reads "Honoring the line history of Lambda Xi from Fall 1977 to Present…", the omega legend reads "Denotes a brother who has entered Omega Chapter", and the six decades are tabs like Past Basilei, the newest first. The empty 1990s tab keeps its "No lines are recorded for this decade yet" message.
