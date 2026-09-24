@@ -85,7 +85,7 @@ const eventsJson = readFileSync(join(SRC, 'data', 'events.json'), 'utf8').replac
 const eventsData = JSON.parse(readFileSync(join(SRC, 'data', 'events.json'), 'utf8'));
 const eventsById = new Map();
 for (const ev of eventsData.events) {
-  for (const k of ['id', 'title', 'start', 'place', 'page']) if (!ev[k]) throw new Error(`events.json: "${ev.title || ev.id || '?'}" lacks ${k}`);
+  for (const k of ['id', 'title', 'start', 'page']) if (!ev[k]) throw new Error(`events.json: "${ev.title || ev.id || '?'}" lacks ${k}`);
   if (!PAGES[ev.page]) throw new Error(`events.json: "${ev.id}" points at unknown page key ${ev.page}`);
   if (Number.isNaN(Date.parse(ev.start))) throw new Error(`events.json: "${ev.id}" has an unparseable start ${ev.start}`);
   if (eventsById.has(ev.id)) throw new Error(`events.json: duplicate id ${ev.id}`);
@@ -106,7 +106,7 @@ function eventField(id, field) {
   const ev = eventsById.get(id);
   if (!ev) throw new Error(`Unknown event id ${id} in {{event:${id}:${field}}}`);
   if (field === 'when') return eventWhen(ev);
-  if (field === 'place') return ev.place;
+  if (field === 'place') { if (!ev.place) throw new Error(`events.json: "${id}" has no place but a page asks for {{event:${id}:place}}`); return ev.place; }
   if (field === 'start') return ev.start;
   throw new Error(`Unknown event field ${field} in {{event:${id}:${field}}}`);
 }
