@@ -70,3 +70,7 @@ Re-verified after the fixes: all four pages and home pass axe, overflow, focus, 
 ## Menu change, 24 September 2026
 
 The Our Legacy menu no longer lists this index page; it lists Executive Officers, Past Basilei and Lineage directly, with links to the national history and the 13th District. The index page is still built and reachable by URL.
+
+## Officers page change, 24 September 2026
+
+At the operator's direction the Executive Officers page is the eight cards only: photograph, name and office. The introduction, the "About the office" disclosures and the "Reach the officers" block were removed.
