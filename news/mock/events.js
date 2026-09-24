@@ -63,7 +63,7 @@
         return dayKey(e) >= today.key && ms <= m1 && me >= m0;
       });
       var label = MONTHS[today.month] + ' and ' + MONTHS[(today.month + 1) % 12];
-      host.innerHTML = '<p class="legend">' + esc(label) + '</p>' + (inWindow.length
+      host.innerHTML = (inWindow.length
         ? '<ul class="grid list-plain" role="list">' + inWindow.map(function (ev) { return card(ev, links, today); }).join('') + '</ul>'
         : '<p>Nothing is scheduled for ' + esc(label) + '. See the <a href="' + esc(links.events) + '">events page</a> for what comes next.</p>');
       return;
