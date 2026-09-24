@@ -7,11 +7,12 @@
  *   2. Replace the editor contents with this file and click Run.
  *   3. Approve the permission prompt (the script only creates a form in your Drive).
  *   4. Open View > Logs. The log prints the edit URL and the public URL.
- *   5. Send > link icon: copy the URL and paste it into the Contact page.
+ *   5. In the form editor open Responses, click the three-dot menu, and turn on
+ *      "Get email notifications for new responses". Each message then arrives
+ *      in the owning account's inbox. Nothing else sends mail.
+ *   6. Send > link icon: copy the URL and paste it into the Contact page.
  *
  * No file upload and no Google sign-in, so anyone can send a message.
- * Responses land in the owner's Drive; turn on email notifications in the
- * form's Responses tab so the Keeper of Records and Seal sees each one.
  */
 function createContactForm() {
   var form = FormApp.create('Contact Lambda Xi Chapter');
