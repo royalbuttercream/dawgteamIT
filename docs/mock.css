@@ -120,6 +120,7 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .schedule th { font-weight: 700; }
 .embed { border: 1px solid var(--rule-soft); border-radius: var(--radius); overflow: hidden; background: var(--panel); }
 .embed iframe { display: block; width: 100%; min-height: 70vh; border: 0; }
+.embed:focus-within iframe { outline: 3px solid var(--focus); outline-offset: -3px; } /* iframes never match :focus in Chromium; the wrapper matches :focus-within while focus is inside the frame */
 .notice { border-left: 4px solid var(--warn); background: var(--warn-soft); color: var(--warn); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius) var(--radius) 0; margin: 0 0 var(--space-4); }
 .notice a { color: inherit; }
 
