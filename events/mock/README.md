@@ -55,7 +55,7 @@ Review gate: frontend-reviewer result recorded below when complete.
 
 ### Change, 24 September 2026
 
-At the operator's direction the Youth Leadership Conference page names the organiser and shows the organiser's email address from the poster as a mailto link, alongside the contact page route. The phone number is not shown. The All Star Game page still routes questions through the contact page only.
+At the operator's direction the Youth Leadership Conference page names the organiser and shows the organiser's email address from the poster as a mailto link, alongside the contact page route. The All Star Game page does the same for its two organisers. Phone numbers are not shown.
 
 ### frontend-reviewer result, 23 September 2026
 
