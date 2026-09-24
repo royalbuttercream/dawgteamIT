@@ -1,8 +1,7 @@
 # dawgteamIT
-This is IT Committee work and hosting
+IT Committee work and hosting for the Lambda Xi Chapter website.
 
-## Notes
-
-- `Lambda Xi 1911 optimization/support.js` is a generated dc-runtime bundle vendored into
-  this repo; its TypeScript source (`dc-runtime/src/*.ts`) lives elsewhere. Edit the source
-  and regenerate rather than editing the bundle.
+- Live site: https://royalbuttercream.github.io/dawgteamIT/ (GitHub Pages, served from `docs/`)
+- Page sources: `tooling/mock-src/`; build with `node tooling/build-mocks.mjs`
+- Audit of the previous site and per-page sign-off records: `report.md`, `<slug>/report.md`, `<slug>/mock/README.md`
+- Working rules for contributors and assistants: `CLAUDE.md`
