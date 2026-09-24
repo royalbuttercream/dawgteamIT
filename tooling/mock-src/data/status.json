@@ -1,5 +1,5 @@
 {
- "home": "revised 24 Sep 2026 per operator feedback, awaiting re-approval",
+ "home": "revised 24 Sep 2026 per operator feedback (gallery teaser removed, footer icons fixed), awaiting re-approval",
  "events": "approved 23 Sep 2026; list now generated from events.json",
  "achievementWeek": "approved 23 Sep 2026",
  "ylc": "approved 23 Sep 2026",
@@ -17,9 +17,9 @@
  "gallery2022": "built, awaiting sign-off",
  "gallery2021": "built, awaiting sign-off",
  "gallery2017_2020": "built, awaiting sign-off",
- "history": "built, awaiting review",
- "programs": "built, awaiting review",
- "scholarships": "built, awaiting review",
- "news": "built, awaiting review",
- "contact": "built, awaiting review"
+ "history": "reviewed 24 Sep 2026, findings fixed, awaiting sign-off; 1911 intro text awaiting chapter approval",
+ "programs": "reviewed 24 Sep 2026, findings fixed, awaiting sign-off",
+ "scholarships": "reviewed 24 Sep 2026, findings fixed, awaiting sign-off; Google Form pending",
+ "news": "reviewed 24 Sep 2026, findings fixed, awaiting sign-off",
+ "contact": "reviewed 24 Sep 2026, findings fixed, awaiting sign-off; Google Form pending"
 }
