@@ -145,6 +145,7 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 /* Programme rows and two-column lists */
 .programs { display: grid; gap: var(--space-5); }
 .program { display: grid; gap: var(--space-4); align-items: start; scroll-margin-top: calc(var(--target) + var(--space-8)); }
+.program picture { display: block; }
 .program img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); }
 .program h2 { margin-top: 0; }
 .program p:last-child { margin-bottom: 0; }
@@ -242,7 +243,7 @@ summary::-webkit-details-marker { color: var(--accent); }
 @media (min-width: 640px) {
   .message { grid-template-columns: 1fr 2fr; }
   .program { grid-template-columns: 2fr 3fr; }
-  .program:nth-child(even) img { order: 2; }
+  .program:nth-child(even) picture { order: 2; }
   .two-col { grid-template-columns: 3fr 2fr; }
   .details { grid-template-columns: minmax(7rem, max-content) 1fr; gap: var(--space-2) var(--space-4); }
   .details dd { margin-bottom: 0; }
