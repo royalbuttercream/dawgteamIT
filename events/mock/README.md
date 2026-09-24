@@ -53,6 +53,10 @@ Registration for the essay contest links to the Google Form rather than embeddin
 
 Review gate: frontend-reviewer result recorded below when complete.
 
+### Change, 24 September 2026
+
+At the operator's direction the Youth Leadership Conference page names the organiser and shows the organiser's email address from the poster as a mailto link, alongside the contact page route. The phone number is not shown. The All Star Game page still routes questions through the contact page only.
+
 ### frontend-reviewer result, 23 September 2026
 
 The reviewer read the files while the poster crop was in progress and reported two CRITICAL findings about the organiser contact strip still showing on the All Star poster and the source and built dimensions disagreeing. Both posters were cropped from the source files before the final build; the shipped images, the source templates and the merged copies now agree (All Star 707 x 937, YLC 666 x 952) and the contact strips are gone. Remaining findings and actions:
