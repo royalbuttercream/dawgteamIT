@@ -64,3 +64,7 @@ Four CRITICAL and four WARNING findings, all applied; four suggestions, three ap
 | Jump chips used a 36 px height | Now `--target` (44 px) |
 
 Keyboard probe after the changes (`tooling/probe-lightbox.mjs`): Enter opens the viewer with focus inside; ArrowRight moves to the next photo and updates the live caption; Tab stays within the controls; Escape closes and returns focus to the photo link; "Show more" reveals the next 48 and moves focus to the first newly shown photo. All seven pages pass axe, overflow, focus, dropdown and theme checks at five widths in both themes.
+
+## Notes moved off the pages, 24 September 2026
+
+Album names, order, photo sets and captions are those published on lambdaxi1911.com as captured on 23 September 2026; the photographs are the chapter's own. Thumbnails are stored in this repo; the large views open from the Strikingly image service until they are imported.

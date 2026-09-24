@@ -60,7 +60,6 @@ ${years.map((y) => `
           </li>`).join('')}
         </ul>
       </section>`).join('')}
-      <p class="data-note stack-top">Album names, order and photo sets are those published on lambdaxi1911.com as captured on 23 September 2026. Photographs are the chapter's own.${where('view') === 'cdn' ? ' Thumbnails are stored in this repo; the large views open from the current host\'s image service until they are imported too.' : ''}</p>
     </div>
   </section>
 </main>
@@ -110,7 +109,6 @@ ${y.albums.map((a) => `
         </ul>${a.count > cfg.pageSize ? `
         <p><button type="button" class="btn btn--ghost" data-show-more aria-controls="${slugify(a.title)}">Show ${Math.min(cfg.pageSize, a.count - cfg.pageSize)} more of ${a.count}</button></p>` : ''}
       </section>`).join('')}
-      <p class="data-note stack-top">Photo sets, order and captions are those published on lambdaxi1911.com as captured on 23 September 2026. Photographs are the chapter's own.${where('view') === 'cdn' ? ' Thumbnails are stored in this repo; the large views open from the current host\'s image service until they are imported too.' : ''}</p>
     </div>
   </section>
 </main>

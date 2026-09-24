@@ -49,3 +49,7 @@ The Google Form does not exist yet. The page says so with a "sample: form to be 
 | Copy referred to a button that did not exist | Removed |
 | Link to the old form had no caveat about its known problems | Caveat added: UK-default phone field, no submission confirmation |
 | No README | This file |
+
+## Notes moved off the page, 24 September 2026
+
+Amounts, counts, eligibility and the window are from the live page as captured on 23 September 2026; the PDFs under `documents/` are the chapter's published forms. The acknowledgement and notification steps on the page describe the intended process and should be confirmed by the Scholarship Committee.

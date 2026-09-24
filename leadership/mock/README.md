@@ -59,3 +59,10 @@ One CRITICAL finding (the 1990s gap section rendered after the 2020s and was mis
 | Confirm the portrait files are compressed | The eight files exist in `images/executive-officers/`; resized in place from 600 x 600 (730 KB total) to 400 x 400 (349 KB total). The repo's `.dc.html` officer page uses the same files at 96 px, so it benefits too. |
 
 Re-verified after the fixes: all four pages and home pass axe, overflow, focus, dropdown and theme checks at five widths in both themes.
+
+## Notes moved off the pages, 24 September 2026
+
+- Officers: the one-line office descriptions are standard meanings written for visitors; the chapter should confirm the wording.
+- Past Basilei: the live page prints every year from 1977 to 2026 and leaves 21 blank; the page lists recorded years and states each decade's gap once. 2021 is recorded as "Percy Jones / Rodney Brown".
+- Lineage: two source spellings kept as published, "Henry l. Simmons" and "SirSedrick C. Kendrick". The 1990s block shows "No lines are recorded for this decade yet" until the chapter supplies names.
+- Index: the 1977 council names are from the History page.

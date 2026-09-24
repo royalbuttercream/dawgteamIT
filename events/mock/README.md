@@ -73,3 +73,13 @@ The reviewer read the files while the poster crop was in progress and reported t
 | Poster JPEG sizes | 138 to 288 KB each at about 700 x 1000; acceptable for a one-per-page illustration, recorded here |
 
 Re-verified after the fixes: token pairs pass; all six built pages pass axe, overflow, focus, dropdown and theme checks at five widths in both themes.
+
+## Notes moved off the pages, 24 September 2026
+
+The provenance paragraphs and review badges that the pages carried are recorded here instead.
+
+- Every date, venue, schedule, price and partner is from the posters on lambdaxi1911.com as captured on 23 September 2026. The anniversary donation link was decoded from the poster's QR code; its programme and venue lines say "to be announced" because the chapter has not published them.
+- Achievement Week: the application packet was distributed by QR code pointing at the chapter's registration page; host it as a PDF and link it when the chapter supplies it. The essay contest Google Form returned a Google sign-in wall when checked on 23 September 2026; the page says so and gives the email route.
+- Youth Leadership Conference: only the registration form's first page was inspected; the organiser holds the full question list.
+- Events index: the yearly fixtures are inferred from the posters and the mandated programme calendar; confirm the March and September dates with the chapter.
+- New Year's Eve: the page is not in the live site's menu and was found in its page list. The poster says "contact your Omega group representative" for tickets; the page routes people without one to the contact page.

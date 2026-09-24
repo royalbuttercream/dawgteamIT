@@ -44,3 +44,7 @@ Review gate: frontend-reviewer result recorded below.
 | Jump link text did not match its heading | Link label aligned to the heading text |
 | Inline max-width style on the accolades table | Replaced with the `.table--narrow` class |
 | Newspaper article transcript not delivered | Transcribed from the scan by the operator's direction on 24 September 2026 |
+
+## Notes moved off the page, 24 September 2026
+
+Text, names and accolades are from the live History page as captured on 23 September 2026. The 1911 introduction is not on the live page; the operator approved it on 24 September 2026. The article transcript keeps the scan's spellings (Herschel and Herschell; William and Willie Hensley) and its office list, which gives Campbell as Keeper of Finance and Blakely as Dean of Pledgees where the live page lists Blakely as Keeper of Finance; a few words at the cut right edge are completed from context.

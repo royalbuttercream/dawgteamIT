@@ -48,3 +48,7 @@ Review gate: frontend-reviewer result recorded below.
 | Reply-time claim in the page head was unqualified | Softened to "a brother aims to reply within a week", marked to confirm |
 | Social list duplicated between body and footer | Kept; the body list is the only place the links carry visible text |
 | No README | This file |
+
+## Notes moved off the page, 24 September 2026
+
+Map location and social links are from the live page as captured on 23 September 2026. "A brother aims to reply within a week" is the intended service level and should be confirmed by the Keeper of Records and Seal.

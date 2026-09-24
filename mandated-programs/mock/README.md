@@ -42,3 +42,7 @@ Each of the twelve photos is a `<picture>` element: WebP sources at 400, 700 and
 | The NAACP typo correction was undisclosed | Data-note extended to note the correction |
 | No README for this mock | This file |
 | Unused `events.js` and `gallery.js` copies in the mock folder | Left as is; shared build output copied into every mock folder |
+
+## Notes moved off the page, 24 September 2026
+
+Descriptions and photographs are from the live page as captured on 23 September 2026. Four images (blood drive, NAACP, STEM, voting) are stock graphics marked decorative. Five rows link to the chapter's own pages, which the live page did not. The live NAACP text's "could standing" is corrected to "good standing".
