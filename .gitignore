@@ -2,3 +2,4 @@
 .thumbnail
 __pycache__/
 .vscode/
+.claude/settings.local.json
