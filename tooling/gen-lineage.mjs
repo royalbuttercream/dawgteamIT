@@ -82,21 +82,18 @@ writeFileSync(join(SRC, 'pages', 'lineage.html'), lineagePage);
 // Past Basilei: one row per served year; gaps are stated once per decade rather than printed as empty years.
 const byDecade = {};
 for (const b of basilei) { const d = `${Math.floor(b.year / 10) * 10}s`; (byDecade[d] = byDecade[d] || []).push(b); }
-const gaps = (rows, start, end) => { const have = new Set(rows.map((r) => r.year)); const missing = []; for (let y = start; y <= end; y++) if (!have.has(y)) missing.push(y); return missing; };
 const decadeTables = Object.entries(byDecade).map(([d, rows]) => {
   const start = Math.max(1977, Number(d.slice(0, 4))); const end = Math.min(2026, start + 9 - (start % 10));
-  const missing = gaps(rows, start, end);
   return `
-      <section class="decade" id="basilei-${d}" aria-labelledby="basilei-${d}-title">
-        <h2 id="basilei-${d}-title">${d}</h2>
+      <section class="tabs__panel" role="tabpanel" id="basilei-${d}" aria-labelledby="tab-basilei-${d}" tabindex="0">
+        <h2 class="visually-hidden">${d}</h2>
         <table class="table">
           <caption class="visually-hidden">Basilei who served in the ${d}</caption>
           <thead><tr><th scope="col">Year</th><th scope="col">Basileus</th></tr></thead>
           <tbody>${rows.map((r) => `
             <tr><th scope="row">${r.year}</th><td>${esc(r.name)}</td></tr>`).join('')}
           </tbody>
-        </table>${missing.length ? `
-        <p class="legend">No record for ${missing.length === 1 ? missing[0] : missing.length + ' years'} in this decade (${missing.join(', ')}).</p>` : ''}
+        </table>
       </section>`;
 }).join('\n');
 
@@ -116,14 +113,16 @@ const basileiPage = `<!DOCTYPE html>
       <nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="{{href:leadership}}">Leadership and Lineage</a></li><li aria-current="page">Past Basilei</li></ol></nav>
       <p class="eyebrow">Our Legacy</p>
       <h1>Past Basilei</h1>
-      <p>The brothers who have served as Basileus, the chapter's presiding officer, since 1977. ${basilei.length} years are recorded; the current Basileus is <a href="{{href:leadership}}#officers">Brother Eugene Gibbs</a>.</p>
+      <p>Honoring the brothers who have led the chapter as Basileus since 1977. Representing ${basilei.length} recorded years of leadership, the mantle of presiding officer is currently held by Brother Eugene Gibbs.</p>
     </div>
   </div>
 
   <section class="section">
     <div class="container">
-      <nav aria-label="Decades"><ul class="jump">${Object.keys(byDecade).map((d) => `<li><a href="#basilei-${d}">${d}</a></li>`).join('')}</ul></nav>
+      <div class="tabs" data-tabs data-tabs-default="basilei-${Object.keys(byDecade).slice(-1)[0]}">
+        <div class="tabs__list" role="tablist" aria-label="Decades">${Object.keys(byDecade).map((d) => `<button type="button" role="tab" id="tab-basilei-${d}" aria-controls="basilei-${d}" aria-selected="false" tabindex="-1">${d}</button>`).join('')}</div>
 ${decadeTables}
+      </div>
     </div>
   </section>
 </main>
