@@ -6,7 +6,7 @@ Source of the shared CSS and JS: `tooling/mock-src/`. Rebuild with `node tooling
 
 ## What is real and what is sample
 
-Every date, place, name, amount and quotation comes from lambdaxi1911.com as captured on 23 September 2026 (see `../source/content.txt` and the event page reports). One item is marked sample: the general chapter email address, which the live site does not publish. The nav links for pages that do not have a mock yet open the live page in a new tab with an external marker; they switch to the mock automatically when that page is built.
+Every date, place, name, amount and quotation comes from lambdaxi1911.com as captured on 23 September 2026 (see `../source/content.txt` and the event page reports). Nothing on the page is sample data. The nav links for pages that do not have a mock yet open the live page in a new tab with an external marker; they switch to the mock automatically when that page is built.
 
 Not carried over on purpose: the timed promo popup, the cookie banner, the Issuu embed (replaced by links), the Facebook, New Relic and Google Maps scripts, and the repo mock's subscribe form and hero video (neither exists on the live site; the form delivered nothing).
 
@@ -37,11 +37,11 @@ Steps are clicks, taps and typed fields from arriving on the page. "Repo mock" i
 | Souvenir journal viewer | Link to the same Issuu document, plus both newsletters |
 | Social links | Footer |
 | Mobile drawer with expandable groups | Menu button, nav with disclosure buttons, Escape closes |
-| Map via mobile bar | Map link in footer and contact block on every width |
+| Map via mobile bar | Map link on the Contact page |
 | Promo popup for the YLC | YLC card in the events list with the registration link |
 | Cookie banner | No third-party scripts, so none needed |
 
-Added: events and deadlines list, chapter facts, gallery preview with captions, contact block, theme toggle, skip link, landmarks, `aria-current`.
+Added: events this month and next, theme toggle, skip link, landmarks, `aria-current`.
 
 ## Verification
 
@@ -78,9 +78,9 @@ Applied to the home page and, where shared, to every page:
 | Hero buttons | Removed |
 | Events: this month and next, updating on its own | `events.js` reads `tooling/mock-src/data/events.json`, inlined into the page at build, and shows events whose dates fall in the current and next month in Korea time; when there are none it says so and links to the Events page. The Events page uses the same script and data for its Upcoming and Held lists, so the two never disagree. The chapter maintains one file. |
 | "The chapter at a glance" | Removed; the charter date moved into the hero sentence, the awards remain on History |
-| "Chapter moments" strip | One featured photograph with a caption and a link to the Gallery; no slideshow |
+| "Chapter moments" strip | Removed; the Gallery is one click away in the header |
 | News section and Get in Touch section | Removed; both remain in the header |
 | Footer | Social links and "© RoK Hard Since 1977" only, on every page |
 | Spacing | One section rhythm (`clamp(3rem, 6vw, 4.5rem)`) on every page; one text column at 70 characters; one card grid on the page |
 
-The page is now five blocks: header, hero, message, events this month and next, one featured photo, footer. Verified after the change: axe clean at five widths in both themes, no overflow, focus and dropdown checks pass. `merged/index.html` is the review hub listing every built page with its status.
+The page is now four blocks: header, hero, message, events this month and next, footer. Verified after the change: axe clean at five widths in both themes, no overflow, focus and dropdown checks pass. `merged/index.html` is the review hub listing every built page with its status.
