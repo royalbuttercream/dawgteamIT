@@ -150,6 +150,7 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .program { display: grid; gap: var(--space-4); align-items: start; scroll-margin-top: calc(var(--target) + var(--space-8)); }
 .program picture { display: block; }
 .program img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); }
+@media (max-width: 639px) { .program img { aspect-ratio: 2 / 1; } } /* shorter photos on phones so more than one programme fits a screen */
 .program h2 { margin-top: 0; }
 .program p:last-child { margin-bottom: 0; }
 .two-col-list { columns: 2; column-gap: var(--space-5); padding-left: 1.25rem; }

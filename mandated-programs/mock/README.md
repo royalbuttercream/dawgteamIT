@@ -46,3 +46,7 @@ Each of the twelve photos is a `<picture>` element: WebP sources at 400, 700 and
 ## Notes moved off the page, 24 September 2026
 
 Descriptions and photographs are from the live page as captured on 23 September 2026. Four images (blood drive, NAACP, STEM, voting) are stock graphics marked decorative. Five rows link to the chapter's own pages, which the live page did not. The live NAACP text's "could standing" is corrected to "good standing".
+
+## Layout change, 24 September 2026
+
+At the operator's direction the row of jump links at the top was removed; the twelve programmes read as alternating photo-and-text rows, and on phones the photos are shorter (2:1) so more than one programme fits a screen.
