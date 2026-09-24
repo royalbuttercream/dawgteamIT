@@ -6,7 +6,8 @@
 //   docs/<path>/index.html + shared css/js, docs/assets/, and one redirect stub per live URL (data/redirects.json)
 //   docs/ is the tree GitHub Pages serves (Settings > Pages: main, /docs).
 // Nav targets without a mock yet point at the live page and are marked external by mock.js.
-import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, readdirSync, rmSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join, dirname, basename, posix } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -60,9 +61,28 @@ const partial = (name) => readFileSync(join(SRC, 'partials', `${name}.html`), 'u
 const pageSources = readdirSync(join(SRC, 'pages')).filter((f) => f.endsWith('.html')).map((f) => basename(f, '.html'));
 const hasMock = (key) => pageSources.includes(key);
 
+// Content Security Policy for the served site. The only inline script is the theme pre-paint in
+// partials/head.html; its hash is computed here so the policy stays valid when that script changes.
+// Standalone and merged mocks are opened from file://, where 'self' is unreliable, so they get none.
+const inlineScript = (partial('head').match(/<script>([\s\S]*?)<\/script>/) || [])[1];
+if (!inlineScript) throw new Error('partials/head.html: inline theme script not found; CSP hash cannot be computed');
+const scriptHash = `'sha256-${createHash('sha256').update(inlineScript).digest('base64')}'`;
+const CSP = [
+  "default-src 'self'",
+  `script-src 'self' ${scriptHash}`,
+  "style-src 'self' https://fonts.googleapis.com",
+  "font-src https://fonts.gstatic.com",
+  "img-src 'self' data: https://custom-images.strikinglycdn.com",
+  "frame-src https://docs.google.com",
+  "connect-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'none'",
+].join('; ');
+const cspTag = `<meta http-equiv="Content-Security-Policy" content="${CSP}">\n`;
 const eventsJson = readFileSync(join(SRC, 'data', 'events.json'), 'utf8').replace(/<\/script/gi, '<\\/script');
 function resolve(html, { currentKey, mode }) {
-  const withPartials = html.replace('{{head}}', partial('head')).replace('{{header}}', partial('header')).replace('{{footer}}', partial('footer')).replace('{{events:json}}', eventsJson);
+  const withPartials = html.replace('{{head}}', partial('head')).replace('{{header}}', partial('header')).replace('{{footer}}', partial('footer')).replace('{{events:json}}', eventsJson).replace('{{csp}}', mode === 'site' ? cspTag : '');
   const assets = new Set();
   const out = withPartials
     .replace(/\{\{href:(\w+)\}\}/g, (_, key) => {
@@ -85,10 +105,14 @@ function copyShared(dir) {
 }
 
 const mergedDir = join(ROOT, 'merged');
+const siteRoot = join(ROOT, 'docs');
+// Generated trees are rebuilt from scratch so a renamed page cannot leave a stale folder behind.
+rmSync(mergedDir, { recursive: true, force: true });
+rmSync(siteRoot, { recursive: true, force: true });
 mkdirSync(mergedDir, { recursive: true });
 copyShared(mergedDir);
 const allAssets = new Set();
-const siteRoot = join(ROOT, 'docs');
+const missingAssets = [];
 
 for (const key of pageSources) {
   const page = PAGES[key];
@@ -110,12 +134,16 @@ for (const key of pageSources) {
 
 for (const asset of allAssets) {
   const from = join(ROOT, asset);
-  if (!existsSync(from)) { console.log(`MISSING asset ${asset}`); continue; }
+  if (!existsSync(from)) { missingAssets.push(asset); continue; }
   const to = join(mergedDir, 'assets', asset);
   mkdirSync(dirname(to), { recursive: true });
   copyFileSync(from, to);
 }
 console.log(`merged assets: ${allAssets.size}`);
+if (missingAssets.length) {
+  console.error(`BUILD FAILED: ${missingAssets.length} referenced asset(s) do not exist:\n  ${missingAssets.join('\n  ')}`);
+  process.exit(1);
+}
 for (const asset of allAssets) {
   const from = join(ROOT, asset);
   if (!existsSync(from)) continue;
