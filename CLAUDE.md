@@ -2,27 +2,13 @@
 
 ## Project Overview
 This is the official website for **Lambda Xi Chapter of Omega Psi Phi Fraternity, Inc.**
-Built with static HTML pages (`.dc.html` format from Claude's design canvas), rendered via `support.js`.
+Static HTML built from `tooling/mock-src/` by `node tooling/build-mocks.mjs`. GitHub Pages serves the `docs/` output.
 
 ## Site Structure
-All pages live in `Lambda Xi 1911 optimization/`:
-
-| File | Page |
-|------|------|
-| `Lambda Xi Homepage.dc.html` | Home (also contains #gallery, #events, #contact anchors) |
-| `history-of-omega-psi-phi.dc.html` | History of Omega Psi Phi (parent org) |
-| `history-of-lambda-xi.dc.html` | History of Lambda Xi chapter |
-| `executive-officers.dc.html` | Current officers |
-| `past-basilei.dc.html` | Past chapter leaders |
-| `lineage.dc.html` | Member lineage |
-| `mandated-programs.dc.html` | Fraternity mandated programs |
-| `scholarships.dc.html` | Scholarship information |
-| `50th-anniversary-gala.dc.html` | Events (50th Anniversary Gala) |
-| `news.dc.html` | News and announcements |
-| `contact-us.dc.html` | Contact page |
+Page sources are `tooling/mock-src/pages/<key>.html`; the key to folder mapping is `PAGES` and `SITE_PATHS` in `tooling/build-mocks.mjs`. Nine sections: Home `/`, History `/history/`, Leadership and Lineage `/leadership/` (officers, past basilei, lineage beneath it), Mandated Programs `/programs/`, Scholarships `/scholarships/`, Events `/events/` (one page per event beneath it), Gallery `/gallery/` (one page per year beneath it), News `/news/`, Contact `/contact/`. Each page folder also holds a `<slug>/mock/` standalone copy, the live-site audit (`report.md`, `source/`) and a README recording provenance and sign-off.
 
 ## Navigation
-Each `.dc.html` page defines its own `navItems` array inside its `<script data-dc-script>` block (not `support.js`). The home copy uses anchor links; the other ten use file links. Keep them in step until the pages share one header.
+One shared header and footer: `tooling/mock-src/partials/header.html` and `footer.html`. Links use `{{href:key}}` and the build resolves them for every output. Do not hard-code page paths.
 
 ## Design system (approved 2026-09-23)
 The palette and typefaces already used by the `.dc.html` pages are the brand system. The live site (lambdaxi1911.com) is reference for content and behaviour, not for colour or type. Token values, light theme:
@@ -55,31 +41,30 @@ Every form posts to a Google Form (embed or link). No custom submit handlers, no
 `report.md`, `mock-recommendations.md` and `<page>/report.md` hold the live-site audit. Phase B mocks live in `<page>/mock/`; shared source for their CSS and JS is `tooling/mock-src/`, copied into each mock folder by `tooling/build-mocks.mjs`. Each mock must pass the `frontend-reviewer` agent and an axe run at 375, 768 and 1440 before sign-off.
 
 ## Images
-- Local images live in `images/` at the repo root, organized by section (e.g., `images/history-of-lambda-xi/`, `images/shared/`)
-- Some images still reference the old Strikingly CDN — these should be migrated to local `images/` paths over time
-- Officer photos are currently hosted on Strikingly CDN
+- Local images live in `images/` at the repo root, organized by section (e.g., `images/history-of-lambda-xi/`, `images/shared/`); the build copies referenced files into `docs/assets/`.
+- Gallery photographs still load from the Strikingly CDN; migrate them to `images/` before the domain moves.
 
 ## External Links & Integrations
 - **Parent organization**: Links to Omega Psi Phi national/district sites
-- **Email**: Contact form or mailto links on `contact-us.dc.html`
-- **Interactive media**: Placeholder for embedded video, audio, or social media content (YouTube, Instagram, etc.)
+- **Forms**: scholarship application and contact message are Google Forms owned by the chapter account; creation scripts in `tooling/forms/`
+- **Newsletters and journal**: links to the chapter's Issuu documents on the News page
 
 ## Deployment
 - Hosted on **GitHub Pages** at `https://royalbuttercream.github.io/dawgteamIT/`, served from the `docs/` folder on `main` (cut over 2026-09-24).
 - `docs/` is build output: edit `tooling/mock-src/`, run `node tooling/build-mocks.mjs`, commit the result. Never hand-edit `docs/`, `merged/` or `<slug>/mock/`.
 - Old live URLs are covered by redirect stubs generated from `tooling/mock-src/data/redirects.json`.
 - Repo: `git@github.com:royalbuttercream/dawgteamIT.git`; pushes to `main` deploy automatically.
-- The `.dc.html` pages under `Lambda Xi 1911 optimization/` are the previous site, kept for reference and no longer served.
+- The previous `.dc.html` site was removed on 2026-09-24; it remains in git history before that date.
 
 ## Workflow for Adding Images
-1. Drop image files into the appropriate `images/` subfolder
-2. Run `./upload.sh` from the repo root to commit and push to GitHub
-3. Reference images in HTML as `../images/<section>/<filename>`
+1. Drop compressed image files into the appropriate `images/` subfolder
+2. Reference them in the page source as `{{img:images/<section>/<filename>}}`
+3. Run `node tooling/build-mocks.mjs`, review, then commit the source and the `docs/` output together
 
 ## Key Rules
-- Do not rename `.dc.html` files — `support.js` and internal nav links depend on exact filenames
-- Keep images web-optimized (compress before adding; prefer `.jpg` for photos, `.png` for logos/crests)
-- Test nav links after any structural changes — the nav array in `support.js` drives all page routing
+- Never hand-edit `docs/`, `merged/` or `<slug>/mock/`; they are build output
+- Keep images web-optimized (compress before adding; prefer `.jpg` for photos, `.png` for logos/crests; programme photos ship WebP and JPEG renditions)
+- Changing a page's folder means a redirect: update `SITE_PATHS` and `tooling/mock-src/data/redirects.json` together
 
 ## Session Rules
 - Never read image files or anything under `images/`.
