@@ -174,20 +174,6 @@
     });
   }
 
-  function initEmbedFocus() {
-    // Focus inside a cross-origin iframe cannot be styled from this document (:focus and :focus-within do not
-    // match), so mark the wrapper while the frame holds focus and clear it when focus returns.
-    var embeds = document.querySelectorAll('.embed');
-    if (!embeds.length) return;
-    function sync() {
-      var active = document.activeElement;
-      Array.prototype.forEach.call(embeds, function (box) { box.classList.toggle('is-focused', !!active && box.contains(active) && active.tagName === 'IFRAME'); });
-    }
-    window.addEventListener('blur', sync); // activeElement is already the frame when the window blurs
-    window.addEventListener('focus', function () { setTimeout(sync, 0); });
-    document.addEventListener('focusin', sync);
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
     initDropdowns();
@@ -195,6 +181,5 @@
     markExternalLinks();
     initDialogs();
     initTabs();
-    initEmbedFocus();
   });
 })();

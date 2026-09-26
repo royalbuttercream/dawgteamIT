@@ -32,7 +32,7 @@ The palette and typefaces in `tooling/mock-src/tokens.css` are the brand system.
 Dark theme values live in `tooling/mock-src/tokens.css` and must also pass WCAG 2.2 AA. Typefaces: Playfair Display (headings), Libre Franklin (body and UI), Archivo Black (display numerals only). Mono stack: `ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`. Do not add gradients, palettes or typefaces beyond these.
 
 ## Forms
-Every form posts to a Google Form or, where applicants must upload files without signing in, a Tally form (embed or link). Build sheets live in `tooling/forms/`. No custom submit handlers, no `localStorage` stand-ins, no success copy that a real submission did not produce.
+Every form posts to a Google Form (embed or link); no other form service. Build sheets live in `tooling/forms/`. No file-upload questions: Google then makes applicants sign in. Documents travel by email. Every form must open from a private window without a login. No custom submit handlers, no `localStorage` stand-ins, no success copy that a real submission did not produce.
 
 ## Events data
 `tooling/mock-src/data/events.json` is the single list of chapter events (title, start, end, place, summary, page key). The build embeds it into the home and Events mocks; `events.js` shows this month and next on home and the full list on Events, formatting dates in Korea time. Event pages take their date and venue from it too, through `{{event:<id>:when}}` and `{{event:<id>:place}}`; the build fails on an unknown id or a bad record. Add or edit events there; never type a date or venue into a page.
