@@ -16,7 +16,7 @@ const ROOT = join(here, '..');
 const SRC = join(here, 'mock-src');
 const LIVE = 'https://www.lambdaxi1911.com';
 
-// key -> { mock folder slug, live path }
+// key -> { mock folder slug, live path }. A page with draft: true is written to merged/ only, for review.
 export const PAGES = {
   home: { slug: 'home', live: '/', title: 'Home' },
   history: { slug: 'history-of-lambda-xi', live: '/history-of-lambda-xi', title: 'History' },
@@ -28,18 +28,21 @@ export const PAGES = {
   events: { slug: 'events', live: '/50th-anniversary-gala', title: 'Events' },
   achievementWeek: { slug: 'achievement-week', live: '/achievement-week', title: 'Achievement Week' },
   ylc: { slug: 'youth-leadership-conference', live: '/youth-leadership-conference', title: 'Youth Leadership Conference' },
-  allStar: { slug: 'all-star-game', live: '/all-star-game', title: 'All Star Game' },
+  allStar: { slug: 'all-star-game', live: '/all-star-game', title: 'All-Star Game' },
   anniversary: { slug: '50th-anniversary-gala', live: '/50th-anniversary-gala', title: '50th Anniversary' },
   gallery: { slug: 'gallery', live: '/2025', title: 'Gallery' },
   gallery2025: { slug: 'gallery-2025', live: '/2025', title: 'Gallery 2025' },
   gallery2024: { slug: 'gallery-2024', live: '/2024', title: 'Gallery 2024' },
+  gallery2024Draft: { slug: 'gallery-2024-draft', title: 'Gallery 2024 (draft for review)', draft: true },
   gallery2023: { slug: 'gallery-2023', live: '/2023', title: 'Gallery 2023' },
   gallery2022: { slug: 'gallery-2022', live: '/2022', title: 'Gallery 2022' },
+  gallery2022Draft: { slug: 'gallery-2022-draft', title: 'Gallery 2022 (draft for review)', draft: true },
   gallery2021: { slug: 'gallery-2021', live: '/2021', title: 'Gallery 2021' },
   gallery2017_2020: { slug: 'gallery-2017-2020', live: '/2017-2020', title: 'Gallery 2017 to 2020' },
   nye: { slug: 'new-years-eve-party', live: '/new-year-s-eve-party', title: "New Year's Eve Party" },
   news: { slug: 'news', live: '/news', title: 'News' },
   contact: { slug: 'contact-us', live: '/contact-us', title: 'Contact' },
+  contactDraft: { slug: 'contact-draft', title: 'Contact (draft for review)', draft: true },
 };
 
 // key -> folder in the built site (trailing slash implied; each folder gets an index.html)
@@ -146,14 +149,15 @@ const missingAssets = [];
 for (const key of pageSources) {
   const page = PAGES[key];
   const src = readFileSync(join(SRC, 'pages', `${key}.html`), 'utf8');
+  const merged = resolve(src, { currentKey: key, mode: 'merged' });
+  writeFileSync(join(mergedDir, `${page.slug}.html`), merged.html);
+  merged.assets.forEach((a) => allAssets.add(a));
+  if (page.draft) { console.log(`built draft ${page.slug}: merged/${page.slug}.html only`); continue; }
   const dir = join(ROOT, page.slug, 'mock');
   mkdirSync(dir, { recursive: true });
   const standalone = resolve(src, { currentKey: key, mode: 'standalone' });
   writeFileSync(join(dir, `${page.slug}-mock.html`), standalone.html);
   copyShared(dir);
-  const merged = resolve(src, { currentKey: key, mode: 'merged' });
-  writeFileSync(join(mergedDir, `${page.slug}.html`), merged.html);
-  merged.assets.forEach((a) => allAssets.add(a));
   const siteDir = join(siteRoot, SITE_PATHS[key]);
   mkdirSync(siteDir, { recursive: true });
   writeFileSync(join(siteDir, 'index.html'), resolve(src, { currentKey: key, mode: 'site' }).html);
@@ -194,7 +198,7 @@ for (const r of redirects) {
   writeFileSync(join(dir, 'index.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${target}"><link rel="canonical" href="${target}"><meta name="robots" content="noindex"><title>${title}</title></head><body><p>This page has moved to <a href="${target}">${title}</a>.</p></body></html>\n`);
   stubs++;
 }
-console.log(`site: ${pageSources.length} pages, ${stubs} redirect stubs, ${allAssets.size} assets in docs/`);
+console.log(`site: ${pageSources.filter((k) => !PAGES[k].draft).length} pages, ${stubs} redirect stubs, ${allAssets.size} assets in docs/`);
 
 // Review hub: one page listing every built mock with its status (tooling/mock-src/data/status.json).
 const statusPath = join(SRC, 'data', 'status.json');
