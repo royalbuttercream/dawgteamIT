@@ -33,16 +33,13 @@ export const PAGES = {
   gallery: { slug: 'gallery', live: '/2025', title: 'Gallery' },
   gallery2025: { slug: 'gallery-2025', live: '/2025', title: 'Gallery 2025' },
   gallery2024: { slug: 'gallery-2024', live: '/2024', title: 'Gallery 2024' },
-  gallery2024Draft: { slug: 'gallery-2024-draft', title: 'Gallery 2024 (draft for review)', draft: true },
   gallery2023: { slug: 'gallery-2023', live: '/2023', title: 'Gallery 2023' },
   gallery2022: { slug: 'gallery-2022', live: '/2022', title: 'Gallery 2022' },
-  gallery2022Draft: { slug: 'gallery-2022-draft', title: 'Gallery 2022 (draft for review)', draft: true },
   gallery2021: { slug: 'gallery-2021', live: '/2021', title: 'Gallery 2021' },
   gallery2017_2020: { slug: 'gallery-2017-2020', live: '/2017-2020', title: 'Gallery 2017 to 2020' },
   nye: { slug: 'new-years-eve-party', live: '/new-year-s-eve-party', title: "New Year's Eve Party" },
   news: { slug: 'news', live: '/news', title: 'News' },
   contact: { slug: 'contact-us', live: '/contact-us', title: 'Contact' },
-  contactDraft: { slug: 'contact-draft', title: 'Contact (draft for review)', draft: true },
 };
 
 // key -> folder in the built site (trailing slash implied; each folder gets an index.html)
