@@ -1,4 +1,4 @@
-/* Shared behaviour for the Lambda Xi mocks: theme choice, navigation menus,
+/* Shared behavior for the Lambda Xi mocks: theme choice, navigation menus,
    external-link marking. No framework, no network. The pre-paint theme script is
    inline in each page head; this file adds the toggle and keeps System live. */
 (function () {
