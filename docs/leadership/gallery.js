@@ -1,4 +1,4 @@
-/* Gallery behaviour: "Show more" paging per album, and an accessible lightbox.
+/* Gallery behavior: "Show more" paging per album, and an accessible lightbox.
    Progressive: without JavaScript every photo link opens the large image directly. */
 (function () {
   'use strict';

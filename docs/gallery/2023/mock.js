@@ -1,4 +1,4 @@
-/* Shared behaviour for the Lambda Xi mocks: theme choice, navigation menus,
+/* Shared behavior for the Lambda Xi mocks: theme choice, navigation menus,
    external-link marking. No framework, no network. The pre-paint theme script is
    inline in each page head; this file adds the toggle and keeps System live. */
 (function () {
@@ -19,21 +19,22 @@
   }
 
   function initThemeToggle() {
-    var group = document.querySelector('[data-theme-toggle]');
-    if (!group) return;
-    var choice = storedChoice();
-    var radios = group.querySelectorAll('input[type="radio"]');
-    Array.prototype.forEach.call(radios, function (radio) {
-      radio.checked = radio.value === choice;
-      radio.addEventListener('change', function () {
-        if (!radio.checked) return;
-        try { localStorage.setItem(STORAGE_KEY, radio.value); } catch (e) { /* private mode: choice lasts this page only */ }
-        applyTheme(radio.value);
-      });
+    // Follows the system preference until the visitor presses the button; each press picks the other theme and remembers it.
+    var button = document.querySelector('[data-theme-toggle]');
+    if (!button) return;
+    function label() {
+      button.setAttribute('aria-label', root.getAttribute('data-theme') === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+    }
+    button.addEventListener('click', function () {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem(STORAGE_KEY, next); } catch (e) { /* private mode: choice lasts this page only */ }
+      applyTheme(next);
+      label();
     });
     media.addEventListener('change', function () {
-      if (storedChoice() === 'system') applyTheme('system');
+      if (storedChoice() === 'system') { applyTheme('system'); label(); }
     });
+    label();
   }
 
   function closeAll(except) {
@@ -174,20 +175,6 @@
     });
   }
 
-  function initEmbedFocus() {
-    // Focus inside a cross-origin iframe cannot be styled from this document (:focus and :focus-within do not
-    // match), so mark the wrapper while the frame holds focus and clear it when focus returns.
-    var embeds = document.querySelectorAll('.embed');
-    if (!embeds.length) return;
-    function sync() {
-      var active = document.activeElement;
-      Array.prototype.forEach.call(embeds, function (box) { box.classList.toggle('is-focused', !!active && box.contains(active) && active.tagName === 'IFRAME'); });
-    }
-    window.addEventListener('blur', sync); // activeElement is already the frame when the window blurs
-    window.addEventListener('focus', function () { setTimeout(sync, 0); });
-    document.addEventListener('focusin', sync);
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
     initDropdowns();
@@ -195,6 +182,5 @@
     markExternalLinks();
     initDialogs();
     initTabs();
-    initEmbedFocus();
   });
 })();
