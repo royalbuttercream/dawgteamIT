@@ -32,6 +32,8 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .container { width: min(100% - 2 * var(--space-5), var(--container)); margin-inline: auto; }
 .prose { max-width: var(--measure); overflow-wrap: anywhere; }
+.prose blockquote { margin: 0 0 var(--space-4); padding: var(--space-2) var(--space-4); border-left: 4px solid var(--brand-gold); }
+.prose blockquote p { margin: 0; }
 .eyebrow { font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; color: var(--muted); margin: 0 0 var(--space-2); }
 .section { padding-block: clamp(var(--space-7), 6vw, var(--space-8)); }
 .section--alt { background: var(--panel); border-block: 1px solid var(--rule-soft); }
