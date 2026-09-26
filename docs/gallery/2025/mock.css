@@ -32,6 +32,8 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .container { width: min(100% - 2 * var(--space-5), var(--container)); margin-inline: auto; }
 .prose { max-width: var(--measure); overflow-wrap: anywhere; }
+.prose blockquote { margin: 0 0 var(--space-4); padding: var(--space-2) var(--space-4); border-left: 4px solid var(--brand-gold); }
+.prose blockquote p { margin: 0; }
 .eyebrow { font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; color: var(--muted); margin: 0 0 var(--space-2); }
 .section { padding-block: clamp(var(--space-7), 6vw, var(--space-8)); }
 .section--alt { background: var(--panel); border-block: 1px solid var(--rule-soft); }
@@ -43,6 +45,8 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 
 /* Header */
 .site-header { background: var(--brand-purple); color: var(--on-brand); position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--on-brand-rule); }
+/* While the phone menu is open the header can be taller than the screen; let it scroll so the last links stay reachable. */
+body.menu-open .site-header { max-height: 100vh; max-height: 100dvh; overflow-y: auto; overscroll-behavior: contain; }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); min-height: 64px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: var(--space-3); color: var(--on-brand); text-decoration: none; padding-block: var(--space-2); }
 .brand img { width: 44px; height: 44px; object-fit: contain; }
@@ -67,13 +71,11 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .nav__menu a:hover { background: var(--on-brand-hover); color: var(--on-brand); }
 .nav__cta { margin-top: var(--space-2); }
 
-.theme-toggle { display: inline-flex; border: 1px solid var(--on-brand-rule); border-radius: var(--radius-pill); padding: 2px; margin: 0; }
-.theme-toggle legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-.theme-toggle label { position: relative; display: inline-flex; align-items: center; justify-content: center; min-width: 40px; min-height: 36px; padding: 0 var(--space-2); border-radius: var(--radius-pill); color: var(--on-brand); font-size: 0.8rem; cursor: pointer; }
-.theme-toggle input { position: absolute; inset: 0; margin: 0; opacity: 0; cursor: pointer; }
-.theme-toggle input:checked + span { background: var(--brand-gold); color: var(--on-gold); }
-.theme-toggle input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
-.theme-toggle span { display: inline-flex; align-items: center; justify-content: center; min-width: 40px; min-height: 32px; padding: 0 var(--space-2); border-radius: var(--radius-pill); }
+/* One icon button: moon on the light theme (switches to dark), sun on the dark theme (switches to light). */
+.theme-toggle { display: inline-flex; align-items: center; justify-content: center; min-width: var(--target); min-height: var(--target); padding: 0; background: transparent; color: var(--on-brand); border: 1px solid var(--on-brand-rule); border-radius: var(--radius); cursor: pointer; }
+.theme-toggle:hover { background: var(--on-brand-hover); }
+.theme-toggle svg { width: 22px; height: 22px; }
+:root[data-theme="light"] .theme-toggle .icon-sun, :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); min-height: var(--target); padding: var(--space-2) var(--space-5); border-radius: var(--radius-pill); font-weight: 700; text-decoration: none; border: 2px solid transparent; cursor: pointer; font: inherit; font-weight: 700; }
@@ -118,9 +120,6 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 .schedule { border-collapse: collapse; width: 100%; max-width: 40rem; margin: 0 0 var(--space-4); }
 .schedule th, .schedule td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
 .schedule th { font-weight: 700; }
-.embed { border: 1px solid var(--rule-soft); border-radius: var(--radius); overflow: hidden; background: var(--panel); }
-.embed iframe { display: block; width: 100%; min-height: 70vh; border: 0; }
-.embed.is-focused iframe { outline: 3px solid var(--focus); outline-offset: -3px; } /* focus inside a cross-origin frame is invisible to CSS here; mock.js sets is-focused while the frame holds it */
 .notice { border-left: 4px solid var(--warn); background: var(--warn-soft); color: var(--warn); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius) var(--radius) 0; margin: 0 0 var(--space-4); }
 .notice a { color: inherit; }
 
