@@ -71,13 +71,11 @@ body.menu-open .site-header { max-height: 100vh; max-height: 100dvh; overflow-y:
 .nav__menu a:hover { background: var(--on-brand-hover); color: var(--on-brand); }
 .nav__cta { margin-top: var(--space-2); }
 
-.theme-toggle { display: inline-flex; border: 1px solid var(--on-brand-rule); border-radius: var(--radius-pill); padding: 2px; margin: 0; }
-.theme-toggle legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-.theme-toggle label { position: relative; display: inline-flex; align-items: center; justify-content: center; min-width: 40px; min-height: 36px; padding: 0 var(--space-2); border-radius: var(--radius-pill); color: var(--on-brand); font-size: 0.8rem; cursor: pointer; }
-.theme-toggle input { position: absolute; inset: 0; margin: 0; opacity: 0; cursor: pointer; }
-.theme-toggle input:checked + span { background: var(--brand-gold); color: var(--on-gold); }
-.theme-toggle input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
-.theme-toggle span { display: inline-flex; align-items: center; justify-content: center; min-width: 40px; min-height: 32px; padding: 0 var(--space-2); border-radius: var(--radius-pill); }
+/* One icon button: moon on the light theme (switches to dark), sun on the dark theme (switches to light). */
+.theme-toggle { display: inline-flex; align-items: center; justify-content: center; min-width: var(--target); min-height: var(--target); padding: 0; background: transparent; color: var(--on-brand); border: 1px solid var(--on-brand-rule); border-radius: var(--radius); cursor: pointer; }
+.theme-toggle:hover { background: var(--on-brand-hover); }
+.theme-toggle svg { width: 22px; height: 22px; }
+:root[data-theme="light"] .theme-toggle .icon-sun, :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); min-height: var(--target); padding: var(--space-2) var(--space-5); border-radius: var(--radius-pill); font-weight: 700; text-decoration: none; border: 2px solid transparent; cursor: pointer; font: inherit; font-weight: 700; }

@@ -84,15 +84,17 @@ for (const width of [320, 375, 768, 1280, 1440]) {
   }
 }
 
-// Theme persistence: choose Dark, reload, expect dark regardless of OS scheme.
+// Theme persistence: press the toggle on a light OS (gives dark), reload, expect dark regardless of OS scheme.
+// With nothing stored the page follows the OS scheme live.
 {
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, colorScheme: 'light' });
   const page = await ctx.newPage();
   await page.goto(url, { waitUntil: 'load' });
-  await page.locator('[data-theme-toggle] input[value="dark"]').check({ force: true });
+  await page.locator('[data-theme-toggle]').click();
   await page.reload({ waitUntil: 'load' });
-  const afterReload = await page.evaluate(() => [document.documentElement.getAttribute('data-theme'), document.querySelector('[data-theme-toggle] input:checked').value]);
-  await page.locator('[data-theme-toggle] input[value="system"]').check({ force: true });
+  const afterReload = await page.evaluate(() => [document.documentElement.getAttribute('data-theme'), document.querySelector('[data-theme-toggle]').getAttribute('aria-label')]);
+  await page.evaluate(() => localStorage.removeItem('lambdaxi-theme'));
+  await page.reload({ waitUntil: 'load' });
   await page.emulateMedia({ colorScheme: 'dark' });
   await page.waitForTimeout(200);
   const systemDark = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
@@ -100,7 +102,7 @@ for (const width of [320, 375, 768, 1280, 1440]) {
   await page.waitForTimeout(200);
   const systemLight = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
   results.themePersistence = { afterReload, systemDark, systemLight };
-  const ok = afterReload[0] === 'dark' && afterReload[1] === 'dark' && systemDark === 'dark' && systemLight === 'light';
+  const ok = afterReload[0] === 'dark' && afterReload[1] === 'Switch to light theme' && systemDark === 'dark' && systemLight === 'light';
   if (!ok) failures++;
   console.log(`[theme] persisted after reload: ${afterReload.join('/')}; system follows OS: dark=${systemDark} light=${systemLight} ${ok ? 'OK' : 'FAIL'}`);
   await ctx.close();
