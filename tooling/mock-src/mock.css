@@ -43,6 +43,8 @@ code, kbd { font-family: var(--mono); font-size: 0.9em; }
 
 /* Header */
 .site-header { background: var(--brand-purple); color: var(--on-brand); position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--on-brand-rule); }
+/* While the phone menu is open the header can be taller than the screen; let it scroll so the last links stay reachable. */
+body.menu-open .site-header { max-height: 100vh; max-height: 100dvh; overflow-y: auto; overscroll-behavior: contain; }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); min-height: 64px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: var(--space-3); color: var(--on-brand); text-decoration: none; padding-block: var(--space-2); }
 .brand img { width: 44px; height: 44px; object-fit: contain; }
