@@ -72,7 +72,7 @@ const CSP = [
   "style-src 'self' https://fonts.googleapis.com",
   "font-src https://fonts.gstatic.com",
   "img-src 'self' data: https://custom-images.strikinglycdn.com",
-  "frame-src https://docs.google.com https://tally.so",
+  "frame-src 'none'",
   "connect-src 'self'",
   "object-src 'none'",
   "base-uri 'self'",

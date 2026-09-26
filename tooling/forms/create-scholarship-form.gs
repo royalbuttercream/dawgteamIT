@@ -7,10 +7,11 @@
  *   2. Replace the editor contents with this file and click Run.
  *   3. Approve the permission prompt (the script only creates a form in your Drive).
  *   4. Open View > Logs. The log prints the edit URL and the public URL.
- *   5. In the form editor add one question by hand: "Completed application form
- *      and transcript", type File upload, PDF only, up to 10 MB, required.
- *      Apps Script cannot create file-upload questions.
- *   6. Send > link icon: copy the URL and paste it into the Scholarships page.
+ *   5. Do not add a file-upload question: Google then makes every applicant sign
+ *      in. Documents come by email, as the Scholarships page says.
+ *   6. Click Publish, set Responders to "Anyone with the link", and publish.
+ *      Test the public link in a private window; it must open without a login.
+ *   7. Copy the public URL and paste it into the Scholarships page.
  *
  * Questions follow the chapter's current online application plus the two
  * items from google-forms-spec.md (college and community involvement).
@@ -60,7 +61,7 @@ function createScholarshipForm() {
 
   form.addPageBreakItem()
     .setTitle('Documents')
-    .setHelpText('Add the file-upload question here by hand: completed application form and transcript, PDF, up to 10 MB, required.');
+    .setHelpText('Email the completed application form and your transcript as PDF attachments to lambdaxi1911@gmail.com with the subject "Scholarship application, [your name]".');
 
   Logger.log('Edit URL:   ' + form.getEditUrl());
   Logger.log('Public URL: ' + form.getPublishedUrl());
