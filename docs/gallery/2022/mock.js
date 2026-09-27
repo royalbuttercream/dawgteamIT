@@ -72,6 +72,9 @@
         }
       });
       item.addEventListener('focusout', function (event) {
+        // iOS Safari blurs with no relatedTarget when a link is tapped, before the click lands;
+        // closing here would hide the link under the finger. Taps outside are handled by the document click below.
+        if (!event.relatedTarget) return;
         if (!item.contains(event.relatedTarget)) {
           button.setAttribute('aria-expanded', 'false');
           menu.hidden = true;
