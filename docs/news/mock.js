@@ -84,6 +84,9 @@
     document.addEventListener('click', function (event) {
       if (!event.target.closest('.nav__item--has-menu')) closeAll(null);
     });
+    // Focus leaving the document (another window, the address bar) also blurs with no relatedTarget; close menus then too.
+    window.addEventListener('blur', function () { closeAll(null); });
+    document.addEventListener('visibilitychange', function () { if (document.hidden) closeAll(null); });
   }
 
   function initMobileMenu() {
@@ -100,7 +103,7 @@
     }
 
     function sync() {
-      if (mq.matches) { nav.hidden = false; document.body.classList.remove('menu-open'); toggle.setAttribute('aria-expanded', 'false'); }
+      if (mq.matches) { nav.hidden = false; document.body.classList.remove('menu-open'); toggle.setAttribute('aria-expanded', 'false'); toggle.setAttribute('aria-label', 'Open menu'); }
       else if (toggle.getAttribute('aria-expanded') !== 'true') nav.hidden = true;
     }
 

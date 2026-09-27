@@ -271,7 +271,7 @@ summary::-webkit-details-marker { color: var(--accent); }
 }
 
 @media (forced-colors: active) {
-  .btn, .card, .facts div, details, .event__date, .status, .lightbox button { border: 1px solid CanvasText; }
+  .btn, .card, .facts div, details, .event__date, .status, .lightbox button, .nav__menu { border: 1px solid CanvasText; }
   .nav__link[aria-current="page"] { text-decoration: underline; }
 }
 
