@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./images/**)",
+      "Read(./docs/**)",
+      "Read(./merged/**)",
+      "Read(./*/mock/**)",
+      "Read(./*/screenshots/**)",
+      "Read(./*/source/**)",
+      "Read(./tooling/node_modules/**)",
+      "Read(./tooling/*.log)",
+      "Read(./tooling/digest-*.txt)",
+      "Read(./tooling/mock-src/data/gallery.json)",
+      "Read(./tooling/mock-src/pages/gallery2*.html)"
+    ]
+  }
+}
